@@ -1,6 +1,7 @@
 module.exports = {
   title: 'Murmurations',
   description: 'Documentation for the Murmurations Protocol',
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
     logo: '/murmurations-logo.png',
     nav: [
