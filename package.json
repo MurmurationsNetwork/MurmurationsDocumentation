@@ -1,0 +1,12 @@
+{
+  "name": "murmurations-documentation",
+  "version": "1.0.0",
+  "description": "Documentation for the Murmurations Protocol",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
