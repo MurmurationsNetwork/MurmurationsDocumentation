@@ -30,7 +30,8 @@ module.exports = {
           children: [
             ['/guides/nodes','For nodes: put your project on the map'],
             ['/guides/aggregators','For aggregators: map your sector, area, or network'],
-            ['/guides/data-holders','For data holders: share data into the Murmurations ecosystem']
+            ['/guides/data-holders','For data holders: share data into the Murmurations ecosystem'],
+            ['/guides/create_a_schema','Create a Murmurations schema']
           ],
           collapsable: true,
           sidebarDepth: 2
