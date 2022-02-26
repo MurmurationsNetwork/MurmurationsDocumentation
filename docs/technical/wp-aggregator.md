@@ -2,15 +2,14 @@
 
 ## Overview
 
-The Murmurations Aggregator Wordpress plugin provides a quick and powerful way to set up a site that fetches and displays data from the Murmurations network. Out of the box, this data can be displayed on a geographic map, or in a directory. There are also endpoints compatible with Kumu to enable systems mapping, and client-side interfaces built in React that work embedded in the Wordpress site. Experimental features include the ability to aggregate and display feeds or posts from collected nodes, and fetching data from multiple sources and merging nodes based on their URLs.
+The Murmurations Aggregator Wordpress plugin provides a quick and powerful way to set up a site that fetches and displays data from the Murmurations network. Out of the box, this data can be displayed on a geographic map, or in a directory. There are also endpoints compatible with Kumu to enable systems mapping, and client-side interfaces built in React that can be embedded in the Wordpress site. Experimental features include the ability to aggregate and display feeds or posts from collected nodes, and fetching data from multiple sources and merging nodes based on their URLs.
 
 The Aggregator plugin code is in the [Github repo](https://github.com/MurmurationsNetwork/MurmurationsAggregatorWP).
 
 
 ## Installation
 
-The aggregator is not available through the WP plugin library. To install, download the .zip file from the tagged release at [](). Upload it to your /wp-content/plugins/ directory, and activte the plugin from the wp-admin/plugins.php.
-To install, download the .zip file from the latest release at [https://github.com/MurmurationsNetwork/MurmurationsAggregatorWP/releases/](https://github.com/MurmurationsNetwork/MurmurationsAggregatorWP/releases/). Upload it to your /wp-content/plugins/ directory, and activate the plugin.
+The aggregator is not available through the WP plugin library. To install, download the .zip file from the latest release at [https://github.com/MurmurationsNetwork/MurmurationsAggregatorWP/releases/](https://github.com/MurmurationsNetwork/MurmurationsAggregatorWP/releases/). Upload it to your /wp-content/plugins/ directory, and activate the plugin.
 
 
 ## Quick start configuration
@@ -23,7 +22,7 @@ To do a basic functionality test once you've activated the plugin:
 
 - Create a new WP page and add the shortcode `[murmurations_map]` to it.
 
-- On the Murmurations Aggregator admin dashboard, click "Update nodes from the network". You should then see some log output as the aggregator fetches node data from the netowork.
+- On the Murmurations Aggregator admin dashboard, click "Update nodes from the network". You should then see some log output as the aggregator fetches node data from the network.
 
 - Once this has completed, go to the page with the map shortcode and refresh. You should see a map of nodes you've downloaded from the network.
 
@@ -31,11 +30,11 @@ To do a basic functionality test once you've activated the plugin:
 ## Displaying nodes
 
 ### Archive and single pages
-By default, Wordpress displays nodes like other custom post types, by default accessible under under the path `example.com/murmurations_nodes`. This path can be customized by updating the `node_slug` setting.
+By default, Wordpress displays nodes like other custom post types, at the path `example.com/murmurations_nodes`. This path can be customized by updating the `node_slug` setting in the Advanced tab of the admin UI.
 
 ### Shortcodes
 
-Two shortcodes are built into the plugin, These are `[murmurations_directory]` (for displaying a basic directory of nodes) and `[murmurations_map]` (for showing a geographic map).
+Two shortcodes are built into the plugin. These are `[murmurations_directory]` for displaying a basic directory of nodes and `[murmurations_map]` for showing a geographic map.
 
 ### React interfaces
 For more advanced client-side functionality, including filters and search, install the [Murmurations React Interfaces](https://github.com/Photosynthesis/MurmurationsReactInterfacesWP).
@@ -46,7 +45,7 @@ This provides two additional shortcodes: `[murmurations_react_map]` and `[murmur
 
 Templates for the directory and map popup are overridable following the standard WP template hierarchy. All the directory interfaces (archive, shortcode, and React depending on settings) use the same template for displayin a node in the list. This template is in `templates/node_list_single.php`,
 
-For this template to be applied in the React interfaces, the `Node format sent to front-end interfaces` setting needs to be set to `HTML` rather than `JSON` (otherwise the markup is built in React and the template has no effect).
+For this template to be applied in the React interfaces, the `Node format sent to front-end interfaces` setting (at the bottom of the Dashboard tab in the Admin UI) needs to be set to `HTML` rather than `JSON` (otherwise the markup is built in React and the template has no effect).
 
 ## Feed aggregation
 
@@ -54,10 +53,33 @@ This experimental feature of the aggregator will find RSS URLs on node websites 
 
 There is currently not a built-in method for displaying feeds. However, any plugin or tool (or custom code) that will display a custom post type can be used for this.
 
-The feed items are stored as the custom post type `murms_feed_item`, and have `murms_feed_item_tag` and `murms_feed_item_source` taxonomies applied, which can be used for filtering.
+The feed items are stored as the custom post type `murms_feed_item`, and have `murms_feed_item_tag` and `murms_feed_item_source` taxonomies applied, which can be used for filtering. You will find the standard 'Archive' listings for feed items at https://youorsite.com/?post_type=murms_feed_item
 
 
 ## Settings reference
+
+### Dashboard Tab
+
+#### Node update interval
+How frequently should the locally-stored nodes be automatically refreshed from the network? For test installations, leave this set to `manual`. For most installations the recommended value is `weekly`.
+
+#### Ignore node update data when fetching nodes
+By default, the aggregator will only refresh nodes that have changed since it last collected nodes. If this is checked, the update date will be ignored, and all the nodes that match other query parameters will be collected, even if they have not changed since they were last downloaded.
+
+It is recommended to leave this unchecked for production sites (but useful to check for new installations and for testing)
+
+#### Updated node post status
+Post status for nodes that have been updated from the network. Set to 'Draft' if updated nodes should be reviewed before they are publicly viewable.
+
+#### New node post status
+Post status for new nodes from the network. Set to 'Draft' if new nodes should be reviewed before they are publicly viewable - this is useful if you want to moderate new entries.
+
+#### Nodes per page
+Controls how many nodes are shown per page in certain client-side interfaces.
+
+#### Node format sent to front-end interfaces
+
+For React interfaces, set whether the interface should request JSON data (layout handled by the interface), or HTML (layout handled by templates). Choose HTML to use overridable templates output in the React interfaces.
 
 ### Data Sources Tab
 
@@ -82,63 +104,13 @@ For each data source:
 
 An optional URL for a file that maps fields in the WP data base to fields in the schema. If the data you're collecting doesn't include `name` or `primary_url` fields, a custom field map file is required to map schema fields to required WP DB fields. Otherwise this can probably be left as default unless you are working with a specialized configuration.
 
-### Nodes Tab
-
-#### Node update interval
-How frequently should the locally-stored nodes be automatically refreshed from the network? For test installations, leave this set to `manual`. For most installations the recommended value is `weekly`.
-
-#### Ignore node update data when fetching nodes
-By default, the aggregator will only refresh nodes that have changed since it last collected nodes. If this is checked, the update date will be ignored, and all the nodes that match other query parameters will be collected, even if they have not changed since they were last downloaded.
-
-It is recommended to leave this unchecked for production sites (but useful to check for new installations and for testing)
-
-#### Updated node post status
-Post status for nodes that have been updated from the network. Set to 'Draft' if updated nodes should be reviewed before they are publicly viewable.
-
-#### New node post status
-Post status for new nodes from the network. Set to 'Draft' if new nodes should be reviewed before they are publicly viewable.
-
-#### Nodes per page
-Controls how many nodes are shown per page in certain client-side interfaces.
-
-#### Filters
-
-Filter "triples" that limit which nodes from the network are added to the local DB.
-
-- **Field** -- the field that this filter should match
-- **Comparison** -- how the field value should be compared with the queried value
-- **Value** -- what queried value to compare to
-
-Set parameters to limit the items that will be fetched and saved. Items must match all the conditions defined here to be included.
+### Intereface Tab
 
 #### Fields for front-end filters
 Fields to show in front-end filters for map and directory
 
 #### Fields for directory display
 Array of fields to include in list display (may be irrelevant in custom templates).
-
-#### Node format sent to front-end interfaces
-
-For React interfaces, set whether the interface should request JSON data (layout handled by the interface), or HTML (layout handled by templates). Choose HTML to use overridable templates output in the React interfaces.
-
-### Feeds Tab
-
-#### Enable feeds
-Enable collecting feed data from nodes.
-
-#### Feed update interval
-How often should locally stored feed items be updated?
-
-
-#### Max number of feed items total
-Maximum number of feed items to fetch from node sites
-
-#### Max number of feed items per node
-Use this if some nodes are producing a lot of posts and you want to include more sources.
-
-
-#### Default feed item status
-Status of new feed items from the network. Set to `draft` to review feed items before they go live on your site.
 
 ### Map Tab
 
@@ -153,6 +125,16 @@ API key for Mapbox, tile provider for Leaflet. See https://www.mapbox.com/studio
 
 
 ### Advanced Tab
+
+#### Filters
+
+Filter "triples" that limit which nodes from the network are added to the local DB.
+
+- **Field** -- the field that this filter should match
+- **Comparison** -- how the field value should be compared with the queried value
+- **Value** -- what queried value to compare to
+
+Set parameters to limit the items that will be fetched and saved. Items must match all the conditions defined here to be included.
 
 #### Template override path
 Local path to an alternate template directory. This path overrides the normal template hierarchy.
@@ -209,4 +191,4 @@ The aggregator provides an optional endpoint to access locally stored profiles i
 
 ## Aggregator node REST API and use as a headless backend
 
-The aggregator exposes endpoints in the WP REST API for accessing node data. These endpoints are used by React interfaces, but also work to make the aggregator function as a headless admin backend for display of Murmurations data on other, non-Wprdpress sites.
+The aggregator exposes endpoints in the WP REST API for accessing node data. These endpoints are used by React interfaces, but also work to make the aggregator function as a headless admin backend for display of Murmurations data on other, non-Wordpress sites.
