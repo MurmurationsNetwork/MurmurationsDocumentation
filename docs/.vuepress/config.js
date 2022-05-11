@@ -15,6 +15,7 @@ module.exports = {
           path : '/about/',
           children: [
             ['/about/','Introduction'],
+            '/about/common-terms',
             '/about/architecture',
             '/about/roadmap',
             '/about/faq',
