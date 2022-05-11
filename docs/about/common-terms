@@ -1,0 +1,26 @@
+# Common terms
+
+Here we define some of the common terms we use when working with Murmurations.
+
+### The Murmurations Protocol:
+The Murmurations Protocol, which  we  also just call  Murmurations, is a standardised, open source set of rules designed to enable decentrlaised collaboration at scale. Murmurations uses existing standards including [JSON-Schema](https://json-schema.org/), [Schema.org](https://schema.org/), [RSS](https://en.wikipedia.org/wiki/RSS) and [JSON-LD](https://json-ld.org/) to help people, projects and organisations discover each other and share data across platforms and between networks. The ultimate aim of Murmurations is to accelerate the global transition to the [regenerative economy](https://capitalinstitute.org/8-principles-regenerative-economy/).
+
+### Node:
+A  Node is an entity (person, project, organisation, event, or smart object) that has a Profile which is registered in the Murmurations Index.
+
+### Murmurations Profile:
+A Profile is a JSON-LD file describing a Node (person, project etc), using  one or more Schemas. [Here's an example Murmurations Profile](https://www.open.coop/open.json) describing The Open Co-op, using the [Murmurations Map schema](https://github.com/MurmurationsNetwork/MurmurationsLibrary/blob/master/schemas/murmurations_map-v1.json).
+
+### Murmurations Schema:
+A schema is a JSON-Schema file which defines a collection of Fields and explains how they should be used. Schemas validate JSON documents to check the data entered in a Profile matches the expected format. Schemas define the composition of fields, and fields define the type and validation rules for data. See the [Murmurations Map Schema file](https://github.com/MurmurationsNetwork/MurmurationsLibrary/blob/master/schemas/murmurations_map-v1.json) as an example. 
+
+### The Murmurations Index:
+The Murmurations Index keeps track of all the Profiles (aka Nodes) and the Schemas. Whenever someone (or something) updates its Profile it can tell the index. Aggregators query the index to find Profiles using their Schemas, and changes to existing Profiles, enabling them to provide up to date information in their maps, directories and content aggregators.
+
+### The Murmurations Profile Generator:
+The Murmurations Profile Generator, or MPG for short, is a [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface) for creating Murmurations Profiles. The MPG automatically converts Schemas in the Library into forms (using [JSON Forms](https://jsonforms.io/)) to help people create the code for their JSON profile/s. The MPG can also host profile files, which may seem an odd way to manage decentralised data, but is an important feature which makes the protocol accessible to people that can’t host their own profile files because they’re not sure how, or don't have a website or other place to host a profile. You can find the [MPG here](https://mpg.murmurations.network/)
+
+### The Murmurations Library:
+[The Murmurations Library](https://github.com/MurmurationsNetwork/MurmurationsLibrary) stores a list of Murmurations Schemas and fields.
+Anyone can define a new Schema, or field, and make a pull request to have it added it to the Library. The Schemas and fields in the Library are mirrored in  a CDN to make them easily accessible to the Index.
+
