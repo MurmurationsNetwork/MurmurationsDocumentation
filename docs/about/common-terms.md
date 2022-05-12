@@ -1,4 +1,4 @@
-# Common terms
+# Common Terms
 
 Here we define some of the common terms we use when working with Murmurations.
 

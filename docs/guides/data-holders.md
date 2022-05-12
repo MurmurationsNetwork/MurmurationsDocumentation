@@ -1,4 +1,4 @@
-# For Data Holders: share your data into the Murmurations network
+# For Data Holders: Share your data into the Murmurations network
 
 If your organisation holds data about projects and initiatives that are making the world a better place, sharing that data into the Murmurations ecosystem can be a great way to forward the mission of interoperability and support synergies among organisations doing on-the-ground work.
 

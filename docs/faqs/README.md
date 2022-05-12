@@ -1,8 +1,6 @@
-# Frequently Asked Questions
-
+# General FAQs
 
 ## Why isn't my node showing up on the map?
-
 
 ## Isn't this just like...
 
@@ -11,7 +9,6 @@
 ### ActivityPub
 
 ### Schema.org
-
 
 ## Are Murmurations profiles JSON-LD?
 

@@ -1,4 +1,4 @@
-# For Aggregators: use Murmurations to map your network, sector, or geographic area
+# For Aggregators: Use Murmurations to map your network, sector or geographic area
 
 Murmurations provides several tools to make it easy for organisations to use Murmurations to map their members, sector, or geographic area.
 
