@@ -41,6 +41,7 @@ module.exports = {
         path: '/technical/',
         children: [
           ['/technical/index-api', 'Index API reference'],
+          ['/technical/development-urls', 'Development URLs'],
           ['/technical/codebase', 'Overview of repos and codebase'],
           ['/technical/wp-aggregator', 'Wordpress Aggregator plugin'],
           ['/technical/wp-node', 'Wordpress Node plugin'],
