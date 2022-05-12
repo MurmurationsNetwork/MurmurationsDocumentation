@@ -5,7 +5,7 @@ module.exports = {
   themeConfig: {
     logo: '/murmurations-logo.png',
     nav: [
-      { text: 'Introduction', link: '/about/' },
+      { text: 'FAQs', link: '/faqs/' },
       { text: 'Guides', link: '/guides/' },
       { text: 'Technical Docs', link: '/technical/' }
     ],
