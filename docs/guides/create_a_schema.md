@@ -108,6 +108,42 @@ If you're comfortable using git, you can submit your new schema directly with a 
 
 If you are not comfortable using git, you can submit your draft schema directly to the Murmurations library maintainers, and we will review your schema and add it to the repo for you.
 
+##  Step 4: Testing your schema - an example
+
+You can use [JSON Schema validator](https://www.jsonschemavalidator.net/) to test your new schema and make sure it's working as intended.
+
+In this example we are going to test the [Complementary Currencies Schema](https://github.com/MurmurationsNetwork/MurmurationsLibrary/blob/master/schemas/complementary_currencies-v1.json).
+
+1. Copy the full schema code from the [Complementary Currencies Schema](https://github.com/MurmurationsNetwork/MurmurationsLibrary/blob/master/schemas/complementary_currencies-v1.json) and paste it (in place of the existing code) on the box on the left on https://www.jsonschemavalidator.net/
+
+You will see a screen like this indicating that the empty schema is giving errors already because it is missing the 3 required fields.
+
+![](https://murmurations.network/wp-content/uploads/2021/02/Screenshot-2021-02-24-at-21.01.33.png)
+
+2. Paste the example profile (JSON object) below into the "Input JSON" text area on the right.
+
+```
+{
+	"name": "Just testing",
+    "url": "https://test.com",
+    "area_served": "national",
+    "linked_schemas": [
+      "complementary_currencies-v1" 
+      ]
+}
+```
+You should see the profile validates against the schema, like below:
+
+![](https://murmurations.network/wp-content/uploads/2021/02/Screenshot-2021-02-24-at-21.08.26.png)
+
+The validator ignores all the other fields in the schema because they are not required.
+
+You can keep adding data to test your profile against the other fields, for example by adding data for the `"area_served"`field:
+
+![json-validator-additional-field](https://murmurations.network/wp-content/uploads/2021/02/Screenshot-2021-02-24-at-21.36.54.png)
+
+
+
 ## Questions?
 
 If you need help setting up your schema or if you have any questions, please post them at the [Murmurations Forum](https://murmurations.flarum.cloud/d/14-creating-murmurations-schemas).
