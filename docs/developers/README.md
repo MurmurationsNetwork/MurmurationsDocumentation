@@ -16,7 +16,7 @@ Currently we are using the test URLs to run version 2 of the Murmurations protoc
 
 ### Production
 
-The production environment is operating version 1 (V1) of the protocol.
+The production environment is operating version 1 of the protocol.
 
 - Index - [https://index.murmurations.network/v1/nodes](https://index.murmurations.network/v1/nodes)
 - Library - [https://library.murmurations.network/v1/schemas](https://library.murmurations.network/v1/schemas)

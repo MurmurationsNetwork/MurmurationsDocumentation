@@ -104,3 +104,27 @@ All of the information above is pulled from the schema as it is recorded in the 
   }
 }
 ```
+
+## Library Repo
+
+The [Library repository](https://github.com/MurmurationsNetwork/MurmurationsLibrary) is for storing and curating Murmurations **schemas** and **fields**.
+
+Additions or modifications to the Library occur through pull requests to the repo. 
+
+Schemas are created by specific networks or interest groups, and they are added to this repo by pull request.
+
+### Overview
+
+A **schema** is a group of **fields** (data points) that together provide information that is useful to **aggregators** who present that data in meaningful ways. Schemas define the composition of fields, and fields define the type and validation rules for data.
+
+An example of field composition in a schema can be seen in this [test schema](https://github.com/MurmurationsNetwork/MurmurationsLibrary/blob/staging/schemas/test_schema-v2.0.0.json).
+
+Note how fields are defined separately, including information about their type and other validation rules. For example, see how the [`name` field](https://github.com/MurmurationsNetwork/MurmurationsLibrary/blob/staging/fields/name.json) is defined.
+
+### Validation
+
+All schemas and fields must validate against the [JSON Schema](https://json-schema.org/) vocabulary for annotating and validating JSON documents.
+
+A useful online validation tool can be found at: [https://www.jsonschemavalidator.net/](https://www.jsonschemavalidator.net/)
+
+Schemas and fields in the Murmurations library are validated against JSON Schema Draft 7.
