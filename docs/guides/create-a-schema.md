@@ -1,5 +1,7 @@
 # Creating a Murmurations schema
 
+:construction: Work In Progress :construction:
+
 ## Overview
 
 A **schema** is a JSON document that describes data that is shared in the network. Murmurations schemas use the [JSON Schema](https://json-schema.org/) standard. Schemas contain **metadata**, which is information about the schema itself, and **fields** that describe what particular data points mean and how they are structured.

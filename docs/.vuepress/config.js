@@ -31,7 +31,7 @@ module.exports = {
           ['/guides/nodes', 'For Nodes'],
           ['/guides/aggregators', 'For Aggregators'],
           ['/guides/data-holders', 'For Data Holders'],
-          ['/guides/create_a_schema', 'Create a Schema']
+          ['/guides/create-a-schema', 'Create a Schema']
         ],
         collapsable: false,
         sidebarDepth: 0
