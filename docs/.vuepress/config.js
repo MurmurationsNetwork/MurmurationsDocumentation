@@ -7,7 +7,7 @@ module.exports = {
     nav: [
       { text: 'FAQs', link: '/faqs/' },
       { text: 'Guides', link: '/guides/' },
-      { text: 'Technical Docs', link: '/technical/' }
+      { text: 'Developers', link: '/developers/' }
     ],
     sidebar: [
       {
@@ -37,16 +37,14 @@ module.exports = {
         sidebarDepth: 0
       },
       {
-        title: 'Technical Docs',
-        path: '/technical/',
+        title: 'Developer Docs',
+        path: '/developers/',
         children: [
-          ['/technical/index-api', 'Index API'],
-          ['/technical/library-api', 'Library API'],
-          ['/technical/development-urls', 'Development URLs'],
-          ['/technical/codebase', 'Overview of repos and codebase'],
-          ['/technical/wp-aggregator', 'Wordpress Aggregator plugin'],
-          ['/technical/wp-node', 'Wordpress Node plugin'],
-          ['/technical/mpg', 'Murmurations Profile Generator']
+          ['/developers/index-api', 'Index API'],
+          ['/developers/library-api', 'Library API'],
+          ['/developers/mpg', 'Profile Generator'],
+          ['/developers/wp-aggregator', 'Wordpress Aggregator plugin'],
+          ['/developers/wp-node', 'Wordpress Node plugin']
         ],
         collapsable: false,
         sidebarDepth: 1
