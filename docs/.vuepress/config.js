@@ -18,8 +18,8 @@ module.exports = {
           '/about/common-terms',
           '/about/architecture',
           '/about/roadmap',
-          '/about/getting-support',
-          '/about/contributing'
+          '/about/contributing',
+          '/about/getting-support'
         ],
         collapsable: false,
         sidebarDepth: 1
@@ -43,8 +43,8 @@ module.exports = {
           ['/developers/index-api', 'Index API'],
           ['/developers/library-api', 'Library API'],
           ['/developers/mpg', 'Profile Generator'],
-          ['/developers/wp-aggregator', 'Wordpress Aggregator plugin'],
-          ['/developers/wp-node', 'Wordpress Node plugin']
+          ['/developers/wp-aggregator', 'Wordpress Aggregator Plugin'],
+          ['/developers/wp-node', 'Wordpress Node Plugin']
         ],
         collapsable: false,
         sidebarDepth: 1
