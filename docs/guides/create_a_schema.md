@@ -1,6 +1,5 @@
 # Creating a Murmurations schema
 
-
 ## Overview
 
 A **schema** is a JSON document that describes data that is shared in the network. Murmurations schemas use the [JSON Schema](https://json-schema.org/) standard. Schemas contain **metadata**, which is information about the schema itself, and **fields** that describe what particular data points mean and how they are structured.
@@ -14,13 +13,11 @@ There are two ways that fields can be defined in a Murmurations schema:
 
  Whenever possible, it is encouraged to use library fields in your schema to support the goal of data interoperabilty, and to make it easier for nodes to provide data to multiple networks simultaneously.
 
-
 ## Step 1: define your fields
 
 The first step in creating a schema is to decide what data fields will be included in it. This may be a combination of custom fields that will only ever be used in your schema, existing interoperable fields in the [Murmurations Library](https://github.com/MurmurationsNetwork/MurmurationsLibrary/fields), and new fields that should be added to the library.
 
 Don't hesitate to reach out via the [contact form on Murmurations.network](https://murmurations.network/contact/), the [Murmurations Forum](https://murmurations.flarum.cloud/d/14-creating-murmurations-schemas), or the Murmurations [Telegram channel](https://t.me/+SS7GuP5kMDf-zx6l) for assistance in building your schema and fields.
-
 
 ## Step 2: Draft the schema document
 
@@ -61,7 +58,6 @@ The `creator` metadata property contains information about the organisation or e
 
 The `schema` metadata property contains information about the schema itself, including the name, version, purpose, and a url where there might be more information about the schema.
 
-
 ```
 metadata": {
   "creator": {
@@ -87,14 +83,6 @@ A minor change can be any non-breaking change that affects the data (or potentia
 
 The file name should be the name of your schema with underscores as word separators, followed by a hyphen and the semver version number
 `my_schema-v1.1.1.json` or `solidarity_economy_schema-v1.1.1.json`
-
-
-
-
-
-
-
-
 
 ## Step 3: Submit your draft
 
@@ -132,6 +120,7 @@ You will see a screen like this indicating that the empty schema is giving error
       ]
 }
 ```
+
 You should see the profile validates against the schema, like below:
 
 ![](https://murmurations.network/wp-content/uploads/2021/02/Screenshot-2021-02-24-at-21.08.26.png)
@@ -141,8 +130,6 @@ The validator ignores all the other fields in the schema because they are not re
 You can keep adding data to test your profile against the other fields, for example by adding data for the `"area_served"`field:
 
 ![json-validator-additional-field](https://murmurations.network/wp-content/uploads/2021/02/Screenshot-2021-02-24-at-21.36.54.png)
-
-
 
 ## Questions?
 
