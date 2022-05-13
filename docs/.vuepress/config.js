@@ -40,7 +40,8 @@ module.exports = {
         title: 'Technical Docs',
         path: '/technical/',
         children: [
-          ['/technical/index-api', 'Index API reference'],
+          ['/technical/index-api', 'Index API'],
+          ['/technical/library-api', 'Library API'],
           ['/technical/development-urls', 'Development URLs'],
           ['/technical/codebase', 'Overview of repos and codebase'],
           ['/technical/wp-aggregator', 'Wordpress Aggregator plugin'],
@@ -48,7 +49,7 @@ module.exports = {
           ['/technical/mpg', 'Murmurations Profile Generator']
         ],
         collapsable: false,
-        sidebarDepth: 0
+        sidebarDepth: 1
       },
       {
         title: 'FAQs',
