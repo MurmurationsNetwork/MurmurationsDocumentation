@@ -111,7 +111,7 @@ The [Library repository](https://github.com/MurmurationsNetwork/MurmurationsLibr
 
 Additions or modifications to the Library occur through pull requests to the repo. 
 
-Schemas are created by specific networks or interest groups, and they are added to this repo by pull request.
+Schemas are created by specific networks or interest groups, and they are added to this repo by pull request. Learn more about creating schemas in the [Create a Schema Guide](/guides/create-a-schema.md).
 
 ### Overview
 
