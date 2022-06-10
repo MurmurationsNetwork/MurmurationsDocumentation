@@ -11,7 +11,7 @@ Currently we are using the test URLs to run version 2 of the Murmurations protoc
 - Index - [https://test-index.murmurations.network/v2/nodes](https://test-index.murmurations.network/v2/nodes)
 - Library - [https://test-library.murmurations.network/v1/schemas](https://test-library.murmurations.network/v1/schemas)
 - CDN - [https://test-cdn.murmurations.network](https://test-cdn.murmurations.network)
-- Profile Generator - [https://mpgv2.murmurations.network](https://mpgv2.murmurations.network)
+- Profile Generator - [https://profiles.murmurations.network](https://profiles.murmurations.network)
 - Demo Map Aggregator - [https://murmdemo.dreamhosters.com/map](https://murmdemo.dreamhosters.com/map)
 
 ### Production
@@ -24,4 +24,4 @@ The production environment is operating version 1 of the protocol.
 - Profile Generator - [https://mpg.murmurations.network](https://mpg.murmurations.network)
 - Demo Map Aggregator - [https://aggregator.murmurations.network](https://aggregator.murmurations.network)
 
-We are aiming to put V2 into production during Q3 2022, at which point V1 will be deprecated, so **use our test environment** to experiment with the latest version of the Murmurations protocol.
+We are aiming to put V2 into production during Q3 2022, at which point V1 will be deprecated, so **use our test environment** to experiment with the latest version of the Murmurations protocol. V1 will be shutdown by Q3 2022.

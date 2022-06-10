@@ -12,7 +12,7 @@ See the [common terms](https://docs.murmurations.network/about/common-terms.html
 
 ## How do I create a Murmurations profile?
 
-Visit the [Murmurations Profile Generator](https://mpg.murmurations.network/) and follow the steps.
+Visit the [Murmurations Profile Generator](https://profiles.murmurations.network/) and follow the steps.
 
 ## How can I use Murmurations to create a map or directory or other type of aggregator?
 

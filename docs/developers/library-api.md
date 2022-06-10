@@ -2,7 +2,7 @@
 
 The purpose of the Library API is to replicate the list of fields and schemas so that they are stored in at least one more location, thus removing the GitHub library repo as a single point of failure.
 
-The Index and Murmurations profile generators (MPGs) can access the schema list from the Library and then download the schemas from our CDN.
+The Index and Profile Generator can access the schema list from the Library and then download the schemas from our CDN.
 
 The service running the Library API will regularly synchronize with the GitHub library repo to ensure it is up-to-date with the list of fields and schemas on both the main (for production environment) and staging (for test environment) branches.
 
