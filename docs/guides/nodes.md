@@ -6,7 +6,7 @@ There are three ways you can add your project or organisation to the Murmuration
 
 ## Add via the Murmurations Profile Generator
 
-For a quick (but centralized) approach, you can add a profile in the [Murmurations Profile Generator](https://profiles.murmurations.network)(MPG). This is a centralized web app and data store that allows anyone to create a profile quickly and easily (even if they don't have a website).
+For a quick (but centralized) approach, you can add a profile in the [Murmurations Profile Generator](https://main-profiles.murmurations.network)(MPG). This is a centralized web app and data store that allows anyone to create a profile quickly and easily (even if they don't have a website).
 
 ## Get the Node plugin
 
