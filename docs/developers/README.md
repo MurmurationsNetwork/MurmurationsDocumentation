@@ -22,4 +22,4 @@ The `test-` URLs have been set up to provide a space for developers to test thei
 | Library                  | https://main-library.murmurations.network/v1/schemas |
 | Schema CDN               | https://main-cdn.murmurations.network                |
 | Profile Generator        | https://main-profiles.murmurations.network           |
-| WordPress Map Aggregator | TBD                                                  |
+| WordPress Map Aggregator | https://wpagg.murmurations.network                   |
