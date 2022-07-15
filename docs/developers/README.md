@@ -16,10 +16,10 @@ The `test-` URLs have been set up to provide a space for developers to test thei
 
 ### Live Environment
 
-| Service                  | URL                                                                                                          |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------ |
-| Index                    | [https://main-index.murmurations.network/v2/nodes](https://main-index.murmurations.network/v2/nodes)         |
-| Library                  | [https://main-library.murmurations.network/v1/schemas](https://main-library.murmurations.network/v1/schemas) |
-| Schema CDN               | [https://main-cdn.murmurations.network](https://main-cdn.murmurations.network)                               |
-| Profile Generator        | [https://main-profiles.murmurations.network](https://main-profiles.murmurations.network)                     |
-| WordPress Map Aggregator | [https://wpagg.murmurations.network](https://wpagg.murmurations.network)                                     |
+| Service                  | URL                                                                                                |
+| ------------------------ | -------------------------------------------------------------------------------------------------- |
+| Index                    | [https://index.murmurations.network/v2/nodes](https://index.murmurations.network/v2/nodes)         |
+| Library                  | [https://library.murmurations.network/v1/schemas](https://library.murmurations.network/v1/schemas) |
+| Schema CDN               | [https://cdn.murmurations.network](https://cdn.murmurations.network)                               |
+| Profile Generator        | [https://profiles.murmurations.network](https://profiles.murmurations.network)                     |
+| WordPress Map Aggregator | [https://wpagg.murmurations.network](https://wpagg.murmurations.network)                           |
