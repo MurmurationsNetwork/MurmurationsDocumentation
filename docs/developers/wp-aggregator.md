@@ -148,7 +148,7 @@ String used to prefix shortcodes and admin settings pages. Don't update this unl
 Field to use for the link to view a single node. If unset, single nodes will link to the single post page. Can be used to set an external location to view a single node.
 
 #### Node single
-Link to single node pages from directory/map. By default this will use the WP post type. Can be overridden with node_single_url_field for custom single URLs.
+Link to single node pages from directory/map. By default this will use the WP post type. Can be overridden with node_single_url_field for custom single URLs, or  primary_url to link out to the node's website.
 
 #### Log file location
 File to write logs to. Must be writable if logging is turned on.
@@ -180,7 +180,7 @@ The configuration and other properties of the aggregator can be overridden by ot
 
 ## Kumu output
 
-The aggregator provides an optional endpoint to access locally stored profiles in a format compatible with the Kumu systems mapping application. To use, point your Kumu map to: example.com/wp-json/murmurations/v1/nodes&format=kumu.
+The aggregator provides an optional endpoint to access locally stored profiles in a format compatible with the Kumu systems mapping application. To use, point your Kumu map to: example.com/wp-json/murmurations-aggregator/v1/get/nodes?format=kumu 
 
 ## Aggregator node REST API and use as a headless backend
 
