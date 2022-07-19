@@ -5,7 +5,7 @@
 Here we define some of the common terms we use when working with Murmurations.
 
 ### Aggregator:
-TODO - needs defining
+An Aggregator is any site which uses information from the Murmurations Index to present users with a collection of data, such as a map or directory. The Murmurations WordPress Aggregator is a WordPress plugin which makes it simple for content aggregators to create maps and directories using data from the Murmations Index using Wordpress. See for example, the [Community Currency Alliance Map](https://map.currency.community/) which features details of community currency projects around the world, all of whom have published Murmurations profiles according to the [complementary currency schema](https://github.com/MurmurationsNetwork/MurmurationsLibrary/blob/main/schemas/complementary_currencies-v2.0.0.json), in the Library. See more details about the Wordpress Aggrator Plugin in the [developer docs](https://docs.murmurations.network/developers/wp-aggregator.html).
 
 ### Index:
 The Murmurations Index keeps track of all the Nodes (via their Profiles) in the network. Whenever someone (or something) updates its Profile it tells the Index. Aggregators frequently query the Index to find Profiles using their Schemas along with changes to existing Profiles, enabling them to provide up to date information in their maps, directories and content aggregators.
