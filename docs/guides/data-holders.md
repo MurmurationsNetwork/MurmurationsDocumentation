@@ -15,6 +15,11 @@ Sharing data from an existing data set into the Murmurations network generally r
 
 Generally an early step in preparing to share data into the Murmurations network is to create a schema for your data. For details on how to do this, see [Creating a Schema](create_a_schema.html).
 
+## Adding data to Murmurations
+
+Once you have created a schema to use, or selected one from the library, you can create profiles and post them to the Index.
+See, for example, our guide on [How to integrate Offers and Wants from your network with the Murmurations protocol](https://docs.murmurations.network/developers/Offers-and-Wants.html).
+
 ## Licensing and permissions
 
 An important consideration when sharing data is the license and permissions associated with it.
