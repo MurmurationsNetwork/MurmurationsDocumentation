@@ -1,6 +1,7 @@
 # How to integrate Offers and Wants from your network with the Murmurations protocol.
 
 **Intro:**
+
 Offers and Wants from your network can be shared over the Murmurations protocol by making the data available in appropriately formatted .json files and registering the URLs of these files with the Murmurations Index. Aggregators can then query the index, find links to the Offers and Wants data and present the data to their networks. 
 [
 Here’s an example of a basic Offer](https://murmurations.network/wp-content/uploads/2022/08/cake.json), in Murmurations compatible .json for a tasty chocolate cake, which validates against the Murmurations [Offers and Wants Schema]([url](https://github.com/MurmurationsNetwork/MurmurationsLibrary/blob/test/schemas/offers_wants_prototype-v0.0.1.json)).
