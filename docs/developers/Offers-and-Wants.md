@@ -1,4 +1,4 @@
-#How to integrate Offers and Wants from your network with the Murmurations protocol.
+# How to integrate Offers and Wants from your network with the Murmurations protocol.
 
 **Intro:**
 Offers and Wants from your network can be shared over the Murmurations protocol by making the data available in appropriately formatted .json files and registering the URLs of these files with the Murmurations Index. Aggregators can then query the index, find links to the Offers and Wants data and present the data to their networks. 
