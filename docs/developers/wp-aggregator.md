@@ -26,6 +26,9 @@ To do a basic functionality test once you've activated the plugin:
 
 - Once this has completed, go to the page with the map shortcode and refresh. You should see a map of nodes you've downloaded from the network.
 
+## Trouble shooting
+
+If you do not see a Map or Directory displayed on your page when using the `[murmurations_react_map]` or `[murmurations_react_directory]` shortcodes, try switching your permalinks (in Settings > Permalinks) from Plain to Post name.
 
 ## Displaying nodes
 
@@ -145,7 +148,7 @@ String used in the path for archive and single node URLs.
 String used to prefix shortcodes and admin settings pages. Don't update this unless there is good reason to!
 
 #### Node single URL field
-Field to use for the link to view a single node. If unset, single nodes will link to the single post page. Can be used to set an external location to view a single node.
+Field to use for the link to view a single node. If unset, single nodes will link to the single post page. Can be used to set an external location to view a single node, for example by setting this field to `primary_url` to link out to the primary URL of the node, from the Read More link.
 
 #### Node single
 Link to single node pages from directory/map. By default this will use the WP post type. Can be overridden with node_single_url_field for custom single URLs, or  primary_url to link out to the node's website.
