@@ -14,7 +14,7 @@ The network is comprised of:
 To enable these entities to work together, Murmurations provides:
 
 - A protocol for defining and exchanging data about and amongst organizations, based on existing standards such as JSON Schema, Schema.org, REST APIs and JSON-LD principles.
-- A demo [index](https://test-index.murmurations.network/v2/nodes), [library](https://test-library.murmurations.network/v1/schemas), [profile generator](https://profiles.murmurations.network/) and a user-friendly data host where organizations can quickly add themselves to the network.
+- An [index](https://index.murmurations.network/v2/nodes), [library](https://library.murmurations.network/v1/schemas), [profile generator](https://profiles.murmurations.network/) and a user-friendly data host where organizations can quickly add themselves to the network.
 - Open source plug-ins and other code to make it as easy as possible to use, share and contribute data to the network in a decentralized way.
 
 The initial use case for Murmurations was to facilitate decentralized mapping of purpose-driven and solidarity economy organizations and projects.
