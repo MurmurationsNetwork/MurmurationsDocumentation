@@ -2,7 +2,7 @@
 
 ## Development URLs
 
-The `test-` URLs have been set up to provide a space for developers to test their schemas before submitting them to the live Library, and profiles to the live Index.
+The `test-` URLs have been set up to provide a space for developers to test their schemas before submitting them to the production Library, and profiles to the production Index.
 
 ### Test Environment
 
@@ -14,7 +14,7 @@ The `test-` URLs have been set up to provide a space for developers to test thei
 | Profile Generator        | [https://test-profiles.murmurations.network](https://test-profiles.murmurations.network)                     |
 | WordPress Map Aggregator | [https://wpagg.murmurations.network](https://wpagg.murmurations.network)                                     |
 
-### Live Environment
+### Production Environment
 
 | Service                  | URL                                                                                                |
 | ------------------------ | -------------------------------------------------------------------------------------------------- |

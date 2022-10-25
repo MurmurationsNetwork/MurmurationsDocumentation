@@ -31,6 +31,7 @@ module.exports = {
           ['/guides/nodes', 'For Nodes'],
           ['/guides/aggregators', 'For Aggregators'],
           ['/guides/data-holders', 'For Data Holders'],
+          ['/guides/create-a-profile', 'Create a Profile'],
           ['/guides/create-a-schema', 'Create a Schema']
         ],
         collapsable: false,
@@ -42,7 +43,6 @@ module.exports = {
         children: [
           ['/developers/index-api', 'Index API'],
           ['/developers/library-api', 'Library API'],
-          ['/developers/mpg', 'Profile Generator'],
           ['/developers/wp-aggregator', 'Wordpress Aggregator Plugin'],
           ['/developers/wp-node', 'Wordpress Node Plugin']
         ],

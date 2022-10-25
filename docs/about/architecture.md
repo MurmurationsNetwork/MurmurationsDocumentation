@@ -12,7 +12,7 @@
 - **Make Murmurations accessible to the widest audience possible**
   - Make sure user-facing apps are fast, and still functional even when operating under poor network conditions.
     - Leverage edge storage and computing whenever possible to keep data close to users.
-  - Test user interfaces with screen readers and ensure best practices for accessibility [a11y](https://www.a11yproject.com/).
+  - Test user interfaces with screen readers and ensure best practices for accessibility.
 
 ## Technical Architecture
 
@@ -23,5 +23,5 @@
   - All the software we build ourselves is open source under the GPLv3 License
 - Make deployment simple and reliable, and scalable
   - We use [Kubernetes](https://kubernetes.io/) to build and manage our production and test environments
-  - We have a continuous deployment pipeline for our test environment with automated end-to-end tests that are run for every PR and commit to our staging branch
+  - We have a continuous deployment pipeline for our test environment with automated end-to-end tests that are run for every PR and commit to our `test` branch
   - We leverage frontend deployment tools like [Vercel](https://vercel.com/) to quickly deploy user-facing apps
