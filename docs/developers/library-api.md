@@ -1,10 +1,8 @@
 # Murmurations Library API
 
-### Library API Documentation
+### Library API Documentation :orange_book:
 
-> :orange_book: **Library API Docs**
-> 
-> [**https://app.swaggerhub.com/apis-docs/MurmurationsNetwork/LibraryAPI/2.0.0**](https://app.swaggerhub.com/apis-docs/MurmurationsNetwork/LibraryAPI/2.0.0)
+[**https://app.swaggerhub.com/apis-docs/MurmurationsNetwork/LibraryAPI/2.0.0**](https://app.swaggerhub.com/apis-docs/MurmurationsNetwork/LibraryAPI/2.0.0)
 
 The purpose of the Library API is to serve up all of the [Schemas](/about/common-terms.html#schema) in the [Library repository](https://github.com/MurmurationsNetwork/MurmurationsLibrary), which is for storing and curating Murmurations Schemas and fields. Schemas are created by specific networks or interest groups, and they are added to this repo by pull request. Learn more about creating schemas in the [Create a Schema Guide](/guides/create-a-schema.md).
 

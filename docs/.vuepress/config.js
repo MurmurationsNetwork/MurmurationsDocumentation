@@ -5,42 +5,43 @@ module.exports = {
   themeConfig: {
     logo: '/murmurations-logo.png',
     nav: [
-      { text: 'FAQs', link: '/faqs/' },
-      { text: 'Guides', link: '/guides/' },
-      { text: 'Developers', link: '/developers/' }
+      { text: 'FAQs', link: '/faqs/general' },
+      { text: 'Developers', link: '/developers/environments' },
+      { text: 'Guides', link: '/guides/create-a-profile' }
     ],
     sidebar: [
       {
         title: 'About',
-        path: '/about/',
+        path: '/about/introduction',
         children: [
-          '/about/',
-          '/about/common-terms',
-          '/about/architecture',
-          '/about/roadmap',
-          '/about/contributing',
-          '/about/getting-support'
+          ['/about/introduction', 'Introduction'],
+          ['/about/common-terms', 'Common Terms'],
+          ['/about/architecture', 'Architecture'],
+          ['/about/roadmap', 'Roadmap'],
+          ['/about/contributing', 'Contributing'],
+          ['/about/getting-support', 'Getting Support']
         ],
         collapsable: false,
         sidebarDepth: 1
       },
       {
         title: 'Guides',
-        path: '/guides/',
+        path: '/guides/create-a-profile',
         children: [
+          ['/guides/create-a-profile', 'Create a Profile'],
           ['/guides/nodes', 'For Nodes'],
           ['/guides/aggregators', 'For Aggregators'],
           ['/guides/data-holders', 'For Data Holders'],
-          ['/guides/create-a-profile', 'Create a Profile'],
           ['/guides/create-a-schema', 'Create a Schema']
         ],
         collapsable: false,
         sidebarDepth: 0
       },
       {
-        title: 'Developer Docs',
-        path: '/developers/',
+        title: 'Developers',
+        path: '/developers/environments',
         children: [
+          ['/developers/environments', 'Environments'],
           ['/developers/index-api', 'Index API'],
           ['/developers/library-api', 'Library API'],
           ['/developers/wp-aggregator', 'Wordpress Aggregator Plugin'],
@@ -51,11 +52,11 @@ module.exports = {
       },
       {
         title: 'FAQs',
-        path: '/faqs/',
+        path: '/faqs/general',
         children: [
-          ['/faqs/', 'General'],
-          ['/faqs/technical', 'Technical'],
-          ['/faqs/schemas', 'Schemas']
+          ['/faqs/general', 'General FAQs'],
+          ['/faqs/technical', 'Technical FAQs'],
+          ['/faqs/schema', 'Schema FAQs']
         ],
         collapsable: false,
         sidebarDepth: 0

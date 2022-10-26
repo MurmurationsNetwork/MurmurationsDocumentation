@@ -1,10 +1,8 @@
 # Murmurations Index API
 
-### Index API Documentation
+### Index API Documentation :orange_book:
 
-> :orange_book: **Index API Docs**
-> 
-> [**https://app.swaggerhub.com/apis-docs/MurmurationsNetwork/IndexAPI/2.0.0**](https://app.swaggerhub.com/apis-docs/MurmurationsNetwork/IndexAPI/2.0.0)
+[**https://app.swaggerhub.com/apis-docs/MurmurationsNetwork/IndexAPI/2.0.0**](https://app.swaggerhub.com/apis-docs/MurmurationsNetwork/IndexAPI/2.0.0)
 
 The Index API enables [Nodes](/about/common-terms.html#node), using predefined [Schemas](/about/common-terms.html#schema), to add, update and delete their data in the Index so that [Aggregators](/about/common-terms.html#aggregator) can discover them.
 

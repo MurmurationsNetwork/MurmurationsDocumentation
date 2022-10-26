@@ -7,7 +7,7 @@
 - **Ensure adherence to a common data format**
   - Both data creators (nodes) and data processors (aggregators) use [JSON Schema](https://json-schema.org/understanding-json-schema/) for defining and validating the structure of data.
 - **Prioritize decentralized storage solutions**
-  - Nodes would ideally host their own data in order to retain control of it, but hosting platforms can also provide this service (the Profile Generator provides such a service, which can be replicated by others).
+  - Nodes would ideally host their own data in order to retain control of it, but hosting platforms can also provide this service (the [Profile Generator](/about/common-terms.html#profile-generator) provides such a service, which can be replicated by others).
   - Future enhancements could include leveraging [IPFS](https://ipfs.io/#how) to replicate data and distribute it across the Murmurations network of nodes and aggregators.
 - **Make Murmurations accessible to the widest audience possible**
   - Make sure user-facing apps are fast, and still functional even when operating under poor network conditions.
