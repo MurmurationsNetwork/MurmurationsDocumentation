@@ -11,6 +11,11 @@ The Aggregator plugin code is in the [Github repo](https://github.com/Murmuratio
 
 The aggregator is not available through the WP plugin library. To install, download the .zip file from the latest release at [https://github.com/MurmurationsNetwork/MurmurationsAggregatorWP/releases/](https://github.com/MurmurationsNetwork/MurmurationsAggregatorWP/releases/). Upload it to your /wp-content/plugins/ directory, and activate the plugin.
 
+## Example Implementation
+
+Two examples of the WP Aggregator plugin can be found at:
+- [https://wpagg.murmurations.network](https://wpagg.murmurations.network)
+- [https://map.currency.community](https://map.currency.community)
 
 ## Quick start configuration
 
