@@ -19,7 +19,7 @@ The Murmurations Protocol, which we also just call Murmurations, is a standardis
 A Node is an entity (person, project, organisation, event or smart object) that has a Profile which is registered in the Murmurations Index.
 
 ### Profile
-A Profile is a [JSON](https://en.wikipedia.org/wiki/JSON) document describing a Node (person, project, etc.), using one or more Schemas. [Here's an example Murmurations Profile](https://www.open.coop/open.json) describing The Open Co-op, using the [Murmurations Map schema](https://github.com/MurmurationsNetwork/MurmurationsLibrary/blob/master/schemas/murmurations_map-v1.json).
+A Profile is a [JSON](https://en.wikipedia.org/wiki/JSON) document describing a Node (person, project, etc.), using one or more Schemas. [Here's an example Murmurations Profile](https://www.open.coop/open.json) describing The Open Co-op, using the [Organizations schema](https://github.com/MurmurationsNetwork/MurmurationsLibrary/blob/main/schemas/organizations_schema-v1.0.0.json).
 
 ### Profile Generator
 The [Murmurations Profile Generator](https://profiles.murmurations.network), or MPG for short, is a web application for creating Profiles. MPG automatically converts Schemas in the Library into forms to enable people to create the JSON documents for their Profiles. MPG can also host these JSON documents, which may seem an odd way to manage decentralised data, but is an important feature which makes the protocol accessible to people who can't host their own Profile data.
