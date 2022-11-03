@@ -4,4 +4,4 @@ Murmurations is a distributed data sharing network to connect regenerative econo
 
 - [Read the introduction](about/introduction.html)
 - [Find out about the architecture/design decisions behind the protocol](about/architecture.html)
-- [Follow the implementation guides](guides)
+- [Follow the implementation guides](/guides/create-a-profile.html)
