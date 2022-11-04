@@ -29,8 +29,7 @@ module.exports = {
         path: '/guides/create-a-profile',
         children: [
           ['/guides/create-a-profile', 'Create a Profile'],
-          ['/guides/nodes', 'For Nodes'],
-          ['/guides/aggregators', 'For Aggregators'],
+          ['/guides/view-the-data', 'View the Data'],
           ['/guides/create-a-schema', 'Create a Schema']
         ],
         collapsable: false,
