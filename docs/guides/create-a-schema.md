@@ -1,5 +1,8 @@
 # Create a Murmurations Schema
 
+> ### 🚀👩‍🔬 Rocket Science Alert!  
+> You will probably never need to create a schema, but we're providing you with this information so you can at least understand how it is done.
+
 ## Overview
 
 A **[Schema](/about/common-terms.html#schema)** is a JSON document that describes data that is shared in the network. Murmurations schemas use the [JSON Schema](https://json-schema.org/) standard. Schemas contain **metadata**, which is information about the schema itself, and **fields** that describe what particular data points mean and how they are structured.
@@ -20,7 +23,7 @@ There are two ways that fields can be defined in a Murmurations schema:
 
 The first step in creating a schema is to decide what data fields will be included in it. This may be a combination of custom fields that will only ever be used in your schema, existing interoperable fields in the [Murmurations Library](https://github.com/MurmurationsNetwork/MurmurationsLibrary), and new fields that could be candidates for addition to the Library.
 
-Don't hesitate to reach out via the [contact form on Murmurations.network](https://murmurations.network/contact/), the [Murmurations Forum](https://murmurations.flarum.cloud/d/14-creating-murmurations-schemas), or the Murmurations [Telegram channel](https://t.me/+SS7GuP5kMDf-zx6l) for assistance in building your schema and fields.
+Don't hesitate to reach out via the [contact form on Murmurations.network](https://murmurations.network/contact/) or the Murmurations [Telegram channel](https://t.me/+SS7GuP5kMDf-zx6l) for assistance in building your schema and fields.
 
 ## Step 2: Draft the schema document
 
@@ -44,10 +47,10 @@ Note that the `linked_schemas` property is always required for a schema, as ment
 
 Near the beginning of the schema you will find four metadata properties in the main schema object:
 
- - **$schema** A reference to the version of the JSON Schema standard that will be used to interpret this schema. Leave this as is referencing version 7.
- - **$id** The final canonical URI of the schema in the Murmurations Library. You can leave most of this as is in the example, replacing the final part with the filename of your schema (see below).
- - **title** A human-readable title for your schema. This will appear in various places where the schema is used, including in the Wordpress Node Plugin and the Murmurations Profile Generator, where people can choose to add information that matches your schema to their profiles.
- - **description** A human-readable description of your schema and what it's for.
+ - **$schema** - A reference to the version of the JSON Schema standard that will be used to interpret this schema. Leave this as is referencing version 7.
+ - **$id** - The final canonical URI of the schema in the Murmurations Library. You can leave most of this as is in the example, replacing the final part with the filename of your schema (see below).
+ - **title** - A human-readable title for your schema. This will appear in various places where the schema is used, including in the Wordpress Node Plugin and the Murmurations Profile Generator, where people can choose to add information that matches your schema to their profiles.
+ - **description** - A human-readable description of your schema and what it's for.
 
  Example:
 
@@ -137,4 +140,4 @@ You can keep adding data to test your profile against the other fields, for exam
 
 ## Questions?
 
-If you need help setting up your schema or if you have any questions, please post them at the [Murmurations Forum](https://murmurations.flarum.cloud/d/14-creating-murmurations-schemas).
+If you need help setting up your schema or if you have any questions, please post them at the [contact form on Murmurations.network](https://murmurations.network/contact/) or the Murmurations [Telegram channel](https://t.me/+SS7GuP5kMDf-zx6l).

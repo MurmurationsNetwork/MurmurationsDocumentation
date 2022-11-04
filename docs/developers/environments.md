@@ -1,5 +1,8 @@
 # Environments
 
+Check the status of the Murmurations environments on our status page:  
+[**https://status.murmurations.network/**](https://status.murmurations.network/)
+
 ## Test Environment
 
 The `test-` URLs have been set up to provide a space for developers to test their schemas before submitting them to the production Library, and profiles to the production Index.
