@@ -31,11 +31,10 @@ module.exports = {
           ['/guides/create-a-profile', 'Create a Profile'],
           ['/guides/nodes', 'For Nodes'],
           ['/guides/aggregators', 'For Aggregators'],
-          ['/guides/data-holders', 'For Data Holders'],
           ['/guides/create-a-schema', 'Create a Schema']
         ],
         collapsable: false,
-        sidebarDepth: 0
+        sidebarDepth: 1
       },
       {
         title: 'Developers',

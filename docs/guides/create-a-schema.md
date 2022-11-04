@@ -1,5 +1,8 @@
 # Create a Murmurations Schema
 
+> ### 🚀👩‍🔬 Rocket Science Alert!  
+> You will probably never need to create a schema, but we're providing you with this information so you can at least understand how it is done.
+
 ## Overview
 
 A **[Schema](/about/common-terms.html#schema)** is a JSON document that describes data that is shared in the network. Murmurations schemas use the [JSON Schema](https://json-schema.org/) standard. Schemas contain **metadata**, which is information about the schema itself, and **fields** that describe what particular data points mean and how they are structured.
