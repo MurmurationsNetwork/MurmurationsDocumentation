@@ -55,7 +55,7 @@ Terminal will return the status and last updated timestamp of your profile, like
   
   If you entered a `primary_url` (a unique identifier URL, e.g., `your.site`) you can now search for it in the Index by replacing 'your.site' with your real URL in the code below:
   ```bash
-  $ curl "https://index.murmurations.network/v2/nodes?primary_url=your.site"
+  curl "https://index.murmurations.network/v2/nodes?primary_url=your.site"
    ```
   Terminal will return the result, like this:
   ```bash  
