@@ -46,7 +46,7 @@ The remaining fields, even though they describe a similar thing (location), are 
 
 Thus they are not composable (reusable) and have to be specified separately to satisfy the requirements of both schemas.
 
-So how would we specify data in Murmurations to satisfy both of these schemas? We use JSON Schema and it looks like this:
+So how would we specify data in Murmurations to satisfy both of these schemas? We use JSON Schema to create a [_**Profile**_](/about/common-terms.html#profile), which looks like this:
 
 ```
 {
@@ -68,4 +68,4 @@ So how would we specify data in Murmurations to satisfy both of these schemas? W
 
 We start with defining the lists of schemas we want our data to conform to using the `linked_schemas` field. Next, we add all of the fields required by both of those schemas. We host this data ideally on our own servers, or using a third party hosting service (like [profiles.murmurations.network](https://profiles.murmurations.network)). Finally, we submit the URL where this data is hosted to the Murmurations Index so it is recorded and [can be searched for by anyone](https://profiles.murmurations.network/get-nodes?schema=organizations_schema-v1.0.0) who is interested in finding organizations who define themselves according to Alice's or Bob's organizations schemas.
 
-These are simple examples, but hopefully they illustrate to you the flexibility and power of the Murmuration protocol's ontology-agnostic and composable data approach.
+These are simple examples, but hopefully they illustrate to you the flexibility and power of the Murmuration protocol's ontology-agnostic and [composable data](https://dazuck.substack.com/p/data-composability-what-it-is-why) approach.
