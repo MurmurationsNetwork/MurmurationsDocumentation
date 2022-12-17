@@ -1,4 +1,4 @@
-# Ontology-agnosticism and data composability
+# Composable Ontologies
 
 When describing Murmurations we use a couple of terms - ontology-agnostic and data composability - that may or may not be completely clear, so we would like to expand on them both a bit. In essence, they are two sides of the same coin.
 

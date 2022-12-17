@@ -15,6 +15,7 @@ module.exports = {
         path: '/about/introduction',
         children: [
           ['/about/introduction', 'Introduction'],
+          ['/about/ontology-composability', 'Composable Ontologies'],
           ['/about/common-terms', 'Common Terms'],
           ['/about/architecture', 'Architecture'],
           ['/about/roadmap', 'Roadmap'],
