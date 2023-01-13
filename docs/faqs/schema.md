@@ -28,16 +28,16 @@ When this `profile_url` (`https://www.open.coop/open.json`) is sent to the Index
 
 ## What is a `primary_url`?
 
-The `primary_url` field is where a Profile records its canonical web address. We can see the `primary_url` being used in the [Open Co-op Murmurations Profile](https://www.open.coop/open.json):
+The `primary_url` field is where a Profile records its canonical web address. We can see the `primary_url` being used in the [Open Co-op Murmurations Profile](https://open.coop/open.json):
 
 ```
 {
   // ...
-  "primary_url": "https://www.open.coop",
+  "primary_url": "open.coop",
   // ...
 }
 ```
 
 The `primary_url` references an organization's (or individual's) primary web address. If a Profile is self-hosted on the organization's website, the `primary_url` will be the same domain as the `profile_url`, as is the case for the Open Co-op's Profile referenced in the FAQ above.
 
-Priority should always be given to a Profile with it's `primary_url` being the same domain as the `profile_url`. In other words, a Profile that is hosted at "open.coop" and claiming "open.coop" as it's `primary_url` should have more weight than another Profile hosted at some other domain claiming "open.coop" as it's `primary_url`.
+Priority should always be given to a Profile whose `profile_url` is hosted at the same domain as the `primary_url`. In other words, a Profile that is hosted at "open.coop" and claiming "open.coop" as it's `primary_url` should have more weight than another Profile hosted at some other domain claiming "open.coop" as it's `primary_url`.

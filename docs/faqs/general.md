@@ -2,7 +2,7 @@
 
 ## What is the Murmurations Protocol?
 
-The Murmurations Protocol, which we also just call Murmurations, is a standardised, open source set of rules designed to enable decentrlaised, interoperable, data sharing and aggregation. Murmurations uses existing standards such as [JSON-Schema](https://json-schema.org/) to help people, projects and organisations discover each other and share data across platforms and between networks. The ultimate aim of Murmurations is to accelerate the global transition to the [regenerative economy](https://capitalinstitute.org/8-principles-regenerative-economy/).
+The Murmurations Protocol, which we also just call Murmurations, is a standardised, open source set of rules designed to enable decentralised, interoperable data sharing and aggregation. Murmurations uses existing standards such as [JSON-Schema](https://json-schema.org/) to help people, projects and organisations discover each other and share data across platforms and between networks. The ultimate aim of Murmurations is to accelerate the global transition to the [regenerative economy](https://capitalinstitute.org/8-principles-regenerative-economy/).
 
 ## Can you explain the terms you use?
 
@@ -12,9 +12,12 @@ See the [common terms](/about/common-terms.html) we use when working with Murmur
 
 Visit the [Murmurations Profile Generator](https://profiles.murmurations.network/) and follow the steps, or for more detail see our [create a profile](/guides/create-a-profile.md) guide.
 
-## How can I use Murmurations to create a map or directory or other type of aggregator?
+<!-- ## How can I use Murmurations to create a map or directory or other type of aggregator?
 
-See our [guide for aggregators](/guides/aggregators.html).
+See our [guide for aggregators](/guides/aggregators.html). 
+
+TBC
+-->
 
 ## Are there any restrictions on what I can do with Murmurations?
 
@@ -23,7 +26,7 @@ Yes, to use Murmurations you must agree to [the principles](https://murmurations
 ## Isn't this just like...
 
 ### Solid
-Not really - [Solid](https://solid.mit.edu/) is a proposed set of conventions and tools for building decentralized social applications based on Linked Data principles. Solid aims to offer 'data pods' to help you store and share your data and to restrict access to it on your terms. Murmurations provides a way to share and map public data according to a standaridised set of fields, which make the data interoperable accross platforms and networks.
+Not really - [Solid](https://solid.mit.edu/) is a proposed set of conventions and tools for building decentralized social applications based on Linked Data principles. Solid aims to offer 'data pods' to help you store and share your data and to restrict access to it on your terms. Murmurations provides a way to share and map public data according to a standardised set of fields, which make the data interoperable across platforms and networks.
 
 ### ActivityPub
 Not really - [ActivityPub](https://activitypub.rocks/) is a decentralized social networking protocol based on the ActivityStreams 2.0 data format, which provides a client to server API for creating, updating and deleting content, as well as a federated server to server API for delivering notifications and subscribing to content. Murmurations doesn't deliver notifications or enable people to subscribe to content, instead it provides a way to share and map public data according to a standaridised set of fields, which make the data interoperable accross platforms and networks.
@@ -39,4 +42,4 @@ No - we're building a new way to map: a protocol which makes data on maps intero
 
 ## My questions isn’t answered here – what can I do?
 
-You can [send us a message](https://murmurations.network/contact/) and we will reply and add the answer here, or join the [Telegram group](https://t.me/joinchat/JvotB0kuxrjFgvYszbNvZw) and ask there...
+You can [send us a message](https://murmurations.network/contact/) and we will reply and add the answer here, or join the [Telegram group](https://t.me/joinchat/JvotB0kuxrjFgvYszbNvZw) and ask there.

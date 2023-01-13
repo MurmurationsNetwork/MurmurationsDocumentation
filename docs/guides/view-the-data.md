@@ -11,9 +11,9 @@ The [Profile Generator](../about/common-terms.md#profile-generator) has a [searc
 
 :construction: Work In Progress :construction:
 
-We are currently building a map that will enable you to view any of the Nodes in the Murmurations network using the same search criteria above.
+We are currently building a map that will enable you to view any of the Nodes in the Murmurations network.
 
-**Estimated time of completion: December 2022**
+**Estimated time of completion: January 2023**
 
 ## Using the API
 
