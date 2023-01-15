@@ -41,3 +41,11 @@ The `primary_url` field is where a Profile records its canonical web address. We
 The `primary_url` references an organization's (or individual's) primary web address. If a Profile is self-hosted on the organization's website, the `primary_url` will be the same domain as the `profile_url`, as is the case for the Open Co-op's Profile referenced in the FAQ above.
 
 Priority should always be given to a Profile whose `profile_url` is hosted at the same domain as the `primary_url`. In other words, a Profile that is hosted at "open.coop" and claiming "open.coop" as it's `primary_url` should have more weight than another Profile hosted at some other domain claiming "open.coop" as it's `primary_url`.
+
+## How is the `primary_url` derived from a website address?
+
+Let's assume the website address is `https://www.manyorgs.org/myorg/`. When the address is converted into a `primary_url` we remove the protocol (`https://`), the `www.` subdomain and the trailing `/`, leaving `manyorgs.org/myorg` as the `primary_url`.
+
+Only the  `www.` subdomain is removed. All other subdomains are kept as part of the `primary_url`. For the complete details of `primary_url` processing, see this GitHub issue:
+
+[https://github.com/MurmurationsNetwork/MurmurationsServices/issues/238](https://github.com/MurmurationsNetwork/MurmurationsServices/issues/238)
