@@ -54,6 +54,7 @@ module.exports = {
         path: '/faqs/general',
         children: [
           ['/faqs/general', 'General FAQs'],
+          ['/faqs/developer', 'Developer FAQs'],
           ['/faqs/schema', 'Schema FAQs']
         ],
         collapsable: false,

@@ -25,3 +25,9 @@
   - We use [Kubernetes](https://kubernetes.io/) to build and manage our production and test environments
   - We have a continuous deployment pipeline for our test environment with automated end-to-end tests that are run for every PR and commit to our `test` branch
   - We leverage frontend deployment tools like [Vercel](https://vercel.com/) to quickly deploy user-facing apps
+
+## Systems Diagram
+
+![Murmurations Systems Diagram](/murm_system_diagram.png)
+
+[Click here to open the diagram and zoom in](/murm_system_diagram.png)
