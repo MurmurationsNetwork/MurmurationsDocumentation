@@ -23,3 +23,42 @@ Unlike with tags, the `primary_url` search is an exact match search. Typos and s
 ### Last Update Time
 
 Use the date/time picker to specify the moment after which the nodes were last updated in the index. This is a good way to find new nodes that have been added to the index, or who made recent updates to their profiles.
+
+## URL Parameters
+
+### Search Parameters
+
+All of the above search options have corresponding URL parameters. For example:
+
+[https://map.murmurations.network/?schema=organizations_schema-v1.0.0&tags=co-op,commons&primary_url=open.coop&last_updated=1673817120](https://map.murmurations.network/?schema=organizations_schema-v1.0.0&tags=co-op,commons&primary_url=open.coop&last_updated=1673817120)
+
+There are two additional parameters that can be specified with the `tags` parameter:
+
+- `tags_exact` (`true` or `false`, default is `false`)
+- `tags_filter` (`and` or `or`, default is `or`)
+
+When `tags_exact` is `true`, only exact tag matches will be returned (fuzzy matching is disabled).
+
+When `tags_filter` is `and`, only results that contain all of the listed tags are returned.
+
+Compare:  
+[https://map.murmurations.network/?tags=bio,demeter](https://map.murmurations.network/?tags=bio,demeter)
+
+To:  
+[https://map.murmurations.network/?tags=bio,demeter&tags_filter=and](https://map.murmurations.network/?tags=bio,demeter&tags_filter=and)
+
+The latter returns significantly fewer results than the former.
+
+### Localization Parameters
+
+You can set tbe center point and zoom level of the map with the following parameters:
+
+- `lat`
+- `lon`
+- `zoom`
+
+For example:  
+[https://map.murmurations.network/?lat=51.513853&lon=0.098354&zoom=10](https://map.murmurations.network/?lat=51.513853&lon=0.098354&zoom=10)
+
+And:  
+[https://map.murmurations.network/?lat=52.517038&lon=13.377040&zoom=11](https://map.murmurations.network/?lat=52.517038&lon=13.377040&zoom=11)
