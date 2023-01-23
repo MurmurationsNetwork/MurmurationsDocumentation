@@ -9,6 +9,8 @@ The [Profile Generator](../about/common-terms.md#profile-generator) has a [searc
 
 ## View the Map
 
+### [Watch the demo video](https://player.vimeo.com/video/791872327)
+
 The [Murmurations Map](https://map.murmurations.network/) allows you to explore all of the Nodes in Murmurations that have geolocation coordinates associated with them.
 
 ## Using the API
