@@ -7,6 +7,8 @@ There are 3 ways to create and host a Murmurations Profile.
 > 
 ## 1. Hosted by Our Profile Generator
 
+### [Watch the demo video](https://www.loom.com/embed/3bb0548a60cc41e4abcdefd1b6dda41a)
+
 The Murmurations Profile Generator ([MPG](https://test-profiles.murmurations.network)) can be be used to generate profiles and can host them too if you are not able to upload a file anywhere else on the internet. MPG posts Profiles to MPG's database and the [IPFS](https://ipfs.io) network.
 
 > :warning: All information you post to Murmurations is stored on an open network. Do not publish anything that you would not want to make available to (potentially) the whole world.
