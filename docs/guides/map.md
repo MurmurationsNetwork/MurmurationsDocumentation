@@ -57,8 +57,26 @@ You can set tbe center point and zoom level of the map with the following parame
 - `lon`
 - `zoom`
 
-For example:  
+For example, centering London:  
 [https://map.murmurations.network/?lat=51.513853&lon=0.098354&zoom=10](https://map.murmurations.network/?lat=51.513853&lon=0.098354&zoom=10)
 
-And:  
+And Berlin:  
 [https://map.murmurations.network/?lat=52.517038&lon=13.377040&zoom=11](https://map.murmurations.network/?lat=52.517038&lon=13.377040&zoom=11)
+
+### Controlling data size with the `range` parameter
+
+With over 30,000 nodes in the index, it can take some time to load and then render them all on a map in a browser. See this [discussion post](https://github.com/MurmurationsNetwork/MurmurationsProtocol/discussions/55) for more details.
+
+To narrow down the amount of data that loads and thus render the map faster, set a center point on the map using the localization parameters described above, but add an additional `range` parameter (e.g., `10km` or `6mi`). 
+
+Here is an example loading all index data in the Paris area:  
+[https://map.murmurations.network/?lat=48.85&lon=2.35&range=10km&zoom=12](https://map.murmurations.network/?lat=48.85&lon=2.35&range=10km&zoom=12)
+
+
+And the Berlin example from above with the `range` parameter set to 5 kilometers:  
+[https://map.murmurations.network/?lat=52.517038&lon=13.377040&zoom=11&range=5km](https://map.murmurations.network/?lat=52.517038&lon=13.377040&zoom=11&range=5km)
+
+And 20 kilometers:  
+[https://map.murmurations.network/?lat=52.517038&lon=13.377040&zoom=11&range=20km](https://map.murmurations.network/?lat=52.517038&lon=13.377040&zoom=11&range=20km)
+
+Depending on the range you set, you will need to adjust the zoom level accordingly to show all of the data within that range.
