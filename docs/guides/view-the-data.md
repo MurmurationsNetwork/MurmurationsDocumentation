@@ -6,6 +6,8 @@
 
 The [Murmurations Map](https://map.murmurations.network/) allows you to explore all of the Nodes in Murmurations that have geolocation coordinates associated with them.
 
+[Learn how to create custom map views](/guides/map.md)
+
 ## Search in MPG
 
 The [Profile Generator](../about/common-terms.md#profile-generator) has a [search page](https://profiles.murmurations.network/get-nodes) that enables you to search for [Nodes](/docs/about/common-terms.md) in the Murmurations network based a variety of search criteria such as:
