@@ -80,3 +80,9 @@ And 20 kilometers:
 [https://map.murmurations.network/?lat=52.517038&lon=13.377040&zoom=11&range=20km](https://map.murmurations.network/?lat=52.517038&lon=13.377040&zoom=11&range=20km)
 
 Depending on the range you set, you will need to adjust the zoom level accordingly to show all of the data within that range.
+
+### Hiding search parameter inputs
+
+For a more compact view when you are embedding the map on your website or for mobile viewing, use the `hide_search` URL parameter.
+
+[https://map.murmurations.network/?schema=complementary_currencies-v2.0.0&hide_search=true](https://map.murmurations.network/?schema=complementary_currencies-v2.0.0&hide_search=true)
