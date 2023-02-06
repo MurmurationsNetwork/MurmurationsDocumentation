@@ -51,8 +51,8 @@ So how would we specify data in Murmurations to satisfy both of these schemas? W
 ```
 {
   "linked_schemas": [
-    "alice-org-schema-v1.0.0",
-    "bob-org-schema-v1.0.0"
+    "alice_org_schema-v1.0.0",
+    "bob_org_schema-v1.0.0"
   ],
   "name": "My Org",
   "purpose": "My org's specific purpose",
