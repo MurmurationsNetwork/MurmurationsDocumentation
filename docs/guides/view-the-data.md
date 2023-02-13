@@ -10,7 +10,7 @@ The [Murmurations Map](https://map.murmurations.network/) allows you to explore 
 
 ## Search in MPG
 
-The [Profile Generator](../about/common-terms.md#profile-generator) has a [search page](https://profiles.murmurations.network/get-nodes) that enables you to search for [Nodes](/docs/about/common-terms.md) in the Murmurations network based a variety of search criteria such as:
+There is a [search page](https://tools.murmurations.network/index-explorer) that enables you to search for [Nodes](/docs/about/common-terms.md) in the Murmurations network based a variety of search criteria such as:
 - Schema name
 - User-defined tags
 - Website address

@@ -14,7 +14,7 @@ The network is comprised of:
 To enable these entities to work together, Murmurations provides:
 
 - A protocol for defining and exchanging data about and amongst organizations, based on existing standards such as [JSON Schema](https://json-schema.org/understanding-json-schema/) and [REST APIs](https://www.redhat.com/en/topics/api/what-is-a-rest-api).
-- An [Index](https://index.murmurations.network/v2/nodes), a [Library](https://library.murmurations.network/v2/schemas) and a user-friendly data host (our [Profile Generator](https://profiles.murmurations.network/)) which enables organizations to quickly add themselves to the network.
+- An [Index](https://index.murmurations.network/v2/nodes), a [Library](https://library.murmurations.network/v2/schemas) and a user-friendly data host (our [Profile Generator](https://tools.murmurations.network/profile-generator))) which enables organizations to quickly add themselves to the network.
 - [Open source plug-ins and other code](https://github.com/MurmurationsNetwork) to make it as easy as possible to use, share and contribute data to the network in a decentralized way.
 
 The initial use case for Murmurations was to facilitate decentralized mapping of purpose-driven and solidarity economy organizations and projects.
@@ -25,7 +25,7 @@ Further historical background is in the 2019 [Murmurations Whitepaper](https://m
 
 The Murmurations Protocol enables individuals and organizations (Nodes) to create [_**Profiles**_](/about/common-terms.html#profile) about themselves in order to easily share information with Aggregators, who create [_**Schemas**_](/about/common-terms.html#schema) to define the data they need to create maps, directories and content aggregators.
 
-A Library stores details of the Schemas and the fields (data points) of which they are composed. A Node obtains a Schema from the Library to determine the data needed to create a Profile. You can [try out our Profile Generator](https://profiles.murmurations.network) to create a Profile based on the Schemas currently available in the Library.
+A Library stores details of the Schemas and the fields (data points) of which they are composed. A Node obtains a Schema from the Library to determine the data needed to create a Profile. You can [try out our Profile Generator](https://tools.murmurations.network/profile-generator) to create a Profile based on the Schemas currently available in the Library.
 
 An Index keeps track of Nodes based on the Schemas linked to their Profiles. Whenever a Node updates its Profile it should tell the Index. Aggregators regularly query the Index for Profile changes by Nodes they want to track by referencing their Schemas, enabling them to provide accurate and timely information in their maps, directories and content aggregators.
 

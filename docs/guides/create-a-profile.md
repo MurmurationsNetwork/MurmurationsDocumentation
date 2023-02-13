@@ -15,7 +15,7 @@ The Murmurations Profile Generator ([MPG](https://test-profiles.murmurations.net
 
 ### Step by step guide:
 
-1. Open the Murmurations Profile Generator - use the [test version](https://test-profiles.murmurations.network/) for testing or the [production version](https://profiles.murmurations.network) for real data.
+1. Open the Murmurations Profile Generator - use the [test version](https://test-tools.murmurations.network/profile-generator) for testing or the [production version](https://tools.murmurations.network/profile-generator) for real data.
 2. If you want to save your profile in MPG so you don't need to host it and submit its URL to the Index yourself, register using the "Login" button at the top right of the screen.
 3. Click on one or more schemas in the panel on the right (organizations_schema-v1.0.0 is good for testing).
 4. Click "Select" - you will see a form is generated, showing all the fields from the schema(s) you selected.

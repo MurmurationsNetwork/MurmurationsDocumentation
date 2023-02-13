@@ -12,7 +12,7 @@ The `test-` URLs have been set up to provide a space for developers to test thei
 | Index API         | [https://test-index.murmurations.network/v2/nodes](https://test-index.murmurations.network/v2/nodes)                                         |
 | Library API       | [https://test-library.murmurations.network/v2/schemas](https://test-library.murmurations.network/v2/schemas)                                 |
 | Library Repo      | [https://github.com/MurmurationsNetwork/MurmurationsLibrary/tree/test](https://github.com/MurmurationsNetwork/MurmurationsLibrary/tree/test) |
-| Profile Generator | [https://test-profiles.murmurations.network](https://test-profiles.murmurations.network)                                                     |
+| Murmurations Tools | [https://test-tools.murmurations.network](https://test-tools.murmurations.network)                                                     |
 | Murmurations Map  | [https://test-map.murmurations.network](https://test-map.murmurations.network)                                                               |
 
 ## Production Environment
@@ -26,5 +26,5 @@ Please note that only the Schemas approved by the Murmurations core team for pro
 | Index API         | [https://index.murmurations.network/v2/nodes](https://index.murmurations.network/v2/nodes)                                                   |
 | Library API       | [https://library.murmurations.network/v2/schemas](https://library.murmurations.network/v2/schemas)                                           |
 | Library Repo      | [https://github.com/MurmurationsNetwork/MurmurationsLibrary/tree/main](https://github.com/MurmurationsNetwork/MurmurationsLibrary/tree/main) |
-| Profile Generator | [https://profiles.murmurations.network](https://profiles.murmurations.network)                                                               |
+| Murmurations Tools | [https://tools.murmurations.network](https://tools.murmurations.network)                                                               |
 | Murmurations Map  | [https://map.murmurations.network](https://map.murmurations.network)                                                                         |
