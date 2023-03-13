@@ -31,6 +31,8 @@ module.exports = {
         children: [
           ['/guides/create-a-profile', 'Create a Profile'],
           ['/guides/view-the-data', 'View the Data'],
+          ['/guides/map', 'Custom Maps'],
+          ['/guides/import-networks', 'Import Networks'],
           ['/guides/create-a-schema', 'Create a Schema']
         ],
         collapsable: false,

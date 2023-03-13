@@ -2,6 +2,8 @@
 
 When a [Node](/about/common-terms.html#node) posts a [Profile](/about/common-terms.html#profile) to the [Index](/about/common-terms.html#index) and has geolocation coordinates (i.e., latitude and longitude) included in its profile, it wil be plotted on the map. The synchronization between the map and index take place every minute.
 
+Use the search options and URL parameters explained below to create **custom map views** of geolocated data in Murmurations.
+
 ## Search Options
 
 ### Schema
