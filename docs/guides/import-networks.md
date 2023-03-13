@@ -8,6 +8,8 @@ If you run a Wordpress site, use the Murmurations [Aggregator Wordpress plugin](
 
 ## Spreadsheet
 
+### [Watch the demo video](https://player.vimeo.com/video/807714220)
+
 If you maintain your network data in a spreadsheet, use the Murmurations [Batch Importer](https://test-tools.murmurations.network/batch-importer) to upload a CSV file of your network, which you have exported from your spreadsheet. Every time you add, update or delete any of your network's data profiles in your spreadsheet, just export the data in a CSV file and reupload it in the Batch Importer.
 
 ### CSV Field Formats
