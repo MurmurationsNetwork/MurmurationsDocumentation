@@ -10,7 +10,7 @@ The [Murmurations Map](https://map.murmurations.network/) allows you to explore 
 
 ## Search the Index
 
-Use the [Index Explorer](https://test-tools.murmurations.network/index-explorer) that enables you to search for [Nodes](/docs/about/common-terms.md) in the Murmurations network based a variety of criteria such as:
+Use the [Index Explorer](https://test-tools.murmurations.network/index-explorer) to search for [Nodes](/docs/about/common-terms.md) in the Murmurations network based a variety of criteria such as:
 - Schema name
 - User-defined tags
   - All or any tags entered (default is any)
