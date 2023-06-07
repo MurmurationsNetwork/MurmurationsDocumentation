@@ -53,7 +53,7 @@ The latter returns significantly fewer results than the former.
 
 ### Localization Parameters
 
-You can set tbe center point and zoom level of the map with the following parameters:
+You can set the center point and zoom level of the map with the following parameters:
 
 - `lat`
 - `lon`
