@@ -48,7 +48,7 @@ Thus they are not composable (reusable) and have to be specified separately to s
 
 So how would we specify data in Murmurations to satisfy both of these schemas? We use JSON Schema to create a [_**Profile**_](/about/common-terms.html#profile), which looks like this:
 
-```
+```json
 {
   "linked_schemas": [
     "alice_org_schema-v1.0.0",

@@ -1,7 +1,8 @@
 # Create a Murmurations Schema
 
-> ### 🚀👩‍🔬 Rocket Science Alert!  
-> You will probably never need to create a schema, but we're providing you with this information so you can at least understand how it is done.
+::: info 🚀👩‍🔬 Rocket Science Alert!  
+You will probably never need to create a schema, but we're providing you with this information so you can at least understand how it is done.
+:::
 
 ## Overview
 
@@ -54,7 +55,7 @@ Near the beginning of the schema you will find four metadata properties in the m
 
  Example:
 
-```
+```json
   "$schema": "https://json-schema.org/draft-07/schema#",
   "$id": "https://test-cdn.murmurations.network/schemas/test_schema-v2.0.0.json",
   "title": "Test Schema",
@@ -67,7 +68,7 @@ The `creator` metadata property contains information about the organisation or e
 
 The `schema` metadata property contains information about the schema itself, including the `name`, `purpose` and a `url` where there might be more information about the schema.
 
-```
+```json
 "metadata": {
     "creator": {
       "name": "Murmurations Network",
@@ -117,7 +118,7 @@ You will see a screen like this indicating that the empty schema is giving error
 
 2. Paste the example profile (JSON object) below into the "Input JSON" text area on the right.
 
-```
+```json
 {
 	"name": "Just testing",
     "url": "https://test.com",

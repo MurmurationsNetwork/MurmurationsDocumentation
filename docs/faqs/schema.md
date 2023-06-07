@@ -10,9 +10,9 @@ There is only one required property in a Murmurations Schema: the `linked_schema
 
 For example, if you want to create a [Profile](/about/common-terms.html#profile) that can be validated against both the [Organizations schema](https://github.com/MurmurationsNetwork/MurmurationsLibrary/blob/main/schemas/organizations_schema-v1.0.0.json) and the [Complementary Currencies schema](https://github.com/MurmurationsNetwork/MurmurationsLibrary/blob/main/schemas/complementary_currencies-v2.0.0.json), your Profile document would have to include:
 
-```
+```json
 {
-  "linked_scheams": [
+  "linked_schemas": [
     "organizations_schema-v1.0.0",
     "complementary_currencies-v2.0.0"
   ],
@@ -30,7 +30,7 @@ When this `profile_url` (`https://www.open.coop/open.json`) is sent to the Index
 
 The `primary_url` field is where a Profile records its canonical web address. We can see the `primary_url` being used in the [Open Co-op Murmurations Profile](https://open.coop/open.json):
 
-```
+```json
 {
   // ...
   "primary_url": "open.coop",
