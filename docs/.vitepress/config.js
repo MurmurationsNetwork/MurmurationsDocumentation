@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "Murmurations Documentation",
+  title: "Murmurations Docs",
   description: "Documentation for the Murmurations Protocol",
   lastUpdated: true,
   themeConfig: {
@@ -11,7 +11,7 @@ export default defineConfig({
       text: 'Edit this page on GitHub'
     },
 
-    // logo: '/murmurations-logo.png',
+    logo: '/murmurations-logo.png',
 
     nav: [
       { text: 'FAQs', link: '/faqs/general' },
@@ -67,7 +67,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/MurmurationsNetwork' }
     ]
   }
 })
