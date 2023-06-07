@@ -4,7 +4,7 @@ Murmurations provides several tools to make it easy for organisations to use Mur
 
 ## Wordpress Data
 
-If you run a Wordpress site, use the Murmurations [Aggregator Wordpress plugin]((/developers/wp-aggregator.md)) to automatically allow your site to interact with Murmurations to index your network's data in order to display maps or directories of your network.
+If you run a Wordpress site, use the Murmurations [Aggregator Wordpress plugin](/developers/wp-aggregator.md) to automatically allow your site to interact with Murmurations to index your network's data in order to display maps or directories of your network.
 
 ## Spreadsheet
 
