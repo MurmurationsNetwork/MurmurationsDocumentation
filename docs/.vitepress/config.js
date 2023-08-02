@@ -51,7 +51,7 @@ export default defineConfig({
           {link: '/developers/index-api', text: 'Index API'},
           {link: '/developers/library-api', text: 'Library API'},
           {link: '/developers/wp-aggregator', text: 'Wordpress Aggregator Plugin'},
-          {link: '/developers/wp-node', text: 'Wordpress Node Plugin'}
+          {link: '/developers/wp-node', text: 'Wordpress Node Plugin 🚀'}
         ],
         collapsed: false
       },
