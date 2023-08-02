@@ -17,5 +17,5 @@ To setup the beta plugin on your WordPress site:
 ## Important Notes
 
 - If you have an earlier version of the Murmuration Node plugin installed, you must deactivate and uninstall it first before installing the current version, which is a major update so the old data will be incompatible with this new release.
-- Only the Organizations profiles will work in the [production environment](/about/environments.html). Organizations, People and Offers & Wants profiles all work in the test environment. As soon as we finish beta testing we will enable all three profile types in the production environment as well.
+- Only the Organizations profiles will work in the [production environment](/developers/environments.html). Organizations, People and Offers & Wants profiles all work in the test environment. As soon as we finish beta testing we will enable all three profile types in the production environment as well.
 - If you have any issues installing or using the plugin, please [contact us](/about/getting-support.html).
