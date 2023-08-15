@@ -6,7 +6,7 @@ It is currently a beta release available for download at our [GitHub repository]
 
 To setup the beta plugin on your WordPress site:
 
-1. Download the [plugin installer file](https://github.com/MurmurationsNetwork/MurmurationsNodeWP/releases/download/v1.0.0-beta.1/MurmurationsNodeWP-v1.0.0-beta.1.zip)
+1. Download the [plugin installer file](https://github.com/MurmurationsNetwork/MurmurationsNodeWP/releases/download/v1.0.0-beta.4/MurmurationsNodeWP-v1.0.0-beta.4.zip)
 2. Login to the Admin pages of your WordPress site and select the Plugins menu item
 3. Click on "Add New" and then "Upload Plugin"
 4. Select the file you downloaded in Step 1 above, then click "Install Now"
