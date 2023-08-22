@@ -8,7 +8,7 @@ Use the search options and URL parameters explained below to create **custom map
 
 ### Schema
 
-Select a schema if you want to narrow down the results to nodes whose profiles are based on a specific schema. The default is to show all nodes in Murmurations ("all schemas").
+The Schema default is the Organisations schema. Select a different schema if you want to narrow down the results to nodes whose profiles are based on a specific schema.
 
 ### Tags
 
@@ -65,11 +65,20 @@ For example, centering London:
 And Berlin:  
 [https://map.murmurations.network/?lat=52.517038&lon=13.377040&zoom=11](https://map.murmurations.network/?lat=52.517038&lon=13.377040&zoom=11)
 
-### Controlling data size with the `range` parameter
+### Controlling data size 
 
 With over 30,000 nodes in the index, it can take some time to load and then render them all on a map in a browser. See this [discussion post](https://github.com/MurmurationsNetwork/MurmurationsProtocol/discussions/55) for more details.
 
-To narrow down the amount of data that loads and thus render the map faster, set a center point on the map using the localization parameters described above, but add an additional `range` parameter (e.g., `10km` or `6mi`). 
+To narrow down the amount of data that loads and thus render the map faster, filter the ammount of data with by schema or range:
+
+#### Controlling data size with the `schema` or `Tags` parameters
+
+Map searches default to the Organisation schema, so a search for the tag 'vegan' returns the URL: https://map.murmurations.network/?schema=organizations_schema-v1.0.0&tags=vegan
+To search all Schemas for a specific Tag remove the 'schema=organizations_schema-v1.0.0' part of the URL e.g. https://map.murmurations.network/?tags=vegan
+
+#### Controlling data size with the `range` parameter
+
+Set a center point on the map using the localization parameters described above, but add an additional `range` parameter (e.g., `10km` or `6mi`). 
 
 Here is an example loading all index data in the Paris area:  
 [https://map.murmurations.network/?lat=48.85&lon=2.35&range=10km&zoom=12](https://map.murmurations.network/?lat=48.85&lon=2.35&range=10km&zoom=12)
