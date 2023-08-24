@@ -25,14 +25,14 @@ Developing with Murmurations helps build the open data commons and encourage the
 
 ### Data scientists and knowledge curators
 
-Murmurations provides the perfect framework for open data sharing, no matter what kind of data it is.
-Imagine you wanted to create a network of farmers and encourage the open sharing of fertiliser applications vs crop yields to encourage better farming and optimum yields - this would be easy using Murmurations and the data would remain open for others to see and use rather than locked up on a corporate server.
+Murmurations provides the perfect framework for open data sharing, no matter what kind of data is being shared.
+Suppose you had a network of farmers and wanted to encourage the open sharing of fertiliser applications vs crop nutrition and yields to encourage better farming practices to increase food quality and crop yields. This would be easy using Murmurations and the data would remain open for others to see and use rather than locked up on a corporate server.
 The process would work like this:
 
-- Determine the data you want to record, by working in consultation with the stakeholders involved
+- Determine the data you want to record, by consulting the stakeholders involved
 - Define the field names and descriptions, and create any new fields in the field library
-- [Create a new schema](https://docs.murmurations.network/guides/create-a-schema.html) containing all your fields
-- Get the farmers to record their data and [create profiles](https://docs.murmurations.network/guides/create-a-profile.html) for their farms and fields
+- [Create a new schema](https://docs.murmurations.network/guides/create-a-schema.html) containing the data fields you created
+- Get the farmers to record their data by [creating profiles](https://docs.murmurations.network/guides/create-a-profile.html) for their farms and fields
 - Search the index for data matching your schema to find, access, analyse and present the results and conclusions in your chosen format
 
 Murmurations also supports [relationships](https://github.com/MurmurationsNetwork/MurmurationsLibrary/blob/test/fields/relationships.json) which can be used to build sophisticated networks of data in the form of [triples](https://en.wikipedia.org/wiki/Semantic_triple).
