@@ -4,6 +4,12 @@
 
 The Murmurations Protocol, which we also just call Murmurations, is a standardised, open source set of rules designed to enable decentralised, interoperable data sharing and aggregation. Murmurations uses existing standards such as [JSON-Schema](https://json-schema.org/) to help people, projects and organisations discover each other and share data across platforms and between networks. The ultimate aim of Murmurations is to accelerate the global transition to the [regenerative economy](https://capitalinstitute.org/8-principles-regenerative-economy/).
 
+## What can I do with Murmurations?
+
+See our post on [collaborative mapping](https://murmurations.network/2023/08/22/collaborative-mapping/) for some user stories explaining how you can use Murmurations to:
+- Build a map of X (e.g. Vegan shops) in a specific area
+- Build a map of a Network of members
+
 ## Can you explain the terms you use?
 
 See the [common terms](/about/common-terms.html) we use when working with Murmurations and our blog posts [Murmurations explained](https://murmurations.network/2022/07/07/murmurations-explained/), and [using Murmurations](https://murmurations.network/2022/07/12/using-murmurations/).
