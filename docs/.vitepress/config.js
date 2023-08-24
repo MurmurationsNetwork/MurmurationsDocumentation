@@ -24,6 +24,7 @@ export default defineConfig({
         text: 'About',
         items: [
           {link: '/about/introduction', text: 'Introduction'},
+          {link: '/about/use-cases', text: 'Use Cases'},
           {link: '/about/ontology-composability', text: 'Composable Ontologies'},
           {link: '/about/common-terms', text: 'Common Terms'},
           {link: '/about/architecture', text: 'Architecture'},
