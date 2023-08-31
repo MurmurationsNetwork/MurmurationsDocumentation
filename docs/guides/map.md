@@ -8,7 +8,7 @@ Suppose you want to create a map of ‘Vegan shops in Berlin’ to show on your 
 
 - [Search the main Map](https://map.murmurations.network/) by tags to see what data already exists. NB: To see all the available data for a specific Tag remove the ‘schema=organizations_schema-v1.0.0’ part of the URL e.g. https://map.murmurations.network/?tags=vegan
 - Adjust the search URL using the [URL Parameters](https://docs.murmurations.network/guides/map.html#url-parameters) until the map shows the area and data you want e.g. this URL centers on Berlin and shows only profiles with the ‘vegan’ tag: https://map.murmurations.network/?tags=vegan&zoom=11&lat=52.5200&lon=13.4050&hide_search=true
-- Copy the URL for the search and paste it into a iframe e.g. <iframe src=”https://map.murmurations.network/?tags=vegan&amp;zoom=11&amp;lat=52.5200&amp;lon=13.4050&amp;hide_search=true“></iframe>
+- Copy the URL for the search and paste it into a iframe e.g. `<iframe src=”https://map.murmurations.network/?tags=vegan&zoom=11&lat=52.5200&lon=13.4050&hide_search=true“></iframe>`
 - Then add additional nodes to your map by creating new Profiles using the [WordPress Node Plugin](https://docs.murmurations.network/developers/wp-node.html) or the [Murmurations Profile Generator](https://docs.murmurations.network/guides/create-a-profile.html#step-by-step-guide)
 - The new Profiles you create will show up on your embedded map straight away
 
