@@ -1,10 +1,48 @@
-# Murmurations Map
+# Create a Map
 
-When a [Node](/about/common-terms.html#node) posts a [Profile](/about/common-terms.html#profile) to the [Index](/about/common-terms.html#index) and has geolocation coordinates (i.e., latitude and longitude) included in its profile, it wil be plotted on the map. The synchronization between the map and index take place every minute.
+Murmurations provides a simple way to build customised maps and directories, with the added advantage that you can draw from, and add to, a large body of collaborative mapping data, so you don’t need to start from scratch and your mapping efforts will contribute to a growing body of open, interoperable data. When a [Node](/about/common-terms.html#node) posts a [Profile](/about/common-terms.html#profile) to the [Index](/about/common-terms.html#index) and has geolocation coordinates (i.e., latitude and longitude) included in its profile, it wil be plotted on the map. The synchronization between the map and index take place every minute.
+
+## Create a map of X (e.g. Vegan shops) in your area
+
+Suppose you want to create a map of ‘Vegan shops in Berlin’ to show on your website. Here’s how to do that using Murmurations:
+
+- [Search the main Map](https://map.murmurations.network/) by tags to see what data already exists. NB: To see all the available data for a specific Tag remove the ‘schema=organizations_schema-v1.0.0’ part of the URL e.g. https://map.murmurations.network/?tags=vegan
+- Adjust the search URL using the [URL Parameters](https://docs.murmurations.network/guides/map.html#url-parameters) until the map shows the area and data you want e.g. this URL centers on Berlin and shows only profiles with the ‘vegan’ tag: https://map.murmurations.network/?tags=vegan&zoom=11&lat=52.5200&lon=13.4050&hide_search=true
+- Copy the URL for the search and paste it into a iframe e.g. <iframe src=”https://map.murmurations.network/?tags=vegan&amp;zoom=11&amp;lat=52.5200&amp;lon=13.4050&amp;hide_search=true“></iframe>
+- Then add additional nodes to your map by creating new Profiles using the [WordPress Node Plugin](https://docs.murmurations.network/developers/wp-node.html) or the [Murmurations Profile Generator](https://docs.murmurations.network/guides/create-a-profile.html#step-by-step-guide)
+- The new Profiles you create will show up on your embedded map straight away
+
+See other examples of [custom embedded maps](https://murmurations.network/2023/01/30/embedded-maps/).
+
+## Create a network map:
+
+### Option 1: Create an embedded map
+
+- Pick a descriptive Tag for your network e.g. ‘Global EcoVillage Network’
+- Ask your Members to create Profiles including the ‘Global EcoVillage Network’ tag by using the [WordPress Node Plugin](https://docs.murmurations.network/developers/wp-node.html) or the [Murmurations Profile Generator](https://docs.murmurations.network/guides/create-a-profile.html#step-by-step-guide)
+- Search the map for Profiles tagged ‘Global EcoVillage Network’ e.g. https://map.murmurations.network/?tags=global%20ecovillage%20network
+- Adjust the search URL using the [URL Parameters](https://docs.murmurations.network/guides/map.html#url-parameters) until the map shows the area and data you want
+- Copy the URL for the search and paste it into a iframe
+- Either you, or your Members, can then add additional nodes to your map by creating new Profiles using the [WordPress Node Plugin](https://docs.murmurations.network/developers/wp-node.html) or the [Murmurations Profile Generator](https://docs.murmurations.network/guides/create-a-profile.html#step-by-step-guide)
+
+### Option 2: Create a map from existing Member data
+
+If you already have a lot of data you can register this with the Murmurations index to avoid asking your Members to make new Profiles. The disadvantage of this method will be that you are the ‘owner’ of the data, making it harder for your Members to edit and update their Profiles themselves. However, the Murmurations WordPress Aggregator recognizes the ‘authority’ of Profiles according to their primary URL, so if a Member wanted to update their Profile on your map they could simply create a new Profile and host this on their own website and the new Profile data would be displayed instead of the original, since it would have greater authority. See [this post](https://murmurations.network/2022/07/07/murmurations-wordpress-aggregator-mapping-demo/) for a demo.
+
+To import an existing dataset and create a map:
+
+- Prepare your data as a csv file by following the [instructions](https://docs.murmurations.network/guides/import-networks.html#spreadsheet) using the example import file
+- Register your data with the Index using the [batch importer](https://tools.murmurations.network/batch-importer)
+- Create an embedded map showing the data you want (as per Option 1 above) or,
+- Use [the API](https://docs.murmurations.network/guides/view-the-data.html#using-the-api) to get the nodes you want and display these on a custom map
+
+### Option 3: Use the Murmurations WordPress Aggregator Plugin
+
+The [Murmurations WordPress Aggregator Plugin](https://docs.murmurations.network/developers/wp-aggregator.html) makes it easy for anyone running WordPress to access data in the Index, and to collect, filter, moderate and curate Profiles in order to display customised maps and directories on their sites.
 
 Use the search options and URL parameters explained below to create **custom map views** of geolocated data in Murmurations.
 
-## Search Options
+## Search Options for customised embedded maps
 
 ### Schema
 
