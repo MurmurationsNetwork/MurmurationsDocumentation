@@ -1,5 +1,9 @@
 # WP Aggregator Plugin
 
+🚧 Work in progress 🚧
+
+The Wordpress Aggregator Plugin is currently being re-written to work with the v2 index and simplify the UX - Please [contact us](https://murmurations.network/contact/) if you would like to be updated when it's launched.
+
 ## Overview
 
 The Murmurations Aggregator Wordpress plugin provides a quick and powerful way to set up a site that fetches and displays data from the Murmurations network. Out of the box, this data can be displayed on a geographic map, or in a directory. There are also endpoints compatible with Kumu to enable systems mapping, and client-side interfaces built in React that can be embedded in the Wordpress site. Experimental features include the ability to aggregate and display feeds or posts from collected nodes, and fetching data from multiple sources and merging nodes based on their URLs.
