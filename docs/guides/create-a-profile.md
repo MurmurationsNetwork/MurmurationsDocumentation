@@ -2,7 +2,12 @@
 
 There are 3 ways to create and host a Murmurations Profile.
  
-## 1. Hosted by Our Profile Generator
+## 1. Hosted on WordPress
+
+The [WordPress Node Plugin](https://docs.murmurations.network/developers/wp-node.html) makes it simple to create Profiles for People, Organisations, Groups, Project and Offers and Wants via your WordPress site.
+Just follow the steps in the link above. If you're not using Wordpress see options 2 and 3 below - you can create and host Profiles for any other type of website.
+
+## 2. Hosted by Our Profile Generator
 
 ### [Watch the demo video](https://www.loom.com/embed/3bb0548a60cc41e4abcdefd1b6dda41a)
 
@@ -27,7 +32,7 @@ The Murmurations Profile Generator ([MPG](https://test-profiles.murmurations.net
 9. Your profile will be saved (both in MPG and on IPFS) and submitted to the Index.
 10. Your profile will be listed under 'My Profiles'. You can visit it by clicking on the title, or modify or delete it using the buttons.
 
-## 2. Hosted on Your Server
+## 3. Hosted on Your Server
 
 Use this method for greater data 'authority', if you are able to upload a file to your own server.
 
@@ -49,10 +54,4 @@ Use this method for greater data 'authority', if you are able to upload a file t
 5. Each time you make a change to your profile, update the Index so it timestamps your latest changes.
 6. You can now search for your profile. For example, if you entered a `primary_url` (a unique identifier URL, e.g., `your.site`) you can now search for it in the Index by entering 'your.site' in the relevant input box in the Index Explorer ([test](https://test-tools.murmurations.network/index-explorer) / [production](https://tools.murmurations.network/index-explorer).
 
-## 3. Hosted on WordPress
 
-:construction: Work In Progress :construction:
-
-The WordPress Node Plugin is currently being rewritten to be compatible with the latest version (v2.0.0) of the [Murmurations Protocol](/about/common-terms.html#murmurations-protocol).
-
-Once this work is completed you will be able to add the Murmurations WordPress Node plugin to your WordPress site to create a profile and post it to the Murmurations Index from within the backend in just a few clicks - easy peasy.
