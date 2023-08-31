@@ -42,7 +42,7 @@ The [Murmurations WordPress Aggregator Plugin](https://docs.murmurations.network
 
 Use the search options and URL parameters explained below to create **custom map views** of geolocated data in Murmurations.
 
-## Search Options for customised embedded maps
+## Search Options 
 
 ### Schema
 
@@ -64,7 +64,7 @@ Unlike with tags, the `primary_url` search is an exact match search. Typos and s
 
 Use the date/time picker to specify the moment after which the nodes were last updated in the index. This is a good way to find new nodes that have been added to the index, or who made recent updates to their profiles.
 
-## URL Parameters
+## URL Parameters for customised embedded maps
 
 ### Search Parameters
 
