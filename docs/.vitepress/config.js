@@ -39,8 +39,8 @@ export default defineConfig({
         items: [
           {link: '/guides/create-a-profile', text: 'Create a Profile'},
           {link: '/guides/view-the-data', text: 'View the Data'},
-          {link: '/guides/map', text: 'Custom Maps'},
-          {link: '/guides/import-networks', text: 'Import Networks'},
+          {link: '/guides/map', text: 'Create a Map'},
+          {link: '/guides/import-networks', text: 'Import data'},
           {link: '/guides/create-a-schema', text: 'Create a Schema'}
         ],
         collapsed: false
