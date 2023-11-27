@@ -17,7 +17,7 @@ See the [common terms](/about/common-terms.html) we use when working with Murmur
 
 ## How do I create a Murmurations profile?
 
-Visit the [Murmurations Profile Generator](https://tools.murmurations.network/profile-generator) and follow the steps, or for more detail see our [create a profile](/guides/create-a-profile.md) guide.
+Visit the [Murmurations Profile Generator](https://test-tools.murmurations.network/profile-generator) and follow the steps, or for more detail see our [create a profile](/guides/create-a-profile.md) guide.
 
 <!-- ## How can I use Murmurations to create a map or directory or other type of aggregator?
 

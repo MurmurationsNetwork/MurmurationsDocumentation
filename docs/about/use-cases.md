@@ -15,7 +15,7 @@ See our post on [collaborative mapping](https://murmurations.network/2023/08/22/
 
 For developers Murmurations offers a flexible protocol for decentralised data sharing, which encourages the re-use of existing fields for greater interoperability and also supports the creation of new fields and [schemas](/guides/create-a-schema.html).
 
-See the background on [composbale ontologies](/about/ontology-composability.html) for more details on the advantages of the Murmuration protocol's flexible ontology and composable data approach.
+See the background on [composable ontologies](/about/ontology-composability.html) for more details on the advantages of the Murmuration protocol's flexible ontology and composable data approach.
 
 Developers can use Murmurations to create custom schemas and to share data for any type of object. For example, the Community Currency Alliance developed a custom [schema for complimentary currencies](https://github.com/MurmurationsNetwork/MurmurationsLibrary/blob/main/schemas/complementary_currencies-v2.0.0.json) featuring a range of fields for their specific needs, which enabled them to build a highly filterable, open source [map of complementary currency projects](https://map.currency.community/) to which others can contribute by creating new profiles.
 
