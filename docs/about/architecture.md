@@ -19,7 +19,7 @@
 ### Requirements
 
 - Must use open source software
-  - We build on: Linux, Docker, Golang, JavaScript, React, [Remix](https://remix.run) and Wordpress
+  - We build on: Linux, Docker, Golang, JavaScript, React, [Remix](https://remix.run) and WordPress
   - All the software we build ourselves is open source under the GPLv3 License
 - Make deployment simple and reliable, and scalable
   - We use [Kubernetes](https://kubernetes.io/) to build and manage our production and test environments

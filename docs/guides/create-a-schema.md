@@ -50,7 +50,7 @@ Near the beginning of the schema you will find four metadata properties in the m
 
  - **$schema** - A reference to the version of the JSON Schema standard that will be used to interpret this schema. Leave this as is referencing version 7.
  - **$id** - The final canonical URI of the schema in the Murmurations Library. You can leave most of this as is in the example, replacing the final part with the filename of your schema (see below).
- - **title** - A human-readable title for your schema. This will appear in various places where the schema is used, including in the Wordpress Node Plugin and the Murmurations Profile Generator, where people can choose to add information that matches your schema to their profiles.
+ - **title** - A human-readable title for your schema. This will appear in various places where the schema is used, including in the WordPress Node Plugin and the Murmurations Profile Generator, where people can choose to add information that matches your schema to their profiles.
  - **description** - A human-readable description of your schema and what it's for.
 
  Example:

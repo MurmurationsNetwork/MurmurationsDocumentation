@@ -5,7 +5,7 @@ There are 3 ways to create and host a Murmurations Profile.
 ## 1. Hosted on WordPress
 
 The [WordPress Node Plugin](https://docs.murmurations.network/developers/wp-node.html) makes it simple to create Profiles for People, Organisations, Groups, Project and Offers and Wants via your WordPress site.
-Just follow the steps in the link above. If you're not using Wordpress see options 2 and 3 below - you can create and host Profiles for any other type of website.
+Just follow the steps in the link above. If you're not using WordPress see options 2 and 3 below - you can create and host Profiles for any other type of website.
 
 ## 2. Hosted by Our Profile Generator
 

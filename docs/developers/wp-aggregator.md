@@ -2,11 +2,11 @@
 
 🚧 Work in progress 🚧
 
-The Wordpress Aggregator Plugin is currently being re-written to work with the v2 index and simplify the UX - Please [contact us](https://murmurations.network/contact/) if you would like to be updated when it's launched.
+The WordPress Aggregator Plugin is currently being re-written to work with the v2 index and simplify the UX - Please [contact us](https://murmurations.network/contact/) if you would like to be updated when it's launched.
 
 ## Overview
 
-The Murmurations Aggregator Wordpress plugin provides a quick and powerful way to set up a site that fetches and displays data from the Murmurations network. Out of the box, this data can be displayed on a geographic map, or in a directory. There are also endpoints compatible with Kumu to enable systems mapping, and client-side interfaces built in React that can be embedded in the Wordpress site. Experimental features include the ability to aggregate and display feeds or posts from collected nodes, and fetching data from multiple sources and merging nodes based on their URLs.
+The Murmurations Aggregator WordPress plugin provides a quick and powerful way to set up a site that fetches and displays data from the Murmurations network. Out of the box, this data can be displayed on a geographic map, or in a directory. There are also endpoints compatible with Kumu to enable systems mapping, and client-side interfaces built in React that can be embedded in the WordPress site. Experimental features include the ability to aggregate and display feeds or posts from collected nodes, and fetching data from multiple sources and merging nodes based on their URLs.
 
 The Aggregator plugin code is in the [Github repo](https://github.com/MurmurationsNetwork/MurmurationsAggregatorWP).
 
@@ -42,7 +42,7 @@ If you do not see a Map or Directory displayed on your page when using the `[mur
 ## Displaying nodes
 
 ### Archive and single pages
-By default, Wordpress displays nodes like other custom post types, at the path `example.com/murmurations_nodes`. This path can be customized by updating the `node_slug` setting in the Advanced tab of the admin UI.
+By default, WordPress displays nodes like other custom post types, at the path `example.com/murmurations_nodes`. This path can be customized by updating the `node_slug` setting in the Advanced tab of the admin UI.
 
 ### Shortcodes
 
@@ -196,4 +196,4 @@ The aggregator provides an optional endpoint to access locally stored profiles i
 
 ## Aggregator node REST API and use as a headless backend
 
-The aggregator exposes endpoints in the WP REST API for accessing node data. These endpoints are used by React interfaces, but also work to make the aggregator function as a headless admin backend for display of Murmurations data on other, non-Wordpress sites.
+The aggregator exposes endpoints in the WP REST API for accessing node data. These endpoints are used by React interfaces, but also work to make the aggregator function as a headless admin backend for display of Murmurations data on other, non-WordPress sites.
