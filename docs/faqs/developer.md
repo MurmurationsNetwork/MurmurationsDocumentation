@@ -12,7 +12,7 @@ The first endpoint is for rapid firing a large volume of profiles at once. The s
 
 Also, if you change a node's data, POST it again to either of the same endpoints above. The index will then access the JSON data on the page and update its records accordingly.
 
-If you ever want to remove a node from the index, first delete the page (ideally return a `404 Not Found` error showing it is gone) then send a DELETE request to this endpoint:  
+If you ever want to remove a node from the index, first delete the page (it must return a `404 Not Found` error showing it is gone) then send a DELETE request to this endpoint:  
 [https://app.swaggerhub.com/apis-docs/MurmurationsNetwork/IndexAPI/2.0.0#/Node%20Endpoints/delete_nodes__node_id_](https://app.swaggerhub.com/apis-docs/MurmurationsNetwork/IndexAPI/2.0.0#/Node%20Endpoints/delete_nodes__node_id_)
 
 The index will confirm the JSON data is no longer available at the page and then change it's status to deleted​ in the index.

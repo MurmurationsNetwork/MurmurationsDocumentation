@@ -2,11 +2,13 @@
 
 There are 3 ways to create and host a Murmurations profile.
 
-> :warning: All information you post to Murmurations is stored on an open network. Do not publish anything that you would not want to make public.
+::: warning :warning: Data Privacy
+All information you post to Murmurations is stored on an open network. Do not publish anything that you would not want to make public.
+:::
 
 ## 1. Hosted on WordPress
 
-The [WordPress Node Plugin](/developers/wp-node.html) makes it simple to create profiles for people, organisations, groups, projects and offers/wants via your WordPress site.
+The [WordPress Profile Plugin](/developers/wp-node.html) makes it simple to create profiles for people, organisations, groups, projects and offers/wants via your WordPress site.
 
 Just follow the steps in the link above. If you're not using WordPress see options 2 and 3 below - you can create and host profiles on any website or server that support the HTTP protocol.
 
@@ -41,17 +43,18 @@ Use this method for greater data ['authority'](/faqs/schema.html#what-is-a-prima
 1. Follow steps 1 - 7 above to use MPG to create a JSON profile (you can skip step 2 for registering with MPG)
 2. Copy the JSON code that MPG generates to a text file and save this with a name like `your-profile.json` (the filename must end with the `.json` extension).
 3. Upload this file to your web server. For maximum authority, the file should be hosted at the primary URL it is describing, i.e., a file describing `https://your.site` should be hosted at: `https://your.site/your-profile.json`. However, profiles can be hosted anywhere; if they're not hosted at the primary URL they are describing they simply have less authority.
-4. Use the [test version](https://test-tools.murmurations.network/index-updater) or [production version](https://tools.murmurations.network/index-updater) of the Index Updater to add your profile to the Index. Just paste the URL of your profile and post it to the Index.
+4. Use the [test instance](https://test-tools.murmurations.network/index-updater) or [production instance](https://tools.murmurations.network/index-updater) of MPG's Index Updater to add your profile to the index. Just paste the URL of your profile and post it to the index.
     The response message will include a `posted` status if successful:
 
     ```json  
     {
       "node_id":"4c4ec22cc828a05bcddb7f9b9987a7b5e365fd645e24e87991d0913f236160e8",
-      "profile_url":"https://your.site/your-profile.json","profile_hash":"2168110f2eba3d0c89d59fd728917bbf845528e0d63bc53929132815bf1660fe",
+      "profile_url":"https://your.site/your-profile.json",
+      "profile_hash":"2168110f2eba3d0c89d59fd728917bbf845528e0d63bc53929132815bf1660fe",
       "status":"posted",
       "last_updated":1657117819
     }
     ```
 
-5. Each time you make a change to your profile, update the Index so it timestamps your latest changes.
-6. You can now search for your profile. For example, if you entered a `primary_url` (a unique identifier URL, e.g., `your.site`) you can now search for it in the Index by entering 'your.site' in the relevant input box in the Index Explorer ([test](https://test-tools.murmurations.network/index-explorer) / [production](https://tools.murmurations.network/index-explorer).
+5. Each time you make a change to your profile, update the index so it timestamps your latest changes.
+6. You can now search for your profile. For example, if you entered a `primary_url` (a unique identifier URL, e.g., `your.site`) you can now search for it in the index by entering 'your.site' in the relevant input box in MPG's Index Explorer ([test](https://test-tools.murmurations.network/index-explorer) / [production](https://tools.murmurations.network/index-explorer)).

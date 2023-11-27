@@ -10,6 +10,6 @@ Would you like to contribute to Murmurations? Great! Here are some things you ca
 
 - If you know Golang (especially if this knowledge also touches Kubernetes, MongoDB, and Elasticsearch), we need you on our Murmurations Services team. This is the core architecture of Murmurations, and we're building it with performance and scale in mind.
 
-- Finally, if you're a data geek and have experience with ontologies and vocabularies, and are also open-minded about the pragmatic context of Murmurations, we're looking for you for our Library review team. This still-nascent group is responsible for reviewing field and schema submissions and nudging the Murmurations ecosystem toward increasingly sound, reliable and interoperable data standards.
+- Finally, if you're a data geek and have experience with ontologies and vocabularies, and are also open-minded about the pragmatic context of Murmurations, we're looking for you for our library review team. This still-nascent group is responsible for reviewing field and schema submissions and nudging the Murmurations ecosystem toward increasingly sound, reliable and interoperable data standards.
 
 If anything above sounds of interest to you, please reach us at the [contact form on Murmurations.network](https://murmurations.network/contact/). We can't wait to hear from you!

@@ -25,7 +25,9 @@ Murmurations allows both Alice and Bob to create their own organization schemas.
 
 Before explaining data composability, let's start with a definition of composability (from Wikipedia):
 
-> "Composability is a system design principle that deals with the inter-relationships of components. A highly composable system provides components that can be selected and assembled in various combinations to satisfy specific user requirements."
+::: info Composability
+a system design principle that deals with the inter-relationships of components. A highly composable system provides components that can be selected and assembled in various combinations to satisfy specific user requirements.
+:::
 
 What are the composable (reusable) components of the above two schemas? The obvious ones are:
 
@@ -46,7 +48,7 @@ The remaining fields, even though they describe a similar thing (location), are 
 
 Thus they are not composable (reusable) and have to be specified separately to satisfy the requirements of both schemas.
 
-So how would we specify data in Murmurations to satisfy both of these schemas? We use JSON Schema to create a [_**Profile**_](/about/common-terms.html#profile), which looks like this:
+So how would we specify data in Murmurations to satisfy both of these schemas? We use JSON Schema to create a [_**profile**_](/about/common-terms.html#profile), which looks like this:
 
 ```json
 {
@@ -66,6 +68,6 @@ So how would we specify data in Murmurations to satisfy both of these schemas? W
 }
 ```
 
-We start with defining the lists of schemas we want our data to conform to using the `linked_schemas` field. Next, we add all of the fields required by both of those schemas. We host this data ideally on our own servers, or using a third party hosting service (like [tools.murmurations.network](https://tools.murmurations.network/profile-generator)). Finally, we submit the URL where this data is hosted to the Murmurations Index so it is recorded and [can be searched for by anyone](https://tools.murmurations.network/index-explorer?schema=organizations_schema-v1.0.0) who is interested in finding organizations who define themselves according to Alice's or Bob's organizations schemas.
+We start with defining the lists of schemas we want our data to conform to using the `linked_schemas` field. Next, we add all of the fields required by both of those schemas. We host this data ideally on our own servers, or using a third party hosting service (like [tools.murmurations.network](https://tools.murmurations.network/profile-generator)). Finally, we submit the URL where this data is hosted to the Murmurations index so it is recorded and [can be searched for by anyone](https://tools.murmurations.network/index-explorer?schema=organizations_schema-v1.0.0) who is interested in finding organizations who define themselves according to Alice's or Bob's organizations schemas.
 
 These are simple examples, but hopefully they illustrate to you the flexibility and power of the Murmuration protocol's flexible ontology and [composable data](https://dazuck.substack.com/p/data-composability-what-it-is-why) approach.

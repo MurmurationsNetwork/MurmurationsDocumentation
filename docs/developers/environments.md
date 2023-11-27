@@ -3,9 +3,9 @@
 Check the status of the Murmurations environments on our status page:  
 [**https://status.murmurations.network/**](https://status.murmurations.network/)
 
-## Test Environment
+## Test environment
 
-The `test-` URLs have been set up to provide a space for developers to test their schemas before submitting them to the production Library, and profiles to the production Index.
+The `test-` URLs have been set up to provide a space for developers to test their schemas before submitting them to the production library, and for profile creators to test their profiles before submitting them to the production index.
 
 | Service           | URL                                                                                                                                          |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -15,11 +15,11 @@ The `test-` URLs have been set up to provide a space for developers to test thei
 | Murmurations Tools | [https://test-tools.murmurations.network](https://test-tools.murmurations.network)                                                     |
 | Murmurations Map  | [https://test-map.murmurations.network](https://test-map.murmurations.network)                                                               |
 
-## Production Environment
+## Production environment
 
 Once you have tested things out in our test environment and you are ready to put real data in Murmurations, use the production URLs below.
 
-Please note that only the Schemas approved by the Murmurations core team for production use are available through the Library API and repo.
+Please note that only the schemas approved by the Murmurations core team for production use are available through the Library API and repo.
 
 | Service           | URL                                                                                                                                          |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |

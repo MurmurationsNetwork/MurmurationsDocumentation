@@ -14,14 +14,4 @@ hero:
     - theme: brand
       text: Get Started
       link: /guides/create-a-profile
-
-# features:
-#   - title: Introduction
-#     details: Read the introduction
-#   - title: 🚀
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Something else
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#     icon:
-#       src: /murmurations-logo.png
 ---
