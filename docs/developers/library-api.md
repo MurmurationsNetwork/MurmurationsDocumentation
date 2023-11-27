@@ -1,6 +1,6 @@
 # Murmurations Library API
 
-### Library API Documentation :orange_book:
+## Library API Documentation :orange_book:
 
 [**https://app.swaggerhub.com/apis-docs/MurmurationsNetwork/LibraryAPI/2.0.0**](https://app.swaggerhub.com/apis-docs/MurmurationsNetwork/LibraryAPI/2.0.0)
 

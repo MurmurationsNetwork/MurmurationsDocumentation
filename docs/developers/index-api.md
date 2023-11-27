@@ -1,6 +1,6 @@
 # Murmurations Index API
 
-### Index API Documentation :orange_book:
+## Index API Documentation :orange_book:
 
 [**https://app.swaggerhub.com/apis-docs/MurmurationsNetwork/IndexAPI/2.0.0**](https://app.swaggerhub.com/apis-docs/MurmurationsNetwork/IndexAPI/2.0.0)
 

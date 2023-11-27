@@ -12,11 +12,11 @@ An example of a schema can be seen in the [Organizations Schema](https://github.
 
 There are two ways that fields can be defined in a Murmurations schema:
 
- - **Library fields** are pre-defined fields that are linked to in the schema, and intended to be *interoperable* among many different sources of data and data users.
-   - For example, the `latitude` and `longitude` fields have a very specific meaning as numbers for geo-coordinates.
-   - Schema creators requiring geo-coordinates should reference these fields using their defined names: `latitude` and `longitude`.
-   - Using defined names ensures profiles do not duplicate data (i.e., one schema uses `latitude`/`longitude` whereas another creates its own names `lat`/`long`, requiring the profile creator to create two sets of fields to define the same data).
- - **Custom fields** are defined in the schema document itself and are created if there is not an adequate option in the [field library](https://github.com/MurmurationsNetwork/MurmurationsLibrary/tree/main/fields).
+- **Library fields** are pre-defined fields that are linked to in the schema, and intended to be *interoperable* among many different sources of data and data users.
+  - For example, the `latitude` and `longitude` fields have a very specific meaning as numbers for geo-coordinates.
+  - Schema creators requiring geo-coordinates should reference these fields using their defined names: `latitude` and `longitude`.
+  - Using defined names ensures profiles do not duplicate data (i.e., one schema uses `latitude`/`longitude` whereas another creates its own names `lat`/`long`, requiring the profile creator to create two sets of fields to define the same data).
+- **Custom fields** are defined in the schema document itself and are created if there is not an adequate option in the [field library](https://github.com/MurmurationsNetwork/MurmurationsLibrary/tree/main/fields).
 
  Whenever possible, it is encouraged to use Library fields (and their unaltered field names) in your schema to support the goal of data interoperabilty, and to make it easier for nodes to provide data to multiple networks simultaneously.
 
@@ -36,7 +36,7 @@ Add your fields to the `properties` section of the schema. The [`linked_schemas`
 
 Use `$ref`s to point to any existing fields in the Library you want to use, or define the new fields you need directly in the schema. Reusing existing fields from the Library whenever possible makes it easier for nodes using your schema to be compatible with other schemas without needing to re-enter the same data twice. When reusing fields, it is important to use the name it was given (`longitude`) and not rename it (`long`) in your schema otherwise interoperability of that field with other schemas will be broken.
 
-Make sure your schema validates using the [JSON Schema Validator](https://www.jsonschemavalidator.net/). Select _Schema Draft v7_ from the "Select schema" dropdown menu and then paste your schema into the "Input JSON" text area.
+Make sure your schema validates using the [JSON Schema Validator](https://www.jsonschemavalidator.net/). Select *Schema Draft v7* from the "Select schema" dropdown menu and then paste your schema into the "Input JSON" text area.
 
 #### Required fields
 
@@ -48,10 +48,10 @@ Note that the `linked_schemas` property is always required for a schema, as ment
 
 Near the beginning of the schema you will find four metadata properties in the main schema object:
 
- - **$schema** - A reference to the version of the JSON Schema standard that will be used to interpret this schema. Leave this as is referencing version 7.
- - **$id** - The final canonical URI of the schema in the Murmurations Library. You can leave most of this as is in the example, replacing the final part with the filename of your schema (see below).
- - **title** - A human-readable title for your schema. This will appear in various places where the schema is used, including in the WordPress Node Plugin and the Murmurations Profile Generator, where people can choose to add information that matches your schema to their profiles.
- - **description** - A human-readable description of your schema and what it's for.
+- **$schema** - A reference to the version of the JSON Schema standard that will be used to interpret this schema. Leave this as is referencing version 7.
+- **$id** - The final canonical URI of the schema in the Murmurations Library. You can leave most of this as is in the example, replacing the final part with the filename of your schema (see below).
+- **title** - A human-readable title for your schema. This will appear in various places where the schema is used, including in the WordPress Node Plugin and the Murmurations Profile Generator, where people can choose to add information that matches your schema to their profiles.
+- **description** - A human-readable description of your schema and what it's for.
 
  Example:
 
@@ -96,6 +96,7 @@ The file name should be the name of your schema with underscores as word separat
 ## Step 3: Submit your draft
 
 If you're comfortable using git, you can submit your new schema directly with a pull request (PR) to the Library repo as follows:
+
 1. Fork the [Library repo](https://github.com/MurmurationsNetwork/MurmurationsLibrary) and create a new branch, including the name of your schema in the branch name.
 2. Add your new schema in the `/schemas/` directory of the branch. Name the schema file using underscores as word separators, followed by a hyphen and a semver-style version number. Example: `my_amazing_schema-v0.0.1.json`.
 3. Create a PR to the `test` branch in the upstream repo. We'll take a look at your schema to make sure it's correctly structured and follows best practices. It's possible we will make suggestions for how to update the schema to improve interoperability. If there are fields that you would like to have considered being added to the field library, please note it in the PR.
@@ -104,34 +105,34 @@ If you're comfortable using git, you can submit your new schema directly with a 
 
 If you are not comfortable using git, you can submit your draft schema directly to the Murmurations Library maintainers. We will review your schema and add it to the repo for you.
 
-##  Step 4: Testing your schema - an example
+## Step 4: Testing your schema - an example
 
 You can use [JSON Schema validator](https://www.jsonschemavalidator.net/) to test your new schema and make sure it's working as intended.
 
 In this example we are going to test the Complementary Currencies schema.
 
-1. Copy the full schema code from the [Complementary Currencies schema](https://raw.githubusercontent.com/MurmurationsNetwork/MurmurationsLibrary/test/schemas/complementary_currencies-v2.0.0.json) and paste it (in place of the existing code) on the box on the left on https://www.jsonschemavalidator.net/
+1. Copy the full schema code from the [Complementary Currencies schema](https://raw.githubusercontent.com/MurmurationsNetwork/MurmurationsLibrary/test/schemas/complementary_currencies-v2.0.0.json) and paste it (in place of the existing code) on the box on the left on <https://www.jsonschemavalidator.net>
 
-You will see a screen like this indicating that the empty schema is giving errors already because it is missing the 3 required fields.
+    You will see a screen like this indicating that the empty schema is giving errors already because it is missing the 3 required fields.
 
-![](https://murmurations.network/wp-content/uploads/2021/02/Screenshot-2021-02-24-at-21.01.33.png)
+    ![Schema error example](https://murmurations.network/wp-content/uploads/2021/02/Screenshot-2021-02-24-at-21.01.33.png)
 
 2. Paste the example profile (JSON object) below into the "Input JSON" text area on the right.
 
-```json
-{
-	"name": "Just testing",
-    "url": "https://test.com",
-    "area_served": "national",
-    "linked_schemas": [
-      "complementary_currencies-v2.0.0" 
+    ```json
+    {
+      "name": "Just testing",
+      "url": "https://test.com",
+      "area_served": "national",
+      "linked_schemas": [
+        "complementary_currencies-v2.0.0" 
       ]
-}
-```
+    }
+    ```
 
 You should see the profile validates against the schema, like below:
 
-![](https://murmurations.network/wp-content/uploads/2021/02/Screenshot-2021-02-24-at-21.08.26.png)
+![Schema validated example](https://murmurations.network/wp-content/uploads/2021/02/Screenshot-2021-02-24-at-21.08.26.png)
 
 The validator ignores all the other fields in the schema because they are not required.
 

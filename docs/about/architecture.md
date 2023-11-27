@@ -1,8 +1,6 @@
 # Architecture
 
-## Systems Design
-
-### Requirements
+## Systems Design Requirements
 
 - **Ensure adherence to a common data format**
   - Both data creators (nodes) and data processors (aggregators) use [JSON Schema](https://json-schema.org/understanding-json-schema/) for defining and validating the structure of data.
@@ -14,9 +12,7 @@
     - Leverage edge storage and computing whenever possible to keep data close to users.
   - Test user interfaces with screen readers and ensure best practices for accessibility.
 
-## Technical Architecture
-
-### Requirements
+## Technical Architecture Requirements
 
 - Must use open source software
   - We build on: Linux, Docker, Golang, JavaScript, React, [Remix](https://remix.run) and WordPress

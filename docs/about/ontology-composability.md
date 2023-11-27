@@ -6,18 +6,18 @@ When describing Murmurations we use a couple of terms - "flexible approach to on
 
 The Murmurations protocol does not enforce a specific ontology. It has a flexible approach through which anyone using Murmurations is free to create their own ontology by defining a schema (using JSON Schema).  As a simple example, imagine two different Murmurations users want to define their own organization ontology. Alice might define it as a schema composed of the following fields:
 
--	Name
--	Purpose
--	City
--	Country
--	Website
+- Name
+- Purpose
+- City
+- Country
+- Website
 
 Bob might define his own organization schema as:
 
--	Name
--	Mission
--	Geolocation (latitude and longitude)
--	Website
+- Name
+- Mission
+- Geolocation (latitude and longitude)
+- Website
 
 Murmurations allows both Alice and Bob to create their own organization schemas. Alice's Org Schema and Bob's Org Schema can be used separately or together by any organization that wants to be picked up in Alice's and/or Bob's list of organizations.
 
@@ -29,20 +29,20 @@ Before explaining data composability, let's start with a definition of composabi
 
 What are the composable (reusable) components of the above two schemas? The obvious ones are:
 
--	Name
--	Website
+- Name
+- Website
 
 One might consider that these two are highly related as well:
 
--	Purpose
--	Mission
+- Purpose
+- Mission
 
 Perhaps Alice and Bob could agree they are one in the same thing and standardize on the same name. Or perhaps they mean different things and they agree it makes sense to have two different fields and further define what those fields mean so it is obvious to anyone considering to use their schemas. In other words, they need to give further context to the meaning of these two fields.
 
 The remaining fields, even though they describe a similar thing (location), are distinct:
 
--	City & Country
--	Geolocation (latitude and longitude)
+- City & Country
+- Geolocation (latitude and longitude)
 
 Thus they are not composable (reusable) and have to be specified separately to satisfy the requirements of both schemas.
 
