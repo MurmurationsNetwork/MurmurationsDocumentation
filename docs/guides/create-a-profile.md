@@ -9,7 +9,7 @@ Just follow the steps in the link above. If you're not using WordPress see optio
 
 ## 2. Hosted by our Profile Generator
 
-### [Watch the demo video](https://www.loom.com/embed/3bb0548a60cc41e4abcdefd1b6dda41a)
+### [Watch the demo video](https://player.vimeo.com/video/888697915)
 
 The Murmurations Profile Generator ([MPG](https://test-profiles.murmurations.network)) can be be used to generate profiles and can host them too if you are not able to upload a file anywhere else on the internet. MPG posts profiles to MPG's database and the [IPFS](https://ipfs.io) network.
 
