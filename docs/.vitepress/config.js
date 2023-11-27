@@ -40,7 +40,7 @@ export default defineConfig({
           {link: '/guides/create-a-profile', text: 'Create a Profile'},
           {link: '/guides/view-the-data', text: 'View the Data'},
           {link: '/guides/map', text: 'Create a Map'},
-          {link: '/guides/import-networks', text: 'Import data'},
+          {link: '/guides/import-networks', text: 'Import Data'},
           {link: '/guides/create-a-schema', text: 'Create a Schema'}
         ],
         collapsed: false
@@ -51,8 +51,8 @@ export default defineConfig({
           {link: '/developers/environments', text: 'Environments'},
           {link: '/developers/index-api', text: 'Index API'},
           {link: '/developers/library-api', text: 'Library API'},
-          {link: '/developers/wp-aggregator', text: 'WordPress Aggregator Plugin'},
-          {link: '/developers/wp-node', text: 'WordPress Node Plugin 🚀'}
+          {link: '/developers/wp-node', text: 'WordPress Profile Plugin'},
+          {link: '/developers/wp-aggregator', text: 'WordPress Map Plugin'}
         ],
         collapsed: false
       },
