@@ -1,21 +1,34 @@
-# WordPress Map Plugin
+# WordPress Collaborative Map Builder Plugin
 
 ## Overview
 
-The Murmurations Map WordPress plugin provides a quick and powerful way to set up a site that fetches and displays data from the Murmurations network. Out of the box, this data can be displayed on a geographic map, or in a directory. There are also endpoints compatible with Kumu to enable systems mapping, and client-side interfaces built in React that can be embedded in the WordPress site. Experimental features include the ability to aggregate and display feeds or posts from collected nodes, and fetching data from multiple sources and merging nodes based on their URLs.
+The Murmurations Collaborative Map Builder WordPress Plugin provides a quick and powerful way to set up a site that fetches data from the Murmurations network displays it on a geographic map or in a directory.
 
-The Aggregator plugin code is in the [Github repo](https://github.com/MurmurationsNetwork/MurmurationsAggregatorWP).
+An example of the plugin running on a WordPress site can be found at <https://wptest.murmurations.network>.
 
 ## Installation
 
-The aggregator is not available through the WP plugin library. To install, download the .zip file from the latest release at [https://github.com/MurmurationsNetwork/MurmurationsAggregatorWP/releases/](https://github.com/MurmurationsNetwork/MurmurationsAggregatorWP/releases/). Upload it to your /wp-content/plugins/ directory, and activate the plugin.
+::: warning Older plugin versions
+If you have an earlier (pre 1.0.0) version of the plugin installed, you must deactivate and uninstall it first before installing the current version. The current 1.0.0 version is a major update so the old data will be incompatible with this new release.
+:::
 
-## Example Implementation
+The Collaborative Map Builder Plugin is currently a beta release available for download at our [GitHub repository](https://github.com/MurmurationsNetwork/MurmurationsAggregatorWP/releases). We are releasing it as beta software to facilitate wider testing and feedback before we make it available in the [WordPress Plugins directory](https://wordpress.org/plugins/).
 
-Two examples of the WP Aggregator plugin can be found at:
+::: info Getting help
+If you have any issues installing or using the plugin, please [contact us](/about/getting-support.html). We would love to get your feedback to make the plugin even more useful and performant.
+:::
 
-- [https://wpagg.murmurations.network](https://wpagg.murmurations.network)
-- [https://map.currency.community](https://map.currency.community)
+To setup the beta plugin on your WordPress site:
+
+1. Download the latest [plugin installer file](https://github.com/MurmurationsNetwork/MurmurationsAggregatorWP/releases) (click the dropdown arrow next to 'Assets' for the latest release and select the `MurmurationsAggregatorWP-v1.0.0-beta.XX.zip` file)
+2. Login to the Admin pages of your WordPress site and select the Plugins menu item
+3. Click on "Add New" and then "Upload Plugin"
+4. Select the file you downloaded in Step 1 above, then click "Install Now"
+5. Once installed, click on "Activate Plugin"
+6. Finally, click on the "Murm-Map" menu item
+7. Start creating maps and directories with data from the Murmurations network!
+
+<!--
 
 ## Quick start configuration
 
@@ -218,3 +231,5 @@ The aggregator provides an optional endpoint to access locally stored profiles i
 ## Aggregator node REST API and use as a headless backend
 
 The aggregator exposes endpoints in the WP REST API for accessing node data. These endpoints are used by React interfaces, but also work to make the aggregator function as a headless admin backend for display of Murmurations data on other, non-WordPress sites.
+
+ -->
