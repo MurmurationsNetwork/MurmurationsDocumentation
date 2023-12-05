@@ -49,3 +49,17 @@ Let's assume the website address is `https://www.manyorgs.org/myorg/`. When the 
 Only the  `www.` subdomain is removed. All other subdomains are kept as part of the `primary_url`. For the complete details of `primary_url` processing, see this GitHub issue:
 
 [https://github.com/MurmurationsNetwork/MurmurationsServices/issues/238](https://github.com/MurmurationsNetwork/MurmurationsServices/issues/238)
+
+## What is the difference between a base schema and an add-on schema?
+
+A base schema is a set of core fields that describe an entity. There are currently 3 base schemas in Murmurations:
+
+- Organizations schema - entities include organizations, groups, projects, for-profit and non-profit businesses, NGOs, etc.
+- People schema - entities include natural persons
+- Offers/wants schema - entities include items or services that can be donated, traded, etc.
+
+An add-on schema shares the same fields with a base schema, but includes other fields that are specific to a sector, industry, region, etc.
+
+For example, consider two organizations, one issuing a complementary currency and another focused on regenerative agriculture. Both entities will share the fields in the organizations schema, but they can each have a different add-on schema with fields specific to their focus.
+
+The benefit of having a base schema is that one can search for nearby organizations (i.e., "find all organizations within a 50km radius from me") just by searching on the base schema, making a wider range of organizations discoverable. One can still search more specifically by specifying an add-on schema and widening the geographic range if needed.
