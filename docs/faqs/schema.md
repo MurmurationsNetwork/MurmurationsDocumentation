@@ -60,6 +60,6 @@ A base schema is a set of core fields that describe an entity. There are current
 
 An add-on schema shares the same fields with a base schema, but includes other fields that are specific to a sector, industry, region, etc.
 
-For example, consider two organizations, one issuing a complementary currency and another focused on regenerative agriculture. Both entities will share the fields in the organizations schema, but they can each have a different add-on schema with fields specific to their focus.
+Consider two organizations, one issuing a complementary currency and another focused on regenerative agriculture. Both entities will share the fields in the organizations schema, but they can each have a different add-on schema with fields specific to their focus.
 
-The benefit of having a base schema is that one can search for nearby organizations (i.e., "find all organizations within a 50km radius from me") just by searching on the base schema, making a wider range of organizations discoverable. One can still search more specifically by specifying an add-on schema and widening the geographic range if needed.
+Using base schemas increases interoperability and discoverability, while add-on schemas increase specificity. For example, one can search using a base schema to find all profiles which match the base schema AND any add-on schemas, making a wider range of profiles discoverable. Alternatively, one can search using an add-on schema to find just the specific profiles which match the add-on schema.
