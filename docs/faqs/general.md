@@ -1,8 +1,8 @@
 # General FAQs
 
-## What is the Murmurations Protocol?
+## What is the Murmurations protocol?
 
-The Murmurations Protocol, which we also just call Murmurations, is a standardised, open source set of rules designed to enable decentralised, interoperable data sharing and aggregation. Murmurations uses existing standards such as [JSON-Schema](https://json-schema.org/) to help people, projects and organisations discover each other and share data across platforms and between networks. The ultimate aim of Murmurations is to accelerate the global transition to the [regenerative economy](https://capitalinstitute.org/8-principles-regenerative-economy/).
+The Murmurations protocol, which we also just call Murmurations, is a standardised, open source set of rules designed to enable decentralised, interoperable data sharing and aggregation. Murmurations uses existing standards such as [JSON-Schema](https://json-schema.org/) to help people, projects and organisations discover each other and share data across platforms and between networks. The ultimate aim of Murmurations is to accelerate the global transition to the [regenerative economy](https://capitalinstitute.org/8-principles-regenerative-economy/).
 
 ## What can I do with Murmurations?
 
@@ -17,7 +17,7 @@ See the [common terms](/about/common-terms.html) we use when working with Murmur
 
 ## How do I create a Murmurations profile?
 
-Visit the [Murmurations Profile Generator](https://tools.murmurations.network/profile-generator) and follow the steps, or for more detail see our [create a profile](/guides/create-a-profile.md) guide.
+Visit the [Murmurations Profile Generator](https://test-tools.murmurations.network/profile-generator) and follow the steps, or for more detail see our [create a profile](/guides/create-a-profile.md) guide.
 
 <!-- ## How can I use Murmurations to create a map or directory or other type of aggregator?
 

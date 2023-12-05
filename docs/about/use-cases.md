@@ -13,9 +13,9 @@ See our post on [collaborative mapping](https://murmurations.network/2023/08/22/
 
 ### Developers
 
-For developers Murmurations offers a flexible protocol for decentralised data sharing, which encourages the re-use of existing fields for greater interoperability and also supports the creation of new fields and [schemas](https://docs.murmurations.network/guides/create-a-schema.html).
+For developers Murmurations offers a flexible protocol for decentralised data sharing, which encourages the re-use of existing fields for greater interoperability and also supports the creation of new fields and [schemas](/guides/create-a-schema.html).
 
-See the background on [composbale ontologies](https://docs.murmurations.network/about/ontology-composability.html) for more details on the advantages of the Murmuration protocol's flexible ontology and composable data approach.
+See the background on [composable ontologies](/about/ontology-composability.html) for more details on the advantages of the Murmuration protocol's flexible ontology and composable data approach.
 
 Developers can use Murmurations to create custom schemas and to share data for any type of object. For example, the Community Currency Alliance developed a custom [schema for complimentary currencies](https://github.com/MurmurationsNetwork/MurmurationsLibrary/blob/main/schemas/complementary_currencies-v2.0.0.json) featuring a range of fields for their specific needs, which enabled them to build a highly filterable, open source [map of complementary currency projects](https://map.currency.community/) to which others can contribute by creating new profiles.
 
@@ -33,8 +33,8 @@ The process would work like this:
 
 - Determine the data you want to record, by consulting the stakeholders involved
 - Define the field names and descriptions, and create any new fields in the field library
-- [Create a new schema](https://docs.murmurations.network/guides/create-a-schema.html) containing the data fields you created
-- Get the farmers to record their data by [creating profiles](https://docs.murmurations.network/guides/create-a-profile.html) for their farms and fields
+- [Create a new schema](/guides/create-a-schema.html) containing the data fields you created
+- Get the farmers to record their data by [creating profiles](/guides/create-a-profile.html) for their farms and fields
 - Search the index for data matching your schema to find, access, analyse and present the results and conclusions in your chosen format
 
-Murmurations also supports [relationships](https://github.com/MurmurationsNetwork/MurmurationsLibrary/blob/test/fields/relationships.json) which can be used to build sophisticated networks of data in the form of [triples](https://en.wikipedia.org/wiki/Semantic_triple).
+Murmurations also supports [relationships](https://github.com/MurmurationsNetwork/MurmurationsLibrary/blob/main/fields/relationships.json) which can be used to build sophisticated networks of data in the form of [triples](https://en.wikipedia.org/wiki/Semantic_triple).
