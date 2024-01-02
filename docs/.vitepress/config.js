@@ -40,7 +40,7 @@ export default defineConfig({
           {link: '/guides/create-a-profile', text: 'Create a Profile'},
           {link: '/guides/view-the-data', text: 'View the Data'},
           {link: '/guides/map', text: 'Create a Map'},
-          {link: '/guides/import-networks', text: 'Import Data'},
+          {link: '/guides/import-networks', text: 'Import Networks'},
           {link: '/guides/create-a-schema', text: 'Create a Schema'}
         ],
         collapsed: false
