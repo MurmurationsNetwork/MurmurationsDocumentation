@@ -8,8 +8,12 @@ An example of the plugin running on a WordPress site can be found at <https://wo
 
 ## Installation
 
-::: warning Older plugin versions
+::: danger Older plugin versions
 If you have an earlier (pre 1.0.0) version of the plugin installed, you must deactivate and uninstall it first before installing the current version. The current 1.0.0 version is a major update so the old data will be incompatible with this new release.
+:::
+
+::: warning WP/PHP requirements
+You need to be running the latest version of WordPress (version 6.4 or higher) and PHP 8. The plugin is not backwards compatible with older versions of WordPress or PHP.
 :::
 
 The Collaborative Map Builder Plugin is currently a beta release available for download at our [GitHub repository](https://github.com/MurmurationsNetwork/MurmurationsAggregatorWP/releases). We are releasing it as beta software to facilitate wider testing and feedback before we make it available in the [WordPress Plugins directory](https://wordpress.org/plugins/).
