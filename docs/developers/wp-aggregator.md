@@ -4,7 +4,7 @@
 
 The Murmurations Collaborative Map Builder WordPress Plugin provides a quick and powerful way to set up a site that fetches data from the Murmurations network displays it on a geographic map or in a directory.
 
-An example of the plugin running on a WordPress site can be found at <https://wptest.murmurations.network>.
+An example of the plugin running on a WordPress site can be found at <https://wordpress.murmurations.network>.
 
 ## Installation
 
@@ -63,9 +63,9 @@ You can copy and paste the shortcode for your map into a WordPress page or post,
 
 Select *Update Nodes* to check for updates from the index about nodes that match your query. It will return the changes made to nodes as they are added, updated or deleted.
 
-If you just want to add and remove nodes from your map without checking the index first, select *Manage Nodes*. 
+If you just want to add and remove nodes from your map without checking the index first, select *Manage Nodes*.
 
-Set the *publish* status for nodes you want to see in your map. Or set the *dismiss* status if you don't want to show the node, but you want to know if it makes changes to its profile. The *ignore* status is for nodes you simply want to ignore completely. 
+Set the *publish* status for nodes you want to see in your map. Or set the *dismiss* status if you don't want to show the node, but you want to know if it makes changes to its profile. The *ignore* status is for nodes you simply want to ignore completely.
 
 Nodes can be changed to and from any of these statuses.
 
