@@ -4,12 +4,16 @@
 
 The Murmurations Collaborative Map Builder WordPress Plugin provides a quick and powerful way to set up a site that fetches data from the Murmurations network displays it on a geographic map or in a directory.
 
-An example of the plugin running on a WordPress site can be found at <https://wptest.murmurations.network>.
+An example of the plugin running on a WordPress site can be found at <https://wordpress.murmurations.network>.
 
 ## Installation
 
-::: warning Older plugin versions
+::: danger Older plugin versions
 If you have an earlier (pre 1.0.0) version of the plugin installed, you must deactivate and uninstall it first before installing the current version. The current 1.0.0 version is a major update so the old data will be incompatible with this new release.
+:::
+
+::: warning WP/PHP requirements
+You need to be running the latest version of WordPress (version 6.4 or higher) and PHP 8. The plugin is not backwards compatible with older versions of WordPress or PHP.
 :::
 
 The Collaborative Map Builder Plugin is currently a beta release available for download at our [GitHub repository](https://github.com/MurmurationsNetwork/MurmurationsAggregatorWP/releases). We are releasing it as beta software to facilitate wider testing and feedback before we make it available in the [WordPress Plugins directory](https://wordpress.org/plugins/).
@@ -63,9 +67,9 @@ You can copy and paste the shortcode for your map into a WordPress page or post,
 
 Select *Update Nodes* to check for updates from the index about nodes that match your query. It will return the changes made to nodes as they are added, updated or deleted.
 
-If you just want to add and remove nodes from your map without checking the index first, select *Manage Nodes*. 
+If you just want to add and remove nodes from your map without checking the index first, select *Manage Nodes*.
 
-Set the *publish* status for nodes you want to see in your map. Or set the *dismiss* status if you don't want to show the node, but you want to know if it makes changes to its profile. The *ignore* status is for nodes you simply want to ignore completely. 
+Set the *publish* status for nodes you want to see in your map. Or set the *dismiss* status if you don't want to show the node, but you want to know if it makes changes to its profile. The *ignore* status is for nodes you simply want to ignore completely.
 
 Nodes can be changed to and from any of these statuses.
 
