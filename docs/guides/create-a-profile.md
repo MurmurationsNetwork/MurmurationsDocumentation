@@ -16,7 +16,7 @@ Just follow the steps in the link above. If you're not using WordPress see optio
 
 ### [Watch the demo video](https://player.vimeo.com/video/888697915)
 
-The Murmurations Profile Generator ([MPG](https://test-profiles.murmurations.network)) can be be used to generate profiles and can host them too if you are not able to upload a file anywhere else on the internet. MPG posts profiles to MPG's database and the [IPFS](https://ipfs.io) network.
+The Murmurations Profile Generator ([MPG](https://test-profiles.murmurations.network)) can be be used to generate profiles and can host them too if you are not able to upload a file anywhere else on the internet.
 
 ### Host on MPG
 
@@ -31,7 +31,7 @@ The Murmurations Profile Generator ([MPG](https://test-profiles.murmurations.net
 6. Click "Submit"
 7. Your profile will be generated and presented in the panel on the left
 8. Enter a title for your profile (only used to identify your profile within MPG, so you can find and edit it later) and click "Save Profile"
-9. Your profile will be saved (both in MPG and on IPFS) and submitted to the Murmurations index
+9. Your profile will be saved in MPG's database and submitted to the Murmurations index
 10. Your profile will be listed under 'My Profiles'. You can visit it by clicking on the title, or modify or delete it
 
 ## 3. Hosted on your server
