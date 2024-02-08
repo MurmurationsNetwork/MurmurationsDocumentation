@@ -37,4 +37,4 @@ If you maintain your network data in a spreadsheet, use MPG's [Batch Importer](h
 - Object properties with periods: `geolocation.lat, geolocation.lon`
 - Arrays of object with both: `urls[0].name, urls[0].url, urls[1].name, urls[1].url ...`
 
-All of the above requirements are illustrated in the [example import file](https://github.com/MurmurationsNetwork/MurmurationsServices/blob/main/tests/organizations_schema-v1.0.0-example-import.csv).
+All of the above requirements are illustrated in the [example import file](https://github.com/MurmurationsNetwork/MurmurationsServices/blob/main/test/organizations_schema-v1.0.0-example-import.csv).
