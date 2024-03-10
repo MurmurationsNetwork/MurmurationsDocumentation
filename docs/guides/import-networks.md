@@ -36,5 +36,6 @@ If you maintain your network data in a spreadsheet, use MPG's [Batch Importer](h
 - Array items are specified with square brackets: `tags[0], tags[1], tags[2] ...`
 - Object properties with periods: `geolocation.lat, geolocation.lon`
 - Arrays of object with both: `urls[0].name, urls[0].url, urls[1].name, urls[1].url ...`
+- Fields with enumerated lists, like the "status" and "geographic_scope" fields in the Organizations schema should only contain 1 of the available options from the dropdowns which you see on the Profile Generator.
 
 All of the above requirements are illustrated in the [example import file](https://raw.githubusercontent.com/MurmurationsNetwork/MurmurationsServices/main/test/organizations_schema-v1.0.0-example-import.csv).
