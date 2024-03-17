@@ -1,3 +1,3 @@
 # Roadmap
 
-The latest roadmap of priorities (now partially completed) is in [this blog post](https://murmurations.network/2021/06/16/the-next-few-building-blocks/).
+The latest roadmap of priorities can be viewed [in our GitHub account](https://github.com/orgs/MurmurationsNetwork/projects/7).
