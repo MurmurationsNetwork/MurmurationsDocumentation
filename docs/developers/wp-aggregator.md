@@ -6,7 +6,7 @@ The Murmurations Collaborative Map Builder WordPress Plugin provides a quick and
 
 An example of the plugin running on a WordPress site can be found at <https://wordpress.murmurations.network>.
 
-## Installation
+## Plug-In Installation
 
 ::: danger Older plugin versions
 If you have an earlier (pre 1.0.0) version of the plugin installed, you must deactivate and uninstall it first before installing the current version. The current 1.0.0 version is a major update so the old data will be incompatible with this new release.
@@ -100,7 +100,7 @@ The latest [plugin installer file](https://github.com/MurmurationsNetwork/Murmur
 
 The key difference between "twentytwenty-child" and "twentytwentyfour-child" is that "twentytwentyfour-child" uses the block editor and "twentytwenty-child" uses the classic editor.
 
-#### Installation Guide
+#### WP Theme Installation
 
 1. Download the latest [plugin installer file](https://github.com/MurmurationsNetwork/MurmurationsAggregatorWP/releases) from GitHub.
 2. Locate Theme Folders:
@@ -130,7 +130,7 @@ The required files are:
 - single-offers-wants-prototype-schema.php
 - single-people-schema.php
 
-#### Installation Guide
+#### Installation of Custom Themes
 
 The process of creating templates for other themes involves the following steps:
 
