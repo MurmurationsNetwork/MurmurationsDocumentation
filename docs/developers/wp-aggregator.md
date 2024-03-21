@@ -134,7 +134,9 @@ The process of creating templates for other themes involves the following steps:
 
 1. Copy the single.php file from your theme to the root of your theme folder and rename it to match the names above. For example, to make a template for single Organisation nodes, rename it to single-organization-schema.php. 
 2. Refer to the template files for the twent-twenty-child theme in the zip to find the extra code you need to add to your new template file. For example, for an Organisations template you will need the following code
-   ```            <?php
+
+   ```
+   <?php
             echo do_shortcode( '[murmurations_data title="Name" path="name"]' );
             echo do_shortcode( '[murmurations_data title="Nickname" path="nickname"]' );
             echo do_shortcode( '[murmurations_data title="Description" path="description"]' );
@@ -142,8 +144,10 @@ The process of creating templates for other themes involves the following steps:
             echo do_shortcode( '[murmurations_data title="Tags" path="tags"]' );
             echo do_shortcode( '[murmurations_data title="URLs" path="urls"]' );
             echo do_shortcode( '[murmurations_data title="Relationships" path="relationships"]' );
-            ?>```
-3. Add the code to your new temaplate. For example, using Hello Elementor theme the code for a single-organization-schema.php file should look as follows:
+   ?>
+   ```
+   
+4. Add the code to your new temaplate. For example, using Hello Elementor theme the code for a single-organization-schema.php file should look as follows:
    ```<?php
 /**
  * The template for displaying singular post-types: posts, pages and user-defined custom post types.
