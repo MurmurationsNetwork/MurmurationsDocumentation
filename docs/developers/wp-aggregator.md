@@ -92,21 +92,21 @@ A profile owner can decide to delete their profile and remove the reference to i
 
 ## Theming
 
-You can create Directories and Maps straight out of the box, without any need for customisation of your theme.
-However, if you want to link to single node pages on your own site (using link_type="wp" in your shortcode) instead of linking out to the primary_url of each node, read on.
+You can create Directories and Maps straight out of the box, without any need for customisation of your theme. However, if you want to link to single node pages on your own site (using `link_type="wp"` in your shortcode) instead of linking out to the primary_url of each node, read on.
 
-The latest [plugin installer file](https://github.com/MurmurationsNetwork/MurmurationsAggregatorWP/releases) includes single page templates for each of the Custom Post Types: People, Organisations and Offers & Wants, which display the details of single nodes.
-Standard template files are included in the zip in: admin > views. There are template files for the WordPress Twentytwenty theme and the Twentytwentyfour theme.
+The latest [plugin installer file](https://github.com/MurmurationsNetwork/MurmurationsAggregatorWP/releases) includes single page templates for each of the Custom Post Types: People, Organisations and Offers & Wants, which display the details of single nodes. Standard template files are included in the zip in: admin > views. There are template files for the WordPress Twentytwenty theme and the Twentytwentyfour theme.
 
 ### Using Twentytwenty theme or Twentytwentyfour theme
+
 The key difference between "twentytwenty-child" and "twentytwentyfour-child" is that "twentytwentyfour-child" uses the block editor and "twentytwenty-child" uses the classic editor.
 
 #### Installation Guide
+
 1. Download the latest [plugin installer file](https://github.com/MurmurationsNetwork/MurmurationsAggregatorWP/releases) from GitHub.
 2. Locate Theme Folders:
-   - Access the /admin/views directory. 
+   - Access the /admin/views directory.
    - Locate and select either the "twentytwenty-child" or "twentytwentyfour-child" folder, depending on your preference.
-3. Compress the chosen folder into a .zip file format. 
+3. Compress the chosen folder into a .zip file format.
 4. Upload to WordPress:
    - Log into your WordPress dashboard.
    - Navigate to the 'Appearance' section, followed by 'Themes'.
@@ -114,75 +114,78 @@ The key difference between "twentytwenty-child" and "twentytwentyfour-child" is 
    - Choose the .zip file you prepared earlier and initiate the upload.
 5. Activate the theme.
 
-   If you encutner a "Incompatible Archive" message when installinf the zip of the theme, this is happening because the folder contains '.DS_Store' or 'MACOSX' files.
-   To prevent this from happening, you can execute the following command in the terminal to zip the folder, thereby avoiding the above error.
+   If you encounter an "Incompatible Archive" message when installing the zip of the theme, this is happening because the folder contains '.DS_Store' or 'MACOSX' files. To prevent this from happening, you can execute the following command in the terminal to zip the folder, thereby avoiding the above error.
+
    ```zip -r astra-child.zip astra-child/ -x "*.DS_Store" -x "MACOSX"```
+
    Or, if you upload the zip direclty to your themes folder for your Wordpress on your server and extract it there, it will also work.
 
 ### Using a different theme
-If you are not using the "twentytwenty" or "twentytwentyfour" theme you can still create Directories and Maps straight out of the box, without any need for customisation of your theme.
-However, if you want to link to single node pages on your own site (using link_type="wp" in your shortcode) you will need to add some template files to your theme in order for the node details to display on the single-node pages for People, Organisations and Offers & Wants.
-To set up single node templates for pages for each of the Custom Post Types you need to place the correctly named file in the root of your theme folder (i.e. not inside 'templates' or any other folder, or it will not work)
+
+If you are not using the "twentytwenty" or "twentytwentyfour" theme you can still create Directories and Maps straight out of the box, without any need for customisation of your theme. However, if you want to link to single node pages on your own site (using link_type="wp" in your shortcode) you will need to add some template files to your theme in order for the node details to display on the single-node pages for People, Organisations and Offers & Wants. To set up single node templates for pages for each of the Custom Post Types you need to place the correctly named file in the root of your theme folder (i.e., not inside 'templates' or any other folder, or it will not work).
 
 The required files are:
+
 - single-organization-schema.php
 - single-offers-wants-prototype-schema.php
 - single-people-schema.php
 
 #### Installation Guide
+
 The process of creating templates for other themes involves the following steps:
 
-1. Copy the single.php file from your theme to the root of your theme folder and rename it to match the names above. For example, to make a template for single Organisation nodes, rename it to single-organization-schema.php. 
-2. Refer to the template files for the twent-twenty-child theme in the zip to find the extra code you need to add to your new template file. For example, for an Organisations template you will need the following code
+1. Copy the single.php file from your theme to the root of your theme folder and rename it to match the names above. For example, to make a template for single Organisation nodes, rename it to single-organization-schema.php.
+2. Refer to the template files for the twent-twenty-child theme in the zip to find the extra code you need to add to your new template file. For example, for an Organisations template you will need the following code:
 
-   ```
-   <?php
-            echo do_shortcode( '[murmurations_data title="Name" path="name"]' );
-            echo do_shortcode( '[murmurations_data title="Nickname" path="nickname"]' );
-            echo do_shortcode( '[murmurations_data title="Description" path="description"]' );
-            echo do_shortcode( '[murmurations_data title="Primary URL" path="primary_url"]' );
-            echo do_shortcode( '[murmurations_data title="Tags" path="tags"]' );
-            echo do_shortcode( '[murmurations_data title="URLs" path="urls"]' );
-            echo do_shortcode( '[murmurations_data title="Relationships" path="relationships"]' );
-   ?>
-   ```
-   
-4. Add the code to your new temaplate. For example, using Hello Elementor theme the code for a single-organization-schema.php file should look as follows:
-
-```
-<?php
-if ( ! defined( 'ABSPATH' ) ) {
-    exit; // Exit if accessed directly.
-}
-while ( have_posts() ) :
-    the_post();
+    ```php
+    <?php
+                echo do_shortcode( '[murmurations_data title="Name" path="name"]' );
+                echo do_shortcode( '[murmurations_data title="Nickname" path="nickname"]' );
+                echo do_shortcode( '[murmurations_data title="Description" path="description"]' );
+                echo do_shortcode( '[murmurations_data title="Primary URL" path="primary_url"]' );
+                echo do_shortcode( '[murmurations_data title="Tags" path="tags"]' );
+                echo do_shortcode( '[murmurations_data title="URLs" path="urls"]' );
+                echo do_shortcode( '[murmurations_data title="Relationships" path="relationships"]' );
     ?>
-    <main id="content" <?php post_class( 'site-main' ); ?>>
-        <?php if ( apply_filters( 'hello_elementor_page_title', true ) ) : ?>
-            <header class="page-header">
-                <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-            </header>
-        <?php endif; ?>
-        <div class="page-content">
-            <?php
-            echo do_shortcode( '[murmurations_data title="Name" path="name"]' );
-            echo do_shortcode( '[murmurations_data title="Nickname" path="nickname"]' );
-            echo do_shortcode( '[murmurations_data title="Description" path="description"]' );
-            echo do_shortcode( '[murmurations_data title="Primary URL" path="primary_url"]' );
-            echo do_shortcode( '[murmurations_data title="Tags" path="tags"]' );
-            echo do_shortcode( '[murmurations_data title="URLs" path="urls"]' );
-            echo do_shortcode( '[murmurations_data title="Relationships" path="relationships"]' );
-            ?>
-            <?php the_content(); ?>
-            <div class="post-tags">
-                <?php the_tags( '<span class="tag-links">' . esc_html__( 'Tagged ', 'hello-elementor' ), null, '</span>' ); ?>
+    ```
+
+3. Add the code to your new template. For example, using Hello Elementor theme the code for a single-organization-schema.php file should look as follows:
+
+    ```php
+    <?php
+    if ( ! defined( 'ABSPATH' ) ) {
+        exit; // Exit if accessed directly.
+    }
+    while ( have_posts() ) :
+        the_post();
+        ?>
+        <main id="content" <?php post_class( 'site-main' ); ?>>
+            <?php if ( apply_filters( 'hello_elementor_page_title', true ) ) : ?>
+                <header class="page-header">
+                    <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+                </header>
+            <?php endif; ?>
+            <div class="page-content">
+                <?php
+                echo do_shortcode( '[murmurations_data title="Name" path="name"]' );
+                echo do_shortcode( '[murmurations_data title="Nickname" path="nickname"]' );
+                echo do_shortcode( '[murmurations_data title="Description" path="description"]' );
+                echo do_shortcode( '[murmurations_data title="Primary URL" path="primary_url"]' );
+                echo do_shortcode( '[murmurations_data title="Tags" path="tags"]' );
+                echo do_shortcode( '[murmurations_data title="URLs" path="urls"]' );
+                echo do_shortcode( '[murmurations_data title="Relationships" path="relationships"]' );
+                ?>
+                <?php the_content(); ?>
+                <div class="post-tags">
+                    <?php the_tags( '<span class="tag-links">' . esc_html__( 'Tagged ', 'hello-elementor' ), null, '</span>' ); ?>
+                </div>
+                <?php wp_link_pages(); ?>
             </div>
-            <?php wp_link_pages(); ?>
-        </div>
-        <?php comments_template(); ?>
-    </main>
-<?php
-endwhile;
-```
-4. Save the file. 
-5. Visit your directory page (which must include the link_type="wp" in your shortcode) and click on the "More..." link for a single node. The Murmurations Map Builder plugin will now find the correctly named template file and use this to display single nodes of the associated Content Type.
+            <?php comments_template(); ?>
+        </main>
+    <?php
+    endwhile;
+    ```
+
+4. Save the file.
+5. Visit your directory page (which must include the `link_type="wp"` in your shortcode) and click on the "More..." link for a single node. The Murmurations Map Builder plugin will now find the correctly named template file and use this to display single nodes of the associated Content Type.
