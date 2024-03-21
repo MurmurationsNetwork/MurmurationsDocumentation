@@ -149,29 +149,20 @@ The process of creating templates for other themes involves the following steps:
    
 4. Add the code to your new temaplate. For example, using Hello Elementor theme the code for a single-organization-schema.php file should look as follows:
 
-   ```
-   <?php
-/**
- * The template for displaying singular post-types: posts, pages and user-defined custom post types.
- * @package HelloElementor
- */
-
+```
+<?php
 if ( ! defined( 'ABSPATH' ) ) {
     exit; // Exit if accessed directly.
 }
-
 while ( have_posts() ) :
     the_post();
     ?>
-
     <main id="content" <?php post_class( 'site-main' ); ?>>
-
         <?php if ( apply_filters( 'hello_elementor_page_title', true ) ) : ?>
             <header class="page-header">
                 <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
             </header>
         <?php endif; ?>
-
         <div class="page-content">
             <?php
             echo do_shortcode( '[murmurations_data title="Name" path="name"]' );
@@ -188,16 +179,10 @@ while ( have_posts() ) :
             </div>
             <?php wp_link_pages(); ?>
         </div>
-
         <?php comments_template(); ?>
-
     </main>
-
 <?php
 endwhile;
 ```
-
 4. Save the file. 
 5. Visit your directory page (which must include the link_type="wp" in your shortcode) and click on the "More..." link for a single node. The Murmurations Map Builder plugin will now find the correctly named template file and use this to display single nodes of the associated Content Type.
-
-
