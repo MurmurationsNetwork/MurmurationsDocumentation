@@ -36,10 +36,12 @@ If you maintain your network data in a spreadsheet, use MPG's [Batch Importer](h
 - Array items are specified with square brackets: `tags[0], tags[1], tags[2] ...`
   - Multiple items can also be defined in a single column using `tags[array]` and including a quoted, comma-separated list of items. Both ways of listing arrays of strings can be used in the same batch file, but only one can be used per row, for example:
 
-    ```txt
-    oid,name,primary_url,tags[0],tags[1],tags[2],tags[array]
-    myOrgID1,Alice,https://alice.net,alpha,beta,gamma,
-    myOrgID2,Bob,https://bob.net,,,,"delta, epsilon"
+    ```sh
+    oid,name,primary_url,tags[0],tags[1],tags[2],tags[list][0],tags[list][1]
+    myOrgID1,Alice,https://alice.net,alpha,beta,gamma,,
+    myOrgID2,Bob,https://bob.net,,,,"delta, epsilon","alpha"
+    # Alice will have the alpha, beta and gamma tags
+    # Bob will have the alpha, delta and epsilon tags
     ```
 
 - Object properties with periods: `geolocation.lat, geolocation.lon`
