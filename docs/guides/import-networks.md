@@ -34,6 +34,14 @@ If you maintain your network data in a spreadsheet, use MPG's [Batch Importer](h
 - The first column must always contain the `oid` (originating ID) field; this is a unique identifier for the entity in your network. It must be unique and only ever associated with that one entity; do not re-use `oid`s when adding new entities.
 - The column names must map exactly to the names used for fields in the schema. See the column names in the [example import file](https://raw.githubusercontent.com/MurmurationsNetwork/MurmurationsServices/main/test/organizations_schema-v1.0.0-example-import.csv) for the [Organizations schema](https://github.com/MurmurationsNetwork/MurmurationsLibrary/blob/test/schemas/organizations_schema-v1.0.0.json) in the Murmurations library.
 - Array items are specified with square brackets: `tags[0], tags[1], tags[2] ...`
+  - Multiple items can also be defined in a single column using `tags[array]` and including a quoted, comma-separated list of items. Both ways of listing arrays of strings can be used in the same batch file, but only one can be used per row, for example:
+
+    ```txt
+    name,primary_url,tags[0],tags[1],tags[2],tags[array]
+    Alice,https://alice.net,alpha,beta,gamma,
+    Bob,https://bob.net,,,,"delta, epsilon"
+    ```
+
 - Object properties with periods: `geolocation.lat, geolocation.lon`
 - Arrays of object with both: `urls[0].name, urls[0].url, urls[1].name, urls[1].url ...`
 - Fields with enumerated lists, like the "status" and "geographic_scope" fields in the Organizations schema should only contain 1 of the available options from the dropdowns which you see on the Profile Generator.
