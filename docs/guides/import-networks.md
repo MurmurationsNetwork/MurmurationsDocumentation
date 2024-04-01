@@ -52,3 +52,7 @@ If you maintain your network data in a spreadsheet, use MPG's [Batch Importer](h
 - Fields with enumerated lists, like the [status](https://github.com/MurmurationsNetwork/MurmurationsLibrary/blob/test/fields/status.json) and [geographic_scope](https://github.com/MurmurationsNetwork/MurmurationsLibrary/blob/test/fields/geographic_scope.json) fields in the Organizations schema should only contain 1 of the available options from the list of items in the `enum` property.
 
 All of the above requirements are illustrated in the [example import file](https://raw.githubusercontent.com/MurmurationsNetwork/MurmurationsServices/main/test/organizations_schema-v1.0.0-example-import.csv).
+
+::: info 🤖💪 Converting spreadsheet data for import into Murmurations  
+You can convert data to conform to a schema by explaining to an AI bot exactly how you want a given input file to be transformed so that it matches the requirements of that schema. For example, imagine you have a single field that has a node's longitude and latitude. You can request the AI bot to "take the 'geo' field from the input file, swap the two values and output them as two columns called geolocation.lat and geolocation.lon respectively".
+:::
