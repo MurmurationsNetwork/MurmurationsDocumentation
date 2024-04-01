@@ -39,13 +39,14 @@ If you maintain your network data in a spreadsheet, use MPG's [Batch Importer](h
     ```sh
     oid,name,primary_url,tags[0],tags[1],tags[2],tags(list-0),tags(list-1)
     myOrgID1,Alice,https://alice.net,programmer,golang,unit tests,"friendly,outgoing","tenacious,""to the point"",exact"
-    myOrgID2,Bob,https://bob.net,"Next, Inc.","Bob ""the Cob"" Dobbs","Appuhl, Inc.","either\, or, neither\, nor","California, USA"
+    myOrgID2,Bob,https://bob.net,"Next, Inc.","Bob ""the Cob"" Dobbs",,"either\, or, neither\, nor","Los Angeles, California , USA"
     # Alice's profile will show these tags:
     # "programmer", "golang", "unit tests", "friendly", "outgoing", "tenacious", "\"to the point\"", "exact"
     # And Bob's will show:
-    # "Next, Inc.", "Bob \"the Cob\" Dobbs", "Appuhl, Inc.", "either, or", "neither, nor", "California", "USA"
+    # "Next, Inc.", "Bob \"the Cob\" Dobbs", "either, or", "neither, nor", "Los Angeles", "California", "USA"
     ```
 
+  - The special characters `"` and `,` can be included inside tags if they are correctly escaped (`""` and `\,`)
 - Object properties with periods: `geolocation.lat, geolocation.lon`
 - Array of objects with both: `urls[0].name, urls[0].url, urls[1].name, urls[1].url ...`
 - Fields with enumerated lists, like the `[status](https://github.com/MurmurationsNetwork/MurmurationsLibrary/blob/test/fields/status.json)` and `[geographic_scope](https://github.com/MurmurationsNetwork/MurmurationsLibrary/blob/test/fields/geographic_scope.json)` fields in the Organizations schema should only contain 1 of the available options from the list of items in the `enum` property.
