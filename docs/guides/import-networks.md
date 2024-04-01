@@ -49,6 +49,6 @@ If you maintain your network data in a spreadsheet, use MPG's [Batch Importer](h
   - The special characters `"` and `,` can be included inside tags if they are correctly escaped (`""` and `\,`)
 - Object properties with periods: `geolocation.lat, geolocation.lon`
 - Array of objects with both: `urls[0].name, urls[0].url, urls[1].name, urls[1].url ...`
-- Fields with enumerated lists, like the `[status](https://github.com/MurmurationsNetwork/MurmurationsLibrary/blob/test/fields/status.json)` and `[geographic_scope](https://github.com/MurmurationsNetwork/MurmurationsLibrary/blob/test/fields/geographic_scope.json)` fields in the Organizations schema should only contain 1 of the available options from the list of items in the `enum` property.
+- Fields with enumerated lists, like the [status](https://github.com/MurmurationsNetwork/MurmurationsLibrary/blob/test/fields/status.json) and [geographic_scope](https://github.com/MurmurationsNetwork/MurmurationsLibrary/blob/test/fields/geographic_scope.json) fields in the Organizations schema should only contain 1 of the available options from the list of items in the `enum` property.
 
 All of the above requirements are illustrated in the [example import file](https://raw.githubusercontent.com/MurmurationsNetwork/MurmurationsServices/main/test/organizations_schema-v1.0.0-example-import.csv).
