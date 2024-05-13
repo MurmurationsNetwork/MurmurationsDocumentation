@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-  name: "Murmurations Protocol"
-  tagline: Murmurations is a distributed data sharing network to connect regenerative economy projects and organizations, making them visible to the world and each other.
+  name: "Murmurations"
+  tagline: "A privacy-focused distributed data sharing protocol"
   image:
     src: /murmurations-logo.png
     alt: Murmurations
