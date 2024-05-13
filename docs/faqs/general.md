@@ -2,29 +2,34 @@
 
 ## What is the Murmurations protocol?
 
-The Murmurations protocol, which we also just call Murmurations, is a standardised, open source set of rules designed to enable decentralised, interoperable data sharing and aggregation. Murmurations uses existing standards such as [JSON-Schema](https://json-schema.org/) to help people, projects and organisations discover each other and share data across platforms and between networks. The ultimate aim of Murmurations is to accelerate the global transition to the [regenerative economy](https://capitalinstitute.org/8-principles-regenerative-economy/).
+The Murmurations protocol, which we also just call Murmurations, is a standardised, open source set of rules designed to enable decentralised, interoperable data sharing and aggregation. Murmurations uses existing standards such as [JSON Schema](https://json-schema.org/) to help people, projects and organisations discover each other and share data across platforms and between networks. The ultimate aim of Murmurations is to facilitate collaboration at scale by enabling interoperable data sharing across platforms and between networks, all while providing individuals and other data creators control over their data.
+
+## How is Murmurations "privacy-focused" as described in your tagline?
+
+Murmurations' tagline is "a privacy-focused distributed data sharing protocol".
+
+We are still developing the software that implements the protocol, so some of the privacy features have not been built, but they have been described in the [Murmurations White Paper](https://murmurations.network/wp-content/uploads/2024/04/Murmurations-White-Paper-v1.0.pdf) (see the section on data privacy), namely:
+
+- Obfuscated URLs of JSON profiles
+- Access controls (authentication) on indexes
+- Encryption of select data fields
+
+As we work on these privacy features, we will add them to our [Road Map](https://github.com/orgs/MurmurationsNetwork/projects/7).
 
 ## What can I do with Murmurations?
 
 See our post on [collaborative mapping](https://murmurations.network/2023/08/22/collaborative-mapping/) for some user stories explaining how you can use Murmurations to:
 
-- Build a map of X (e.g. vegan shops) in a specific area
+- Build a map of X (e.g., vegan shops) in a specific area
 - Build a map of a network of members
-
-## Can you explain the terms you use?
-
-See the [common terms](/about/common-terms.html) we use when working with Murmurations and our blog posts [Murmurations explained](https://murmurations.network/2022/07/07/murmurations-explained/), and [using Murmurations](https://murmurations.network/2022/07/12/using-murmurations/).
 
 ## How do I create a Murmurations profile?
 
 Visit the [Murmurations Profile Generator](https://test-tools.murmurations.network/profile-generator) and follow the steps, or for more detail see our [create a profile](/guides/create-a-profile.md) guide.
 
-<!-- ## How can I use Murmurations to create a map or directory or other type of aggregator?
+## How can I use Murmurations to create a map or directory or other type of aggregator?
 
-See our [guide for aggregators](/guides/aggregators.html). 
-
-TBC
--->
+See our [WordPress Collaborative Map Builder Plugin](/developers/wp-aggregator.html) for an example aggregator built on top of WordPress.
 
 ## Are there any restrictions on what I can do with Murmurations?
 
@@ -34,23 +39,19 @@ Yes, to use Murmurations you must agree to [the principles](https://murmurations
 
 ### Solid
 
-Not really - [Solid](https://solid.mit.edu/) is a proposed set of conventions and tools for building decentralized social applications based on Linked Data principles. Solid aims to offer 'data pods' to help you store and share your data and to restrict access to it on your terms. Murmurations provides a way to share and map public data according to a standardised set of fields, which make the data interoperable across platforms and networks.
+Both [Solid](https://solidproject.org/) and Murmurations share the goal of decentralizing data and promoting data ownership and control, but Solid is mainly focused on empowering individual users through the concept of "pods", which are personal online data stores that users control and can share selectively with apps and services.
+
+Murmurations has a broader scope; we are aiming to facilitate collaboration at scale in order to create a decentralized ecosystem of &mdash; in fact, a distributed database for &mdash; social applications and services, all while providing individuals and other data creators control over their data. Rather than initially focusing on individual users (and burdening them with complex software) we are instead focused on enabling networks to collaborate and exchange data using an open protocol. Individuals can adopt the Murmurations protocol and tools at their leisure, once they understand the importance of being the "source of truth" about their own data, rather than allowing some third party to be that source and possibly disseminating inaccurate and/or outdated information about them.
 
 ### ActivityPub
 
-Not really - [ActivityPub](https://activitypub.rocks/) is a decentralized social networking protocol based on the ActivityStreams 2.0 data format, which provides a client to server API for creating, updating and deleting content, as well as a federated server to server API for delivering notifications and subscribing to content. Murmurations doesn't deliver notifications or enable people to subscribe to content, instead it provides a way to share and map public data according to a standaridised set of fields, which make the data interoperable accross platforms and networks.
+[ActivityPub](https://activitypub.rocks/) is a decentralized social networking protocol that provides a client to server API for creating, updating and deleting content, as well as a federated server to server API for delivering notifications and subscribing to content. Murmurations doesn't deliver notifications or enable people to subscribe to content. Instead it provides a way to store and find data according to a standardized set of fields, which makes that data interoperable accross platforms and networks.
+
+In essence, Murmurations is a protocol for a distributed database system whereas ActivityPub is primarily focused on decentralized social networking and microblogging.
 
 ### Schema.org
 
-Not really - [Schema.org](https://schema.org/) provides a shared vocabulary to make it easier for webmasters and developers to decide on a schema and get the maximum benefit for their efforts. Murmurations uses some of Schema.org's vocabulary and extends it by creating a standaridised set of fields, which make the data interoperable accross platforms and networks.
-
-## Are Murmurations profiles JSON-LD?
-
-No - [JSON-LD](https://json-ld.org/) is a lightweight Linked Data format. It is easy for humans to read and write. It is based on the already successful JSON format and provides a way to help JSON data interoperate at Web-scale. Murmurations profiles use JSON but their structure is not strict JSON-LD. Instead they reference the `linked_schemas` against which they validate, which reference the fields used, some of which are based on Schema.org's vocabulary.
-
-## Aren't you just building another map?
-
-No - we're building a new way to map: a protocol which makes data on maps interoperable, and a suite of tools to help mappers build better maps based on the protocol.
+[Schema.org](https://schema.org/) provides a shared vocabulary for structured data on the internet, which make certain data interoperable across platforms. Murmurations leverages Schema.org's vocabulary but also extends it by enabling a wider set of fields and schemas, which are composable and extensible so they can easily be adopted to any use case. And on top of that, Murmurations describes a way for sharing and synchronizing data in a distributed manner, whereas Schema.org does not address data distribution at all.
 
 ## My questions isn’t answered here – what can I do?
 
