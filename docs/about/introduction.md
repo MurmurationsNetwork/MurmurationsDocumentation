@@ -2,7 +2,7 @@
 
 ## What is Murmurations?
 
-Murmurations is a privacy-focused distributed data sharing protocol. The ultimate goal of Murmurations is to facilitate collaboration at scale by enabling interoperable data sharing across platforms and between networks, all while providing individuals and other data creators control over their data.
+Murmurations is a distributed data sharing protocol that describes a method for coordinating the storage, indexing and retrieval of data over a distributed network. The ultimate goal of Murmurations is to facilitate collaboration at scale by enabling interoperable data sharing across platforms and between networks, all while providing individuals and other data creators control over their data.
 
 The distributed data sharing network is comprised of:
 

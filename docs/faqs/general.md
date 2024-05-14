@@ -4,15 +4,13 @@
 
 The Murmurations protocol, which we also just call Murmurations, is a standardised, open source set of rules designed to enable decentralised, interoperable data sharing and aggregation. Murmurations uses existing standards such as [JSON Schema](https://json-schema.org/) to help people, projects and organisations discover each other and share data across platforms and between networks. The ultimate aim of Murmurations is to facilitate collaboration at scale by enabling interoperable data sharing across platforms and between networks, all while providing individuals and other data creators control over their data.
 
-## How is Murmurations "privacy-focused" as described in your tagline?
-
-Murmurations' tagline is "a privacy-focused distributed data sharing protocol".
+## How will Murmurations handle data privacy and enable individuals to control the use of their data?
 
 We are still developing the software that implements the protocol, so some of the privacy features have not been built, but they have been described in the [Murmurations White Paper](https://murmurations.network/wp-content/uploads/2024/04/Murmurations-White-Paper-v1.0.pdf) (see the section on data privacy), namely:
 
 - Obfuscated URLs of JSON profiles
 - Access controls (authentication) on indexes
-- Encryption of select data fields
+- Encryption of select data fields by data owners
 
 As we work on these privacy features, we will add them to our [Road Map](https://github.com/orgs/MurmurationsNetwork/projects/7).
 
@@ -41,7 +39,7 @@ Yes, to use Murmurations you must agree to [the principles](https://murmurations
 
 Both [Solid](https://solidproject.org/) and Murmurations share the goal of decentralizing data and promoting data ownership and control, but Solid is mainly focused on empowering individual users through the concept of "pods", which are personal online data stores that users control and can share selectively with apps and services.
 
-Murmurations has a broader scope; we are aiming to facilitate collaboration at scale in order to create a decentralized ecosystem of &mdash; in fact, a distributed database for &mdash; social applications and services, all while providing individuals and other data creators control over their data. Rather than initially focusing on individual users (and burdening them with complex software) we are instead focused on enabling networks to collaborate and exchange data using an open protocol. Individuals can adopt the Murmurations protocol and tools at their leisure, once they understand the importance of being the "source of truth" about their own data, rather than allowing some third party to be that source and possibly disseminating inaccurate and/or outdated information about them.
+Murmurations has a broader scope; we are aiming to facilitate collaboration at scale in order to create a decentralized ecosystem of &mdash; in fact, a distributed database for &mdash; social applications and services, all while providing individuals and other data creators control over their data. Rather than initially focusing on individual users (and burdening them with complex software without a practical use case) we are instead focused on enabling networks to collaborate and exchange data using an open protocol. Individuals can adopt the Murmurations protocol and tools at their leisure, once they understand the importance of being the "source of truth" about their own data, rather than allowing some third party to be that source and possibly disseminating inaccurate and/or outdated information about them.
 
 ### ActivityPub
 

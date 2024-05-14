@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "Murmurations"
-  tagline: "A privacy-focused distributed data sharing protocol"
+  tagline: "A distributed data sharing protocol"
   image:
     src: /murmurations-logo.png
     alt: Murmurations
