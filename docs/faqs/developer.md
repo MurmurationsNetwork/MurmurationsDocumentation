@@ -4,7 +4,7 @@
 
 The Murmurations core team currently hosts a test and live version of the index, library and other services that implement the protocol, but our aim is for this function to be distributed widely. We do not want to be a single point of failure for the protocol. As a result, we have developed [detailed deployment documentation](https://github.com/MurmurationsNetwork/MurmurationsServices/tree/main/docs/rancher) to enable other parties to set up their own indexes and related services.
 
-And as we explain in the [Murmurations White Paper](https://murmurations.network/wp-content/uploads/2024/04/Murmurations-White-Paper-v1.0.pdf) (see the section on index synchronization), we intend to develop the protocol further so that indexes can be operated by multiple parties and those operators can choose to peer with other index operators, thus distributing the index function and making the indexed data redundant.
+And as we explain in the [Murmurations White Paper](/Murmurations-White-Paper-v1.0.pdf) (see the section on index synchronization), we intend to develop the protocol further so that indexes can be operated by multiple parties and those operators can choose to peer with other index operators, thus distributing the index function and making the indexed data redundant.
 
 ## I have created JSON profiles for my nodes. How do I add them to the index?
 

@@ -18,7 +18,7 @@ To enable these entities to work together, the Murmurations team has created:
 
 The initial use case for Murmurations is to facilitate decentralized mapping of purpose-driven solidarity economy organizations and projects, making them visible to the world and each other.
 
-Further information about the distributed data sharing protocol can be found in the [Murmurations White Paper](https://murmurations.network/wp-content/uploads/2024/04/Murmurations-White-Paper-v1.0.pdf).
+Further information about the distributed data sharing protocol can be found in the [Murmurations White Paper](/Murmurations-White-Paper-v1.0.pdf).
 
 ## How does it work?
 

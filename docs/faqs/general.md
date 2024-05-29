@@ -6,7 +6,7 @@ The Murmurations protocol, which we also just call Murmurations, is a standardis
 
 ## How will Murmurations handle data privacy and enable individuals to control the use of their data?
 
-We are still developing the software that implements the protocol, so some of the privacy features have not been built, but they have been described in the [Murmurations White Paper](https://murmurations.network/wp-content/uploads/2024/04/Murmurations-White-Paper-v1.0.pdf) (see the section on data privacy), namely:
+We are still developing the software that implements the protocol, so some of the privacy features have not been built, but they have been described in the [Murmurations White Paper](/Murmurations-White-Paper-v1.0.pdf) (see the section on data privacy), namely:
 
 - Obfuscated URLs of JSON profiles
 - Access controls (authentication) on indexes
