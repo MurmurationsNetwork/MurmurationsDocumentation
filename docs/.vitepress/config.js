@@ -10,7 +10,7 @@ export default defineConfig({
       {
         src: "//stats.murmurations.network/count.js",
         async: true,
-        "data-goatcounter": "https://docs.murmurations.network/count",
+        "data-goatcounter": "https://stats-docs.murmurations.network/count",
       },
     ],
   ],
