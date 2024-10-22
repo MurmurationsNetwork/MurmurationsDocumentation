@@ -10,4 +10,4 @@ Nodes store their [profiles](/about/common-terms.html#profile) on their website 
 
 ## Automated profile deletion
 
-Some profile data may be time-sensitive or may need to be deleted after a certain period of time. The index service will automatically mark a profile as deleted provided the profile has an `expires` field set in the profile data. The `expires` field should be a date in the Unix timestamp format (seconds since 1970-01-01, e.g., 1713561600 for 2024-04-15).
+Some profile data may be time-sensitive or may need to be deleted after a certain period of time. The index service will automatically mark a profile as deleted provided the profile has an `expires` field set in the profile data. The `expires` field should be a date in the Unix timestamp format (seconds since 1970-01-01, e.g., 1729555200 for 2024-10-22).
