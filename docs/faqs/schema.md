@@ -2,7 +2,7 @@
 
 ## What is a "schema" in Murmurations?
 
-See our complete definition of a schema in the [Common Terms page](/about/common-terms.html#schema). Basically a schema is a way to define the data to collect from a network, and Murmurations enables you to monitor any changes made to that data by the participants in the network.
+See our complete definition of a schema in the [Common Terms page](/about/common-terms.html#schema). Basically a schema is a way to define the data to collect from a network. Think of a schema as the definition of the header row of a spreadsheet, defining the columns that will be used to collect data (e.g., name, website address, location, etc.).
 
 ## Are there any required fields in a schema?
 
@@ -62,4 +62,4 @@ An add-on schema shares the same fields with a base schema, but includes other f
 
 Consider two organizations, one issuing a complementary currency and another focused on regenerative agriculture. Both entities will share the fields in the organizations schema, but they can each have a different add-on schema with fields specific to their focus.
 
-Using base schemas increases interoperability and discoverability, while add-on schemas increase specificity. For example, one can search using a base schema to find all profiles which match the base schema AND any add-on schemas, making a wider range of profiles discoverable. Alternatively, one can search using an add-on schema to find just the specific profiles which match the add-on schema.
+Using base schemas increases interoperability and discoverability, while add-on schemas increase specificity. For example, one can [search using a base schema](https://tools.murmurations.network/index-explorer?schema=organizations_schema-v1.0.0&status=posted&tags_filter=or&tags_exact=false) to find all profiles which match the base schema AND any add-on schemas, making a wider range of profiles discoverable. Alternatively, one can [search using an add-on schema](https://tools.murmurations.network/index-explorer?schema=permaculture_addon_schema-v1.0.0&status=posted&tags_filter=or&tags_exact=false) to find just the specific profiles which match the add-on schema.

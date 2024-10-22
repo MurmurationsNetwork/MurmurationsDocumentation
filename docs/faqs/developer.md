@@ -1,11 +1,5 @@
 # Developer FAQs
 
-## How can you say Murmurations is decentralized when the index and library are hosted solely by you?
-
-The Murmurations core team currently hosts a test and live version of the index, library and other services that implement the protocol, but our aim is for this function to be distributed widely. We do not want to be a single point of failure for the protocol. As a result, we have developed [detailed deployment documentation](https://github.com/MurmurationsNetwork/MurmurationsServices/tree/main/docs/rancher) to enable other parties to set up their own indexes and related services.
-
-And as we explain in the [Murmurations White Paper](/Murmurations-White-Paper-v1.0.pdf) (see the section on index synchronization), we intend to develop the protocol further so that indexes can be operated by multiple parties and those operators can choose to peer with other index operators, thus distributing the index function and making the indexed data redundant.
-
 ## I have created JSON profiles for my nodes. How do I add them to the index?
 
 Murmurations operates under the assumption you will tell the index whenever a node is to be added, has been updated or is to be deleted.
@@ -32,6 +26,12 @@ The `node_id` is just the alphanumeric SHA256 hash of a `profile_url`. So if you
 You can check our status page to see the health of the network:  
 [https://status.murmurations.network/](https://status.murmurations.network/)
 
-## Are Murmurations profiles JSON-LD?
+## Are Murmurations profiles stored as JSON-LD?
 
-No - [JSON-LD](https://json-ld.org/) is a lightweight Linked Data format. It is easy for humans to read and write. It is based on the already successful JSON format and provides a way to help JSON data interoperate at Web-scale. Murmurations profiles use JSON but their structure is not strict JSON-LD. Instead they reference the `linked_schemas` against which they validate, which reference the fields used, some of which are based on Schema.org's vocabulary.
+No, not yet. We are planning to integrate [JSON-LD](https://json-ld.org/) into Murmurations profiles in the future (see our [roadmap](https://github.com/orgs/MurmurationsNetwork/projects/8)).
+
+## How can you say Murmurations is decentralized when the index and library are hosted solely by you?
+
+The Murmurations core team currently hosts a test and live version of the index, library and other services that implement the protocol, but our aim is for this function to be distributed widely. We do not want to be a single point of failure for the protocol. As a result, we have developed [detailed deployment documentation](https://github.com/MurmurationsNetwork/MurmurationsServices/tree/main/docs/rancher) to enable other parties to set up their own indexes and related services.
+
+And as we explain in the [Murmurations White Paper](/Murmurations-White-Paper-v1.0.pdf) (see the section on index synchronization), we intend to develop the protocol further so that indexes can be operated by multiple parties and those operators can choose to peer with other index operators, thus distributing the index function and making the indexed data redundant.

@@ -2,28 +2,18 @@
 
 ## What is the Murmurations protocol?
 
-The Murmurations protocol, which we also just call Murmurations, is a standardised, open source set of rules designed to enable decentralised, interoperable data sharing and aggregation. Murmurations uses existing standards such as [JSON Schema](https://json-schema.org/) to help people, projects and organisations discover each other and share data across platforms and between networks. The ultimate aim of Murmurations is to facilitate collaboration at scale by enabling interoperable data sharing across platforms and between networks, all while providing individuals and other data creators control over their data.
-
-## How will Murmurations handle data privacy and enable individuals to control the use of their data?
-
-We are still developing the software that implements the protocol, so some of the privacy features have not been built, but they have been described in the [Murmurations White Paper](/Murmurations-White-Paper-v1.0.pdf) (see the section on data privacy), namely:
-
-- Obfuscated URLs of JSON profiles
-- Access controls (authentication) on indexes
-- Encryption of select data fields by data owners
-
-As we work on these privacy features, we will add them to our [Road Map](https://github.com/orgs/MurmurationsNetwork/projects/7).
+The Murmurations protocol, which we also just call Murmurations, is a standardised, open source set of rules designed to enable decentralised, interoperable data sharing and aggregation. Murmurations uses existing standards such as [JSON Schema](https://json-schema.org/) to help people, projects and organisations discover each other and share data across platforms and between networks. The ultimate aim of Murmurations is to facilitate collaboration at scale by enabling interoperable data sharing across platforms and between networks.
 
 ## What can I do with Murmurations?
 
-See our post on [collaborative mapping](https://murmurations.network/2023/08/22/collaborative-mapping/) for some user stories explaining how you can use Murmurations to:
+See our blog posts explaining how you can use Murmurations for different use cases:
 
-- Build a map of X (e.g., vegan shops) in a specific area
-- Build a map of a network of members
+- [What can you build on the Murmurations protocol?](https://murmurations.network/2024/06/04/what-can-you-build-on-the-murmurations-protocol-2/)
+- [Sharing data across platforms and networks](https://murmurations.network/2024/10/10/sharing-data-across-platforms-and-networks/)
 
 ## How do I create a Murmurations profile?
 
-Visit the [Murmurations Profile Generator](https://test-tools.murmurations.network/profile-generator) and follow the steps, or for more detail see our [create a profile](/guides/create-a-profile.md) guide.
+Use the [Murmurations Profile Generator](https://test-tools.murmurations.network/profile-generator) and follow the steps, or for more detail see our [create a profile](/guides/create-a-profile.md) guide.
 
 ## How can I use Murmurations to create a map or directory or other type of aggregator?
 
