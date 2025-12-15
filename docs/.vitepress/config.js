@@ -41,8 +41,6 @@ export default defineConfig({
           { link: "/about/common-terms", text: "Common Terms" },
           { link: "/about/architecture", text: "Architecture" },
           { link: "/about/roadmap", text: "Roadmap" },
-          { link: "/about/contributing", text: "Contributing" },
-          { link: "/about/getting-support", text: "Getting Support" },
         ],
         collapsed: false,
       },

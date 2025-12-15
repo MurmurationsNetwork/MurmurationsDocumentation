@@ -32,7 +32,7 @@ A profile is a [JSON](https://en.wikipedia.org/wiki/JSON) document describing a 
 
 ## Profile Generator
 
-The [Murmurations Profile Generator](https://test-tools.murmurations.network/profile-generator), or MPG for short, is a web application for creating profiles. MPG automatically converts schemas in the [library](#library) into forms to enable people to create the JSON documents for their profiles. MPG can also host these JSON documents, which may seem an odd way to manage decentralised data, but is an important feature which makes the protocol accessible to people who can't host their own profile data.
+The [Murmurations Profile Generator](https://murmurmaps.murmurations.network/profile-generator), or MPG for short, is a web application for creating profiles. MPG automatically converts schemas in the [library](#library) into forms to enable people to create the JSON documents for their profiles. MPG can also host these JSON documents, which may seem an odd way to manage decentralised data, but is an important feature which makes the protocol accessible to people who can't host their own profile data.
 
 ## Schema
 
