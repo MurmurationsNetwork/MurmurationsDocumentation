@@ -19,7 +19,7 @@ The index will confirm the JSON data is no longer available at the page and then
 
 ## I forgot to save the `node_id` for a profile. How do I find it?
 
-The `node_id` is just the alphanumeric SHA256 hash of a `profile_url`. So if your profile is located at `https://my.org/murm.json` the `node_id` is `9097811e1cd5fa478c320c3b6bf210a2b537a8f806955398851c012befdb3e41` (try it out [here](https://emn178.github.io/online-tools/sha256.html)).
+The `node_id` is just the alphanumeric SHA256 hash of a `profile_url`. So if your profile is located at `https://my.org/murm.json` the `node_id` is `9097811e1cd5fa478c320c3b6bf210a2b537a8f806955398851c012befdb3e41` ([try it out here](https://emn178.github.io/online-tools/sha256.html)).
 
 ## How do I know if any of Murmuration's infrastructure is down?
 

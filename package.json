@@ -1,10 +1,10 @@
 {
   "name": "murmurations-documentation",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Documentation for the Murmurations Protocol",
   "type": "module",
   "devDependencies": {
-    "vitepress": "^1.4.0"
+    "vitepress": "^2.0.0-alpha.15"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",

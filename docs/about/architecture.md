@@ -15,15 +15,9 @@
 ## Technical Architecture Requirements
 
 - Must use open source software
-  - We build on: Linux, Docker, Golang, JavaScript, React, [Remix](https://remix.run) and WordPress
+  - We build on: Linux, Golang, JavaScript/Svelte
   - All the software we build ourselves is open source under the GPLv3 License
 - Make deployment simple and reliable, and scalable
   - We use [Kubernetes](https://kubernetes.io/) to build and manage our production and test environments
   - We have a continuous deployment pipeline for our test environment with automated end-to-end tests that are run for every PR and commit to our `test` branch
-  - We leverage frontend deployment tools like [Vercel](https://vercel.com/) to quickly deploy user-facing apps
-
-## Systems Diagram
-
-![Murmurations Systems Diagram](/murm_system_diagram.png)
-
-[Click here to open the diagram and zoom in](/murm_system_diagram.png)
+  - We leverage frontend deployment tools like [Cloudflare](https://cloudflare.com/) to quickly deploy user-facing apps

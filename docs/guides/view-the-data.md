@@ -1,13 +1,5 @@
 # View Murmurations Data
 
-## View the map
-
-### [Watch the demo video](https://player.vimeo.com/video/791872327)
-
-The [Murmurations map](https://map.murmurations.network/) allows you to explore all of the nodes in Murmurations that have geolocation coordinates associated with them.
-
-[Learn how to create custom map views](/guides/map.md)
-
 ## Search the index
 
 Use MPG's [Index Explorer](https://test-tools.murmurations.network/index-explorer) to search for [nodes](/about/common-terms.md) in the Murmurations network based on a variety of criteria such as:

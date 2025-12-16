@@ -13,11 +13,11 @@ See our blog posts explaining how you can use Murmurations for different use cas
 
 ## How do I create a Murmurations profile?
 
-Use the [Murmurations Profile Generator](https://test-tools.murmurations.network/profile-generator) and follow the steps, or for more detail see our [create a profile](/guides/create-a-profile.md) guide.
+Use the [Murmurations Profile Generator](https://murmurmaps.murmurations.network/profile-generator) and follow the steps, or for more detail see our [create a profile](/guides/create-a-profile.md) guide.
 
 ## How can I use Murmurations to create a map or directory or other type of aggregator?
 
-See our [WordPress Collaborative Map Builder Plugin](/developers/wp-aggregator.html) for an example aggregator built on top of WordPress.
+See [MurmurMaps](https://murmurmaps.murmurations.network) for an example aggregator built on top of WordPress.
 
 ## Are there any restrictions on what I can do with Murmurations?
 
@@ -43,4 +43,4 @@ In essence, Murmurations is a protocol for a distributed database system whereas
 
 ## My questions isn’t answered here – what can I do?
 
-You can [send us a message](https://murmurations.network/contact/) and we will reply and add the answer here, or join the [Telegram group](https://t.me/joinchat/JvotB0kuxrjFgvYszbNvZw) and ask there.
+You can [send us a message](https://murmurations.network/contact/) and we will reply and add the answer here.

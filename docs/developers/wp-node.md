@@ -1,5 +1,9 @@
 # WordPress Profile Generator Plugin
 
+::: warning A R C H I V E D
+Work on the WordPress plugins has been discontinued. Feel free to contact us if you would like to continue developing them.
+:::
+
 ## Overview
 
 The Murmurations Profile Generator WordPress Plugin is a quick and simple way to publish [profiles](/about/common-terms.html#profile) about an organization, project, person or offered and wanted goods and services to the Murmurations network. Just select an environment ([test or production](/developers/environments.html)) and a [schema](/about/common-terms.html#schema), fill in the form and then post it to Murmurations. Your WordPress site will host the profiles and submit them to the Murmurations index, where they can be discovered by [aggregators](/about/common-terms.html#aggregator).

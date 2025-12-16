@@ -3,6 +3,8 @@
 Check the status of the Murmurations environments on our status page:  
 [**https://status.murmurations.network/**](https://status.murmurations.network/)
 
+Please note that our mapping and data hosting site [MurmurMaps](https://murmurmaps.murmurations.network) enables you to access both the test and production environments by selecting it from the drop-down menu on the top right of the page.
+
 ## Test environment
 
 The `test-` URLs have been set up to provide a space for developers to test their schemas before submitting them to the production library, and for profile creators to test their profiles before submitting them to the production index.
@@ -12,8 +14,6 @@ The `test-` URLs have been set up to provide a space for developers to test thei
 | Index API         | [https://test-index.murmurations.network/v2/nodes](https://test-index.murmurations.network/v2/nodes)                                         |
 | Library API       | [https://test-library.murmurations.network/v2/schemas](https://test-library.murmurations.network/v2/schemas)                                 |
 | Library Repo      | [https://github.com/MurmurationsNetwork/MurmurationsLibrary/tree/test](https://github.com/MurmurationsNetwork/MurmurationsLibrary/tree/test) |
-| Murmurations Tools | [https://test-tools.murmurations.network](https://test-tools.murmurations.network)                                                     |
-| Murmurations Map  | [https://test-map.murmurations.network](https://test-map.murmurations.network)                                                               |
 
 ## Production environment
 
@@ -26,5 +26,3 @@ Please note that only the schemas approved by the Murmurations core team for pro
 | Index API         | [https://index.murmurations.network/v2/nodes](https://index.murmurations.network/v2/nodes)                                                   |
 | Library API       | [https://library.murmurations.network/v2/schemas](https://library.murmurations.network/v2/schemas)                                           |
 | Library Repo      | [https://github.com/MurmurationsNetwork/MurmurationsLibrary/tree/main](https://github.com/MurmurationsNetwork/MurmurationsLibrary/tree/main) |
-| Murmurations Tools | [https://tools.murmurations.network](https://tools.murmurations.network)                                                               |
-| Murmurations Map  | [https://map.murmurations.network](https://map.murmurations.network)                                                                         |

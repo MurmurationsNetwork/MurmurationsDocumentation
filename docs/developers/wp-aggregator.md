@@ -1,5 +1,9 @@
 # WordPress Collaborative Map Builder Plugin
 
+::: warning A R C H I V E D
+Work on the WordPress plugins has been discontinued. Feel free to contact us if you would like to continue developing them.
+:::
+
 ## Overview
 
 The Murmurations Collaborative Map Builder WordPress Plugin provides a quick and powerful way to set up a site that fetches data from the Murmurations network displays it on a geographic map or in a directory.

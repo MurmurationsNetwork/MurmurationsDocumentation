@@ -1,7 +1,7 @@
 # Create a Murmurations Schema
 
 ::: info 🚀👩‍🔬 Rocket Science Alert!  
-You will probably never need to create a schema, but we're providing you with this information so you can at least understand how it is done.
+You will probably never need to create a schema, but we're providing you with this information so you can understand how it is done.
 :::
 
 ## Overview
@@ -24,7 +24,7 @@ There are two ways that fields can be defined in a Murmurations schema:
 
 The first step in creating a schema is to decide what data fields will be included in it. This may be a combination of custom fields that will only ever be used in your schema, existing interoperable fields in the [Murmurations library](https://github.com/MurmurationsNetwork/MurmurationsLibrary), and new fields that could be candidates for addition to the library.
 
-Don't hesitate to reach out via the [contact form on Murmurations.network](https://murmurations.network/contact/) or the Murmurations [Telegram channel](https://t.me/+SS7GuP5kMDf-zx6l) for assistance in building your schema and fields.
+Don't hesitate to reach out via the [contact form on Murmurations.network](https://murmurations.network/contact/).
 
 ## Step 2: Draft the schema document
 
@@ -142,4 +142,4 @@ You can keep adding data to test your profile against the other fields, for exam
 
 ## Questions?
 
-If you need help setting up your schema or if you have any questions, please post them at the [contact form on Murmurations.network](https://murmurations.network/contact/) or the Murmurations [Telegram channel](https://t.me/+SS7GuP5kMDf-zx6l).
+If you need help setting up your schema or if you have any questions, please post them at the [contact form on Murmurations.network](https://murmurations.network/contact/).

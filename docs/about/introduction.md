@@ -2,7 +2,7 @@
 
 ## What is Murmurations?
 
-Murmurations is a distributed data sharing protocol that describes a method for coordinating the storage, indexing and retrieval of data over a distributed network. The ultimate goal of Murmurations is to facilitate collaboration at scale by enabling interoperable data sharing across platforms and between networks, all while providing individuals and other data creators control over their data.
+Murmurations is a distributed data sharing protocol for coordinating the storage, indexing and retrieval of data over a distributed network. The ultimate goal of Murmurations is to facilitate collaboration at scale by enabling interoperable data sharing across platforms and between networks, all while providing individuals and other data creators control over their data.
 
 The distributed data sharing network is comprised of:
 
@@ -24,7 +24,7 @@ Further information about the distributed data sharing protocol can be found in 
 
 The Murmurations protocol enables individuals and organizations (nodes) to create [_**profiles**_](/about/common-terms.html#profile) about themselves in order to easily share information with aggregators, who create [_**schemas**_](/about/common-terms.html#schema) to define the data they need to create maps, directories and content aggregators.
 
-A library stores details of the schemas and the fields (data points such as `name`, `geolocation`, etc.) of which they are composed. A node obtains a schema from the library to determine the data needed to create a profile. You can [try out the Murmurations Profile Generator](https://test-tools.murmurations.network/profile-generator) to create a profile based on the schemas currently available in the library.
+A library stores details of the schemas and the fields (data points such as `name`, `geolocation`, etc.) of which they are composed. A node obtains a schema from the library to determine the data needed to create a profile. You can [try out the Murmurations Profile Generator](https://murmurmaps.murmurations.network/profile-generator) to create a profile based on the schemas currently available in the library.
 
 An index keeps track of nodes based on the schemas linked to their profiles. Whenever a node updates its profile it should tell the index. Aggregators regularly query the index for profile changes by nodes they want to track by referencing their schemas, enabling them to provide accurate and timely information in their maps, directories and content aggregators.
 
