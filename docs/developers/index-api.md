@@ -6,7 +6,7 @@
 
 The Index API enables [nodes](/about/common-terms.html#node), using predefined [schemas](/about/common-terms.html#schema), to add, update and delete their data in the index so that [aggregators](/about/common-terms.html#aggregator) can discover them.
 
-::: warning :warning: Data Privacy
+::: warning :warning: Anti-bot blocking of the index
 Anti-bot services like Cloudflare's Bot Fight Mode may silently block the index when it tried to fetch the data profiles. When this happens, the API returns "Profile Not Found - could not find or read from (invalid JSON)", even though the file was available and perfectly valid. Bot Fight Mode challenges automated fetchers and can't be exempted per path on lower plans. Disabling it enables the POST to succeed immediately. (hat tip to Olivier R. and the CES crew for alerting us to this 🙏)
 :::
 
